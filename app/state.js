@@ -1,39 +1,51 @@
-export const STORAGE_KEY = 'leonida-trophy-guide-v1';
+export const STORAGE_KEY = 'leonida-trophy-guide-v3';
+export const DEMO_KEY = 'leonida-trophy-guide-v3-demo';
 
-function parseProgress(json) {
-  const data = JSON.parse(json);
-  const ids = Array.isArray(data) ? data : data?.earned;
-  if (!Array.isArray(ids)) throw new Error('Expected an array of earned trophy IDs.');
-  return new Set(ids.map(id => {
-    const number = typeof id === 'string' && /^\d+$/.test(id) ? Number(id) : id;
-    if (!Number.isSafeInteger(number) || number < 1) throw new Error('Invalid trophy ID.');
-    return number;
-  }));
-}
+const emptyState = () => ({ earned: [], counts: {}, spoiler: true });
 
-export function loadProgress() {
-  try {
-    return parseProgress(localStorage.getItem(STORAGE_KEY) ?? '[]');
-  } catch {
-    return new Set();
+function normalizeState(value) {
+  if (!value || typeof value !== 'object' || !Array.isArray(value.earned)) return null;
+  const earned = [...new Set(value.earned.map(Number).filter(id => Number.isSafeInteger(id) && id > 0))];
+  const counts = {};
+  if (value.counts && typeof value.counts === 'object' && !Array.isArray(value.counts)) {
+    for (const [id, count] of Object.entries(value.counts)) {
+      const key = Number(id);
+      const number = Number(count);
+      if (Number.isSafeInteger(key) && key > 0 && Number.isFinite(number) && number >= 0) counts[key] = Math.floor(number);
+    }
   }
+  return { earned, counts, spoiler: typeof value.spoiler === 'boolean' ? value.spoiler : true };
 }
 
-export function saveProgress(earned) {
+export function demoSeed() {
+  return { earned: [2, 3, 4, 5, 8, 20, 21, 22, 25, 26, 44, 54], counts: { 15: 96, 17: 27, 28: 6, 31: 34, 35: 41, 48: 120 }, spoiler: true };
+}
+
+export function loadState(demo = false) {
   try {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify({ earned: [...earned] }));
-  } catch {
-    // Progress remains available for this session and can still be exported.
-  }
+    const value = localStorage.getItem(demo ? DEMO_KEY : STORAGE_KEY);
+    return value === null ? emptyState() : normalizeState(JSON.parse(value)) || emptyState();
+  } catch { return emptyState(); }
 }
 
-export function toggleEarned(earned, id) {
-  if (!earned.delete(id)) earned.add(id);
-  return earned;
+export function saveState(state, demo = false) {
+  const valid = normalizeState(state) || emptyState();
+  try { localStorage.setItem(demo ? DEMO_KEY : STORAGE_KEY, JSON.stringify(valid)); } catch { /* Keep session progress. */ }
 }
 
-export function exportProgress(earned) {
-  const blob = new Blob([JSON.stringify({ earned: [...earned] }, null, 2)], { type: 'application/json' });
+export function toggleEarned(state, id) {
+  const earned = new Set(state.earned);
+  earned.has(id) ? earned.delete(id) : earned.add(id);
+  return { ...state, earned: [...earned] };
+}
+
+export function setCount(state, id, n, targetCount = Number.MAX_SAFE_INTEGER) {
+  const counts = { ...state.counts, [id]: Math.min(targetCount, Math.max(0, Math.floor(Number(n) || 0))) };
+  return { ...state, counts };
+}
+
+export function exportJSON(state) {
+  const blob = new Blob([JSON.stringify(normalizeState(state) || emptyState(), null, 2)], { type: 'application/json' });
   const url = URL.createObjectURL(blob);
   const link = document.createElement('a');
   link.href = url;
@@ -44,18 +56,11 @@ export function exportProgress(earned) {
   setTimeout(() => URL.revokeObjectURL(url), 1000);
 }
 
-export async function importProgress(file) {
-  return parseProgress(await file.text());
+export function importJSON(text) {
+  try { return normalizeState(JSON.parse(text)); } catch { return null; }
 }
 
-export function resetProgress() {
-  try {
-    localStorage.removeItem(STORAGE_KEY);
-  } catch {
-    // The caller still clears the current session.
-  }
-}
-
-export function seedDemoProgress() {
-  return new Set([2, 3, 4, 8, 44, 16, 21, 35, 53]);
+export function resetState(demo = false) {
+  try { localStorage.removeItem(demo ? DEMO_KEY : STORAGE_KEY); } catch { /* Session state resets in the caller. */ }
+  return emptyState();
 }

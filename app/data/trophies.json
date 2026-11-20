@@ -2,6 +2,48 @@
   "game": "Grand Theft Auto VI",
   "platform": "PlayStation 5",
   "list": "the official 55 trophies, 2026-11-18",
+  "sources": [
+    {
+      "key": "PlayStation",
+      "name": "PlayStation",
+      "detail": "The official GTA VI trophy list: every name, description and grade as PlayStation publishes them."
+    },
+    {
+      "key": "Exophase",
+      "name": "Exophase",
+      "detail": "Grand Theft Auto VI (PS5) trophy list, read 20 Nov 2026; agrees with PlayStation on every name, description and grade."
+    },
+    {
+      "key": "PSNProfiles",
+      "name": "PSNProfiles",
+      "detail": "GTA VI trophy list and the progress counts PlayStation tracks, read 20 Nov 2026."
+    },
+    {
+      "key": "PowerPyx",
+      "name": "PowerPyx",
+      "detail": "GTA VI trophy guide and platinum roadmap, read 20 Nov 2026."
+    },
+    {
+      "key": "PlayStationTrophies",
+      "name": "PlayStationTrophies.org",
+      "detail": "GTA VI trophy guide, read 20 Nov 2026."
+    },
+    {
+      "key": "TrueTrophies",
+      "name": "TrueTrophies",
+      "detail": "GTA VI trophy list and per-trophy guides, read 20 Nov 2026."
+    },
+    {
+      "key": "GTA Wiki",
+      "name": "GTA Wiki",
+      "detail": "GTA VI story, characters and mission structure, read 20 Nov 2026."
+    },
+    {
+      "key": "This guide",
+      "name": "This guide",
+      "detail": "Our own advice, reasoned from the official descriptions; not yet checked in the game."
+    }
+  ],
   "trophies": [
     {
       "id": 1,
@@ -10,17 +52,19 @@
       "grade": "platinum",
       "kind": "platinum",
       "missable": false,
-      "missableNote": "The platinum recognizes the completed trophy collection with no separate one-time attempt or story cutoff stated.",
+      "missableNote": null,
       "target": null,
+      "targetCount": null,
       "stage": 7,
-      "guide": "Treat Leonida Legend as the final goal of your platinum run. Keep a checklist of the other trophies and review unfinished requirements after completing your planned story and activity stages.",
+      "guide": "Earn the other 54 trophies first, using their individual requirements to plan your remaining work. Treat this as the final checklist reward; the starter does not establish whether any additional action is needed after the last trophy.",
       "steps": [
-        "Keep a checklist of the other trophy requirements.",
-        "Finish outstanding requirements at the end of your run."
+        "Use the other 54 trophies as your completion checklist. [This guide]",
+        "Resolve each remaining trophy requirement before checking the platinum. [This guide]",
+        "Check Vice Got a Price! after earning the rest of the list. [PlayStation] [This guide]"
       ],
       "sources": [
         "PlayStation — official GTA VI trophy list (name and description as published)",
-        "Exophase — Grand Theft Auto VI trophy list"
+        "This guide — our own advice from the official description, not yet checked in the game"
       ]
     },
     {
@@ -30,17 +74,19 @@
       "grade": "bronze",
       "kind": "story",
       "missable": false,
-      "missableNote": "The requirement is story completion with no one-time optional action or story cutoff stated.",
+      "missableNote": null,
       "target": null,
+      "targetCount": null,
       "stage": 1,
-      "guide": "Complete Gone Fishing to meet this requirement. Work through the mission carefully and practise any section that takes repeated attempts, placing this objective in the first story stage of your platinum run.",
+      "guide": "Work toward Gone Fishing and finish its objectives when the mission becomes available. Its starting location, unlock conditions and exact completion trigger are not yet pinned down by our sources.",
       "steps": [
-        "Work through Gone Fishing.",
-        "Practise troublesome sections until you complete the mission."
+        "Identify Gone Fishing as this trophy's required mission. [PlayStation]",
+        "Work through its available objectives when you reach it. [This guide]",
+        "Check the trophy after completing the mission. [This guide]"
       ],
       "sources": [
         "PlayStation — official GTA VI trophy list (name and description as published)",
-        "PSNProfiles — Grand Theft Auto VI trophy list"
+        "This guide — our own advice from the official description, not yet checked in the game"
       ]
     },
     {
@@ -50,17 +96,19 @@
       "grade": "bronze",
       "kind": "story",
       "missable": false,
-      "missableNote": "The requirement is story completion with no one-time optional action or story cutoff stated.",
+      "missableNote": null,
       "target": null,
+      "targetCount": null,
       "stage": 1,
-      "guide": "Finish Chapter 1 during the first story stage of your platinum run. Focus on completing the chapter and repeat difficult attempts as needed; the description asks for completion without an additional performance condition.",
+      "guide": "Keep progressing through the story until Chapter 1 has concluded, checking this trophy after the chapter transition. The chapter's mission sequence and exact closing trigger are not yet pinned down by our sources.",
       "steps": [
-        "Progress through Chapter 1.",
-        "Complete the chapter and mark it off your checklist."
+        "Identify Chapter 1 as the required story milestone. [PlayStation]",
+        "Continue the available story objectives toward that milestone. [This guide]",
+        "Check the trophy after the chapter concludes. [This guide]"
       ],
       "sources": [
         "PlayStation — official GTA VI trophy list (name and description as published)",
-        "Exophase — Grand Theft Auto VI trophy list"
+        "This guide — our own advice from the official description, not yet checked in the game"
       ]
     },
     {
@@ -70,17 +118,19 @@
       "grade": "bronze",
       "kind": "story",
       "missable": false,
-      "missableNote": "The requirement is story completion with no one-time optional action or story cutoff stated.",
+      "missableNote": null,
       "target": null,
+      "targetCount": null,
       "stage": 1,
-      "guide": "Complete Chapter 2 as part of the first story stage of your platinum route. Take difficult sections one attempt at a time and confirm chapter completion before moving on to the next story milestone on your checklist.",
+      "guide": "Continue the story through Chapter 2 and check for the reward once the chapter has ended. Our sources do not yet pin down its final mission, starting locations or any extra action at the chapter transition.",
       "steps": [
-        "Work through Chapter 2.",
-        "Finish the chapter before checking off this milestone."
+        "Identify Chapter 2 as the required story milestone. [PlayStation]",
+        "Continue the available story objectives toward that milestone. [This guide]",
+        "Check the trophy after the chapter concludes. [This guide]"
       ],
       "sources": [
         "PlayStation — official GTA VI trophy list (name and description as published)",
-        "PSNProfiles — Grand Theft Auto VI trophy list"
+        "This guide — our own advice from the official description, not yet checked in the game"
       ]
     },
     {
@@ -90,17 +140,19 @@
       "grade": "bronze",
       "kind": "story",
       "missable": false,
-      "missableNote": "The requirement is story completion with no one-time optional action or story cutoff stated.",
+      "missableNote": null,
       "target": null,
+      "targetCount": null,
       "stage": 2,
-      "guide": "Finish Chapter 3 during the second story stage of your platinum run. Concentrate on steady chapter progress, practise sections that stop you, and record completion once you have met the stated chapter requirement.",
+      "guide": "Progress through Chapter 3, following the story objectives available to you until the chapter concludes. Its mission order and exact closing trigger are not yet pinned down by our sources.",
       "steps": [
-        "Progress through Chapter 3.",
-        "Complete the chapter and update your story checklist."
+        "Identify Chapter 3 as the required story milestone. [PlayStation]",
+        "Continue the available story objectives toward that milestone. [This guide]",
+        "Check the trophy after the chapter concludes. [This guide]"
       ],
       "sources": [
         "PlayStation — official GTA VI trophy list (name and description as published)",
-        "Exophase — Grand Theft Auto VI trophy list"
+        "This guide — our own advice from the official description, not yet checked in the game"
       ]
     },
     {
@@ -110,17 +162,19 @@
       "grade": "bronze",
       "kind": "story",
       "missable": false,
-      "missableNote": "The requirement is story completion with no one-time optional action or story cutoff stated.",
+      "missableNote": null,
       "target": null,
+      "targetCount": null,
       "stage": 2,
-      "guide": "Complete Chapter 4 in the second story stage of your platinum plan. Work through the chapter at a manageable pace and repeat difficult attempts, since the description specifies completion without a score or time requirement.",
+      "guide": "Continue the story through Chapter 4 and check for the reward when that chapter concludes. The chapter's final mission and the precise point at which completion registers are not yet pinned down by our sources.",
       "steps": [
-        "Work through Chapter 4.",
-        "Finish the chapter and check off its completion."
+        "Identify Chapter 4 as the required story milestone. [PlayStation]",
+        "Progress through available story objectives toward that milestone. [This guide]",
+        "Check the trophy after completing the required milestone. [This guide]"
       ],
       "sources": [
         "PlayStation — official GTA VI trophy list (name and description as published)",
-        "PSNProfiles — Grand Theft Auto VI trophy list"
+        "This guide — our own advice from the official description, not yet checked in the game"
       ]
     },
     {
@@ -130,17 +184,19 @@
       "grade": "gold",
       "kind": "story",
       "missable": false,
-      "missableNote": "The requirement is mission completion with no one-time optional action or story cutoff stated.",
+      "missableNote": null,
       "target": null,
+      "targetCount": null,
       "stage": 2,
-      "guide": "Complete the final mission to satisfy this story milestone. Plan it for the end of the second story stage of your platinum run, and practise any difficult sections until you can finish the mission.",
+      "guide": "Work through the story until you can finish its final mission, then check for this gold trophy. The finale's title, entry point and any outcome-specific requirements are not yet pinned down by our sources.",
       "steps": [
-        "Work through the final mission.",
-        "Practise difficult sections until the mission is complete."
+        "Identify the final mission as the required story milestone. [PlayStation]",
+        "Progress through available story objectives toward that milestone. [This guide]",
+        "Check the trophy after completing the required milestone. [This guide]"
       ],
       "sources": [
         "PlayStation — official GTA VI trophy list (name and description as published)",
-        "Exophase — Grand Theft Auto VI trophy list"
+        "This guide — our own advice from the official description, not yet checked in the game"
       ]
     },
     {
@@ -150,17 +206,19 @@
       "grade": "bronze",
       "kind": "story",
       "missable": false,
-      "missableNote": "The requirement is mission completion with no one-time optional action or story cutoff stated.",
+      "missableNote": null,
       "target": null,
+      "targetCount": null,
       "stage": 3,
-      "guide": "Complete Breakfast Run for this trophy. During the third story stage of your platinum plan, work through the named mission and repeat difficult attempts as needed; no extra performance condition is stated.",
+      "guide": "Work toward Breakfast Run and complete the objectives presented when you reach that mission. Its unlock conditions, location and precise completion trigger are not yet pinned down by our sources.",
       "steps": [
-        "Work through Breakfast Run.",
-        "Practise difficult sections until the mission is complete."
+        "Identify Breakfast Run as the required story milestone. [PlayStation]",
+        "Progress through available story objectives toward that milestone. [This guide]",
+        "Check the trophy after completing the required milestone. [This guide]"
       ],
       "sources": [
         "PlayStation — official GTA VI trophy list (name and description as published)",
-        "PSNProfiles — Grand Theft Auto VI trophy list"
+        "This guide — our own advice from the official description, not yet checked in the game"
       ]
     },
     {
@@ -170,17 +228,19 @@
       "grade": "bronze",
       "kind": "story",
       "missable": false,
-      "missableNote": "The requirement is mission completion with no one-time optional action or story cutoff stated.",
+      "missableNote": null,
       "target": null,
+      "targetCount": null,
       "stage": 3,
-      "guide": "Finish The Cartel Heist to meet the stated requirement. Include the mission in the third story stage of your platinum run, taking time to practise any section that prevents you from reaching completion.",
+      "guide": "Work toward The Cartel Heist and follow its objectives through to the mission's conclusion. Our sources do not yet establish its setup requirements, starting location or whether any particular approach matters.",
       "steps": [
-        "Work through The Cartel Heist.",
-        "Practise difficult sections until the mission is complete."
+        "Identify The Cartel Heist as the required story milestone. [PlayStation]",
+        "Progress through available story objectives toward that milestone. [This guide]",
+        "Check the trophy after completing the required milestone. [This guide]"
       ],
       "sources": [
         "PlayStation — official GTA VI trophy list (name and description as published)",
-        "Exophase — Grand Theft Auto VI trophy list"
+        "This guide — our own advice from the official description, not yet checked in the game"
       ]
     },
     {
@@ -190,17 +250,19 @@
       "grade": "bronze",
       "kind": "story",
       "missable": false,
-      "missableNote": "The requirement is mission completion with no one-time optional action or story cutoff stated.",
+      "missableNote": null,
       "target": null,
+      "targetCount": null,
       "stage": 3,
-      "guide": "Complete Child's Play during the third story stage of your platinum route. Focus on finishing the named mission, work patiently through difficult attempts, and check it off once completion is confirmed.",
+      "guide": "Work toward Child's Play and finish the objectives presented during that mission. Its place in the story, starting location and any additional completion conditions are not yet pinned down by our sources.",
       "steps": [
-        "Work through Child's Play.",
-        "Practise difficult sections until the mission is complete."
+        "Identify Child's Play as the required story milestone. [PlayStation]",
+        "Progress through available story objectives toward that milestone. [This guide]",
+        "Check the trophy after completing the required milestone. [This guide]"
       ],
       "sources": [
         "PlayStation — official GTA VI trophy list (name and description as published)",
-        "PSNProfiles — Grand Theft Auto VI trophy list"
+        "This guide — our own advice from the official description, not yet checked in the game"
       ]
     },
     {
@@ -210,17 +272,19 @@
       "grade": "bronze",
       "kind": "story",
       "missable": false,
-      "missableNote": "The requirement is mission completion with no one-time optional action or story cutoff stated.",
+      "missableNote": null,
       "target": null,
+      "targetCount": null,
       "stage": 3,
-      "guide": "Finish Headliners for this story trophy. Place it in the third story stage of your platinum plan and practise troublesome sections as needed, keeping your attention on the description's mission completion requirement.",
+      "guide": "Work toward Headliners and finish the objectives presented when the mission becomes available. Its starting location, unlock conditions and exact completion trigger are not yet pinned down by our sources.",
       "steps": [
-        "Work through Headliners.",
-        "Practise difficult sections until the mission is complete."
+        "Identify Headliners as the required mission. [PlayStation]",
+        "Work through its available objectives when you reach it. [This guide]",
+        "Check the trophy after completing the mission. [This guide]"
       ],
       "sources": [
         "PlayStation — official GTA VI trophy list (name and description as published)",
-        "Exophase — Grand Theft Auto VI trophy list"
+        "This guide — our own advice from the official description, not yet checked in the game"
       ]
     },
     {
@@ -230,17 +294,19 @@
       "grade": "bronze",
       "kind": "story",
       "missable": false,
-      "missableNote": "The requirement is mission completion with no one-time optional action or story cutoff stated.",
+      "missableNote": null,
       "target": null,
+      "targetCount": null,
       "stage": 3,
-      "guide": "Complete VCIA Takedown to satisfy this trophy. Work on the named mission during the third story stage of your platinum run, repeating difficult attempts and recording completion on your mission checklist.",
+      "guide": "Work toward VCIA Takedown and follow the mission objectives through to their conclusion. Our sources do not yet pin down its starting location, prerequisites or whether a particular approach is required.",
       "steps": [
-        "Work through VCIA Takedown.",
-        "Practise difficult sections until the mission is complete."
+        "Identify VCIA Takedown as the required mission. [PlayStation]",
+        "Work through its available objectives when you reach it. [This guide]",
+        "Check the trophy after completing the mission. [This guide]"
       ],
       "sources": [
         "PlayStation — official GTA VI trophy list (name and description as published)",
-        "PSNProfiles — Grand Theft Auto VI trophy list"
+        "This guide — our own advice from the official description, not yet checked in the game"
       ]
     },
     {
@@ -250,17 +316,19 @@
       "grade": "bronze",
       "kind": "story",
       "missable": false,
-      "missableNote": "The requirement is mission completion with no one-time optional action or story cutoff stated.",
+      "missableNote": null,
       "target": null,
+      "targetCount": null,
       "stage": 3,
-      "guide": "Complete Operation Savage Glory during the third story stage of your platinum run. Work through the named mission carefully, practise any sections that hold you up, and record it once the mission is finished.",
+      "guide": "Work toward Operation Savage Glory and complete the objectives presented during the mission. Its story placement, starting location and exact completion trigger are not yet pinned down by our sources.",
       "steps": [
-        "Work through Operation Savage Glory.",
-        "Repeat difficult attempts until you complete the mission."
+        "Identify Operation Savage Glory as the required mission. [PlayStation]",
+        "Work through its available objectives when you reach it. [This guide]",
+        "Check the trophy after completing the mission. [This guide]"
       ],
       "sources": [
         "PlayStation — official GTA VI trophy list (name and description as published)",
-        "Exophase — Grand Theft Auto VI trophy list"
+        "This guide — our own advice from the official description, not yet checked in the game"
       ]
     },
     {
@@ -270,17 +338,19 @@
       "grade": "gold",
       "kind": "activities",
       "missable": false,
-      "missableNote": "The requirement is an overall completion goal with no one-time attempt or story cutoff stated.",
-      "target": null,
+      "missableNote": null,
+      "target": "100% completion",
+      "targetCount": null,
       "stage": 6,
-      "guide": "Attain 100% Completion to satisfy this requirement. Keep a checklist of your remaining completion goals and review it during stage six of your platinum run, working systematically until you reach the full percentage.",
+      "guide": "Use the game's completion information, if available, to identify unfinished requirements and plan your remaining activities. The exact checklist contributing to 100% completion is not yet pinned down by our sources, so do not assume that finishing the story alone is sufficient.",
       "steps": [
-        "Keep a checklist of unfinished completion goals.",
-        "Work through the remaining goals until you reach 100% Completion."
+        "Use 100% completion as the required endpoint. [PlayStation]",
+        "Review any completion information the game provides for unfinished requirements. [This guide]",
+        "Work through the remaining requirements and recheck completion. [This guide]"
       ],
       "sources": [
         "PlayStation — official GTA VI trophy list (name and description as published)",
-        "PSNProfiles — Grand Theft Auto VI trophy list"
+        "This guide — our own advice from the official description, not yet checked in the game"
       ]
     },
     {
@@ -290,17 +360,19 @@
       "grade": "silver",
       "kind": "activities",
       "missable": false,
-      "missableNote": "The requirement describes activity progress with no one-time attempt or story cutoff stated.",
+      "missableNote": null,
       "target": "250 Stunt Jumps",
+      "targetCount": 250,
       "stage": 6,
-      "guide": "Complete 250 Stunts for this trophy. Keep a running checklist of successful completions and practise attempts that give you trouble, using the sixth stage of your platinum route to finish the required total.",
+      "guide": "Check whether an attempt moves the trophy counter before spending time repeating it. The list calls the requirement Stunts, and our sources do not establish which jumps or other maneuvers count, where to find them, or whether repeats give credit.",
       "steps": [
-        "Record your completed Stunts on a checklist.",
-        "Practise difficult attempts and continue until you have completed 250."
+        "Use 250 credited stunts as the goal. [PlayStation]",
+        "Check for progress after a stunt attempt. [This guide]",
+        "Keep a record of attempts that give credit. [This guide]"
       ],
       "sources": [
-        "PlayStation — official GTA VI trophy list (name and description as published)",
-        "Exophase — Grand Theft Auto VI trophy list"
+        "PlayStation — official GTA VI trophy list (name and description as published in the starter kit)",
+        "This guide — our own advice from the official description, not yet checked in the game"
       ]
     },
     {
@@ -310,17 +382,19 @@
       "grade": "bronze",
       "kind": "activities",
       "missable": false,
-      "missableNote": "The requirement describes activity progress with no one-time attempt or story cutoff stated.",
-      "target": null,
+      "missableNote": null,
+      "target": "9 activity types",
+      "targetCount": 9,
       "stage": 6,
-      "guide": "Try each type of activity once to meet this requirement. Keep a checklist by activity type so you can avoid overlooking one, and review the remaining types during the sixth stage of your platinum run.",
+      "guide": "Keep a checklist by activity type as options open up, so multiple events of the same type do not obscure a category you skipped. The kit gives the total, but does not identify all the categories or say when each first becomes available.",
       "steps": [
-        "List the activity types you still need to try.",
-        "Try each remaining type once and check it off."
+        "Use activity types as the checklist categories. [PlayStation]",
+        "Try a newly available type before logging repeats. [This guide]",
+        "Check any remaining categories against your list. [This guide]"
       ],
       "sources": [
-        "PlayStation — official GTA VI trophy list (name and description as published)",
-        "PSNProfiles — Grand Theft Auto VI trophy list"
+        "PlayStation — official GTA VI trophy list (name and description as published in the starter kit)",
+        "This guide — our own advice from the official description, not yet checked in the game"
       ]
     },
     {
@@ -330,18 +404,19 @@
       "grade": "silver",
       "kind": "activities",
       "missable": false,
-      "missableNote": "The requirement describes activity progress with no one-time attempt or story cutoff stated.",
+      "missableNote": null,
       "target": "42 Shooting Range challenges",
+      "targetCount": 42,
       "stage": 6,
-      "guide": "Earn a gold medal in every Shooting Range challenge. Track the medal earned for each challenge and practise those still below gold, reserving the sixth stage of your platinum run to finish the remaining challenges.",
+      "guide": "Use the medal results to make a replay list and concentrate on challenges still below gold. The kit gives the challenge total, but our sources do not pin down the range locations, unlock order, or gold thresholds.",
       "steps": [
-        "Keep a checklist of Shooting Range challenges and their medals.",
-        "Practise challenges without gold medals.",
-        "Continue until every challenge has a gold medal."
+        "Use gold as the required medal for each challenge. [PlayStation]",
+        "Record which challenges finish below gold. [This guide]",
+        "Replay those challenges and check their results. [This guide]"
       ],
       "sources": [
-        "PlayStation — official GTA VI trophy list (name and description as published)",
-        "Exophase — Grand Theft Auto VI trophy list"
+        "PlayStation — official GTA VI trophy list (name and description as published in the starter kit)",
+        "This guide — our own advice from the official description, not yet checked in the game"
       ]
     },
     {
@@ -351,17 +426,19 @@
       "grade": "bronze",
       "kind": "activities",
       "missable": false,
-      "missableNote": "The requirement describes activity progress with no one-time attempt or story cutoff stated.",
-      "target": null,
+      "missableNote": null,
+      "target": "14 Top Fun locations",
+      "targetCount": 14,
       "stage": 6,
-      "guide": "Win a Top Fun Drone Race at every location to meet this trophy's requirement. Record which locations already have a win and practise the remaining races during stage six of your platinum run until your checklist is complete.",
+      "guide": "Keep a record of where you have won as Top Fun races become available, and use it to decide where to race next. The kit gives a location total but does not identify the sites or their unlock conditions.",
       "steps": [
-        "Keep a checklist of Top Fun Drone Race locations.",
-        "Practise and win a race at each remaining location."
+        "Look for events labeled Top Fun Drone Race. [PlayStation]",
+        "Record the location after each win. [This guide]",
+        "Prioritize locations missing from your record. [This guide]"
       ],
       "sources": [
-        "PlayStation — official GTA VI trophy list (name and description as published)",
-        "PSNProfiles — Grand Theft Auto VI trophy list"
+        "PlayStation — official GTA VI trophy list (name and description as published in the starter kit)",
+        "This guide — our own advice from the official description, not yet checked in the game"
       ]
     },
     {
@@ -371,18 +448,19 @@
       "grade": "bronze",
       "kind": "activities",
       "missable": false,
-      "missableNote": "The requirement describes activity progress with no one-time attempt or story cutoff stated.",
+      "missableNote": null,
       "target": "20 different races",
+      "targetCount": 20,
       "stage": 6,
-      "guide": "Win 20 different races to satisfy the stated requirement. Keep a checklist of distinct races you have won and practise those still unfinished, aiming to complete the set during the sixth stage of your platinum route.",
+      "guide": "Log first place finishes by event so a second win on a familiar course does not inflate your tally. The list does not identify the eligible events, their locations, or how variants of the same course are counted.",
       "steps": [
-        "Record each different race you win.",
-        "Practise races still missing from your checklist.",
-        "Continue until you have won 20 different races."
+        "Use 20 distinct race wins as the goal. [PlayStation]",
+        "Record the event name after each win. [This guide]",
+        "Choose an event you have not logged for your next attempt. [This guide]"
       ],
       "sources": [
-        "PlayStation — official GTA VI trophy list (name and description as published)",
-        "Exophase — Grand Theft Auto VI trophy list"
+        "PlayStation — official GTA VI trophy list (name and description as published in the starter kit)",
+        "This guide — our own advice from the official description, not yet checked in the game"
       ]
     },
     {
@@ -392,17 +470,19 @@
       "grade": "bronze",
       "kind": "activities",
       "missable": false,
-      "missableNote": "The description names a fishing challenge without stating a one-time attempt or cutoff.",
+      "missableNote": null,
       "target": null,
+      "targetCount": null,
       "stage": 6,
-      "guide": "Beat Cal in a fishing challenge to meet this requirement. Practise the challenge and focus on earning a win, setting aside time for it during stage six of your platinum run.",
+      "guide": "Look for a fishing challenge involving Cal and finish ahead of him, then check whether the trophy registers. Our sources do not yet establish where the challenge starts, its rules, any unlock requirement, or whether another activity must be completed first.",
       "steps": [
-        "Take on a fishing challenge against Cal.",
-        "Practise the challenge and beat Cal."
+        "Look for a fishing challenge involving Cal. [PlayStation]",
+        "Complete the challenge and aim to beat Cal. [This guide]",
+        "Check the trophy after the result. [This guide]"
       ],
       "sources": [
-        "PlayStation — official GTA VI trophy list (name and description as published)",
-        "PSNProfiles — Grand Theft Auto VI trophy list"
+        "PlayStation — official GTA VI trophy list (name and description as published in the starter kit)",
+        "This guide — our own advice from the official description, not yet checked in the game"
       ]
     },
     {
@@ -412,17 +492,19 @@
       "grade": "bronze",
       "kind": "activities",
       "missable": false,
-      "missableNote": "The description asks for an arcade game completion without stating a one-time attempt or cutoff.",
+      "missableNote": null,
       "target": null,
+      "targetCount": null,
       "stage": 6,
-      "guide": "Complete an arcade game for this trophy. Choose a game to practise and work toward finishing it, including this activity in stage six of your platinum run when you tackle remaining activities.",
+      "guide": "Find an arcade game that can be played and finish one full game; the trophy list does not identify a specific cabinet or venue. Which games count, where to find them, and whether a loss still counts are not yet pinned down by our sources.",
       "steps": [
-        "Choose an arcade game and practise it.",
-        "Play through to completion."
+        "Find an available arcade game. [PlayStation]",
+        "Play through one complete game. [This guide]",
+        "Check for trophy progress after it ends. [This guide]"
       ],
       "sources": [
-        "PlayStation — official GTA VI trophy list (name and description as published)",
-        "Exophase — Grand Theft Auto VI trophy list"
+        "PlayStation — official GTA VI trophy list (name and description as published in the starter kit)",
+        "This guide — our own advice from the official description, not yet checked in the game"
       ]
     },
     {
@@ -432,17 +514,19 @@
       "grade": "bronze",
       "kind": "story",
       "missable": false,
-      "missableNote": "The description requires mission completion without stating a one-time optional condition or cutoff.",
+      "missableNote": null,
       "target": null,
+      "targetCount": null,
       "stage": 4,
-      "guide": "Complete the final mission for Andy to satisfy this trophy. Track your progress through Andy's missions and finish the final one during stage four of your platinum run.",
+      "guide": "Follow Andy's mission strand as it becomes available and work through its remaining missions to the finale. Our sources do not yet pin down Andy's location, the strand's prerequisites, or the name of the final mission.",
       "steps": [
-        "Progress through the missions for Andy.",
-        "Complete Andy's final mission."
+        "Track missions associated with Andy. [PlayStation]",
+        "Continue Andy's strand when another mission becomes available. [This guide]",
+        "Check for the trophy after the strand's final mission. [This guide]"
       ],
       "sources": [
-        "PlayStation — official GTA VI trophy list (name and description as published)",
-        "PSNProfiles — Grand Theft Auto VI trophy list"
+        "PlayStation — official GTA VI trophy list (name and description as published in the starter kit)",
+        "This guide — our own advice from the official description, not yet checked in the game"
       ]
     },
     {
@@ -452,17 +536,19 @@
       "grade": "bronze",
       "kind": "story",
       "missable": false,
-      "missableNote": "The description requires mission completion without stating a one-time optional condition or cutoff.",
+      "missableNote": null,
       "target": null,
+      "targetCount": null,
       "stage": 4,
-      "guide": "Finish the final mission for Kenton to earn this trophy. Keep track of your progress with Kenton's missions and include their completion in stage four of your platinum route.",
+      "guide": "Follow Kenton's mission strand as it becomes available and work through its remaining missions to the finale. Our sources do not yet pin down Kenton's location, the strand's prerequisites, or the name of the final mission.",
       "steps": [
-        "Progress through the missions for Kenton.",
-        "Finish Kenton's final mission."
+        "Track missions associated with Kenton. [PlayStation]",
+        "Continue Kenton's strand when another mission becomes available. [This guide]",
+        "Check for the trophy after the strand's final mission. [This guide]"
       ],
       "sources": [
-        "PlayStation — official GTA VI trophy list (name and description as published)",
-        "Exophase — Grand Theft Auto VI trophy list"
+        "PlayStation — official GTA VI trophy list (name and description as published in the starter kit)",
+        "This guide — our own advice from the official description, not yet checked in the game"
       ]
     },
     {
@@ -472,17 +558,19 @@
       "grade": "bronze",
       "kind": "story",
       "missable": false,
-      "missableNote": "The description requires mission completion without stating a one-time optional condition or cutoff.",
+      "missableNote": null,
       "target": null,
+      "targetCount": null,
       "stage": 4,
-      "guide": "Complete Billy's final mission to meet the stated requirement. Follow your progress through the missions for Billy and aim to finish this sequence during stage four of your platinum run.",
+      "guide": "Follow Billy's mission strand as it becomes available and work through its remaining missions to the finale. Our sources do not yet pin down Billy's location, the strand's prerequisites, or the name of the final mission.",
       "steps": [
-        "Progress through the missions for Billy.",
-        "Complete Billy's final mission."
+        "Track missions associated with Billy. [PlayStation]",
+        "Continue Billy's strand when another mission becomes available. [This guide]",
+        "Check for the trophy after the strand's final mission. [This guide]"
       ],
       "sources": [
-        "PlayStation — official GTA VI trophy list (name and description as published)",
-        "PSNProfiles — Grand Theft Auto VI trophy list"
+        "PlayStation — official GTA VI trophy list (name and description as published in the starter kit)",
+        "This guide — our own advice from the official description, not yet checked in the game"
       ]
     },
     {
@@ -492,18 +580,19 @@
       "grade": "silver",
       "kind": "collectibles",
       "missable": false,
-      "missableNote": "The description counts completed mission strands without stating a one-time attempt or cutoff.",
+      "missableNote": null,
       "target": "8 Strands",
+      "targetCount": 8,
       "stage": 5,
-      "guide": "Complete eight mission strands for strangers across Leonida. Keep a checklist of finished strands so partial progress is not mistaken for completion, and finish the required set during stage five of your platinum run.",
+      "guide": "Work through stranger mission strands across Leonida and keep a record of which ones you finish. The list gives a total of eight, but our sources do not identify the eligible strangers, where to meet them, or whether every strand has a final mission.",
       "steps": [
-        "Track the stranger mission strands you undertake across Leonida.",
-        "Finish each strand before marking it complete.",
-        "Reach eight completed strands."
+        "Use eight completed stranger strands as the goal. [PlayStation]",
+        "Record each eligible strand as you finish it. [This guide]",
+        "Continue with strands not yet on your list. [This guide]"
       ],
       "sources": [
-        "PlayStation — official GTA VI trophy list (name and description as published)",
-        "Exophase — Grand Theft Auto VI trophy list"
+        "PlayStation — official GTA VI trophy list (name and description as published in the starter kit)",
+        "This guide — our own advice from the official description, not yet checked in the game"
       ]
     },
     {
@@ -513,17 +602,19 @@
       "grade": "bronze",
       "kind": "collectibles",
       "missable": false,
-      "missableNote": "The description requires mission completion without stating a one-time optional condition or cutoff.",
+      "missableNote": null,
       "target": null,
+      "targetCount": null,
       "stage": 5,
-      "guide": "Finish the final mission for Randy to meet this trophy's requirement. Track your progress through Randy's missions and include the final completion in stage five of your platinum run.",
+      "guide": "Follow Randy's mission strand as it becomes available and continue through its finale. Our sources do not yet pin down where Randy appears, the strand's prerequisites, or the name of the final mission.",
       "steps": [
-        "Progress through the missions for Randy.",
-        "Complete Randy's final mission."
+        "Track missions associated with Randy. [PlayStation]",
+        "Continue Randy's strand when another mission becomes available. [This guide]",
+        "Check for the trophy after the strand's final mission. [This guide]"
       ],
       "sources": [
-        "PlayStation — official GTA VI trophy list (name and description as published)",
-        "PSNProfiles — Grand Theft Auto VI trophy list"
+        "PlayStation — official GTA VI trophy list (name and description as published in the starter kit)",
+        "This guide — our own advice from the official description, not yet checked in the game"
       ]
     },
     {
@@ -533,17 +624,19 @@
       "grade": "bronze",
       "kind": "collectibles",
       "missable": false,
-      "missableNote": "The description names a mission completion without specifying a deadline or a limited attempt.",
+      "missableNote": null,
       "target": null,
+      "targetCount": null,
       "stage": 5,
-      "guide": "Finish the last mission for Tyrone. Use stage five of your platinum run to review which of Tyrone's missions you have completed and check for the trophy after the final one.",
+      "guide": "Follow Tyrone's mission strand as it becomes available and continue through its finale. Our sources do not yet pin down where Tyrone appears, the strand's prerequisites, or the name of the final mission.",
       "steps": [
-        "Follow Tyrone's missions to the finale.",
-        "Finish the final mission and check the trophy list."
+        "Track missions associated with Tyrone. [PlayStation]",
+        "Continue Tyrone's strand when another mission becomes available. [This guide]",
+        "Check for the trophy after the strand's final mission. [This guide]"
       ],
       "sources": [
-        "PlayStation — official GTA VI trophy list (name and description as published)",
-        "Exophase — Grand Theft Auto VI trophy list"
+        "PlayStation — official GTA VI trophy list (name and description as published in the starter kit)",
+        "This guide — our own advice from the official description, not yet checked in the game"
       ]
     },
     {
@@ -553,18 +646,19 @@
       "grade": "bronze",
       "kind": "collectibles",
       "missable": false,
-      "missableNote": "The description asks for coverage of every spot and gives no time limit.",
-      "target": "all spots",
+      "missableNote": null,
+      "target": "18 meditation spots",
+      "targetCount": 18,
       "stage": 5,
-      "guide": "Meditate at every spot in Leonida. During stage five of your platinum run, keep a list of the spots where you have meditated so you can spot gaps and revisit areas as needed.",
+      "guide": "Visit the meditation spots you find around Leonida and keep a record of those where you meditate. The list gives a total of 18, but our sources do not map the spots or describe how to discover them.",
       "steps": [
-        "Keep a checklist of meditation spots.",
-        "Mark each spot after meditating there.",
-        "Review the list for gaps."
+        "Use 18 meditation spots across Leonida as the goal. [PlayStation]",
+        "Record each spot after meditating there. [This guide]",
+        "Check your record for spots still unvisited. [This guide]"
       ],
       "sources": [
-        "PlayStation — official GTA VI trophy list (name and description as published)",
-        "PSNProfiles — Grand Theft Auto VI trophy list"
+        "PlayStation — official GTA VI trophy list (name and description as published in the starter kit)",
+        "This guide — our own advice from the official description, not yet checked in the game"
       ]
     },
     {
@@ -574,18 +668,19 @@
       "grade": "bronze",
       "kind": "collectibles",
       "missable": false,
-      "missableNote": "The description gives no deadline or limit on attempts for Bret's hunt.",
+      "missableNote": null,
       "target": null,
+      "targetCount": null,
       "stage": 5,
-      "guide": "Complete the hunt for a unique animal for Bret. Slot it into stage five of your platinum run and use the trophy unlock to confirm you have finished the hunt that counts.",
+      "guide": "Treat Bret as your lead when you reach the hunting content and look for an objective that singles out an animal. The starter list gives no species, hunting ground, or point in the story when the hunt opens.",
       "steps": [
-        "Find the hunt for Bret.",
-        "Complete the unique animal hunt.",
-        "Check whether the trophy unlocked."
+        "Look for a hunting objective tied to Bret. [This guide]",
+        "Identify the unique animal named by the objective if one appears. [This guide]",
+        "Complete the hunt for Bret. [PlayStation]"
       ],
       "sources": [
-        "PlayStation — official GTA VI trophy list (name and description as published)",
-        "Exophase — Grand Theft Auto VI trophy list"
+        "PlayStation — official GTA VI trophy list (name and description as published in the starter kit)",
+        "This guide — our own advice from the official description, not yet checked in the game"
       ]
     },
     {
@@ -595,18 +690,19 @@
       "grade": "silver",
       "kind": "collectibles",
       "missable": false,
-      "missableNote": "The description counts finished sets and gives no time limit.",
-      "target": "3 sets",
+      "missableNote": null,
+      "target": "3 collectible card sets",
+      "targetCount": 3,
       "stage": 5,
-      "guide": "Finish three sets of Collectible Cards. During stage five of the platinum run, track cards by set and focus on the gaps in your closest sets until three are complete.",
+      "guide": "Track your cards by set so you can tell which collections are closest to completion. The starter list leaves the set sizes, pickup locations, and any unlock requirements open.",
       "steps": [
-        "Group your card checklist by set.",
-        "Fill the gaps in your closest sets.",
-        "Confirm three sets are complete."
+        "Group the cards you find by set. [This guide]",
+        "Use your checklist to identify missing cards. [This guide]",
+        "Finish three full sets. [PlayStation]"
       ],
       "sources": [
-        "PlayStation — official GTA VI trophy list (name and description as published)",
-        "PSNProfiles — Grand Theft Auto VI trophy list"
+        "PlayStation — official GTA VI trophy list (name and description as published in the starter kit)",
+        "This guide — our own advice from the official description, not yet checked in the game"
       ]
     },
     {
@@ -616,18 +712,19 @@
       "grade": "silver",
       "kind": "collectibles",
       "missable": false,
-      "missableNote": "The description sets a location total without imposing a time limit.",
+      "missableNote": null,
       "target": "100 locations",
+      "targetCount": 100,
       "stage": 5,
-      "guide": "Use WAiNK It at one hundred locations. During stage five of the platinum run, track completed locations as you go so repeat stops do not confuse your count.",
+      "guide": "Keep a list of distinct spots where you use WAiNK It so you can avoid counting a repeat visit. The starter list gives the total and leaves the eligible locations and the way to activate WAiNK It unspecified.",
       "steps": [
-        "Log each location after using WAiNK It there.",
-        "Count distinct completed locations.",
-        "Reach one hundred locations."
+        "Look for places where the game offers WAiNK It. [This guide]",
+        "Mark each spot after using WAiNK It there. [This guide]",
+        "Work through 100 locations. [PlayStation]"
       ],
       "sources": [
-        "PlayStation — official GTA VI trophy list (name and description as published)",
-        "Exophase — Grand Theft Auto VI trophy list"
+        "PlayStation — official GTA VI trophy list (name and description as published in the starter kit)",
+        "This guide — our own advice from the official description, not yet checked in the game"
       ]
     },
     {
@@ -637,18 +734,19 @@
       "grade": "bronze",
       "kind": "activities",
       "missable": false,
-      "missableNote": "The description counts completed Challenges without requiring a single session or a deadline.",
+      "missableNote": null,
       "target": "50 Challenges",
+      "targetCount": 50,
       "stage": 6,
-      "guide": "Finish fifty Challenges across your platinum run. Review your completed total in stage six and choose enough unfinished Challenges to close whatever gap remains.",
+      "guide": "Work through Challenges as the game makes them available and keep track of which ones you finish. The starter list gives the completion goal and leaves the qualifying Challenges and when they open unspecified.",
       "steps": [
-        "Count the Challenges you have completed.",
-        "Pick unfinished Challenges to close the gap.",
-        "Finish fifty Challenges in total."
+        "Look for activities the game identifies as Challenges. [This guide]",
+        "Track the ones you finish. [This guide]",
+        "Reach 50 completed Challenges. [PlayStation]"
       ],
       "sources": [
-        "PlayStation — official GTA VI trophy list (name and description as published)",
-        "PSNProfiles — Grand Theft Auto VI trophy list"
+        "PlayStation — official GTA VI trophy list (name and description as published in the starter kit)",
+        "This guide — our own advice from the official description, not yet checked in the game"
       ]
     },
     {
@@ -658,18 +756,19 @@
       "grade": "bronze",
       "kind": "activities",
       "missable": false,
-      "missableNote": "The description sets a specific escape condition without tying it to a single opportunity.",
-      "target": "4 star Wanted Level",
+      "missableNote": null,
+      "target": "a 4-star Wanted Level",
+      "targetCount": null,
       "stage": 6,
-      "guide": "Escape a four star Wanted Level with your partner. Set aside time in stage six of the platinum run to try this activity and check the trophy only after you have escaped the heat.",
+      "guide": "Set up the attempt during gameplay that lets you stay with your partner through a pursuit. Check the wanted display before going for the escape, since the starter list gives the required rating but names no mission or location.",
       "steps": [
-        "Attempt it with your partner.",
-        "Reach a four star Wanted Level.",
-        "Escape the heat and check the trophy."
+        "Start the attempt while your partner is with you. [This guide]",
+        "Check for four stars on the wanted display. [PlayStation]",
+        "Clear the Wanted Level with your partner. [PlayStation]"
       ],
       "sources": [
-        "PlayStation — official GTA VI trophy list (name and description as published)",
-        "Exophase — Grand Theft Auto VI trophy list"
+        "PlayStation — official GTA VI trophy list (name and description as published in the starter kit)",
+        "This guide — our own advice from the official description, not yet checked in the game"
       ]
     },
     {
@@ -679,18 +778,19 @@
       "grade": "bronze",
       "kind": "activities",
       "missable": false,
-      "missableNote": "The description asks for one continuous attempt but gives no limit on retries.",
-      "target": "3 shops",
+      "missableNote": null,
+      "target": "3 shops in a row",
+      "targetCount": 3,
       "stage": 6,
-      "guide": "Complete three consecutive in-game shop robberies with your partner while keeping your Wanted Level. Schedule a dedicated attempt in stage six of your platinum run and start the count over if the streak breaks.",
+      "guide": "Plan an in-game route with three usable shops close together and start while your partner is with you. The starter list leaves the eligible shops unspecified, so watch the wanted display between stops and restart the chain if it clears.",
       "steps": [
-        "Begin with your partner.",
-        "Complete three shop robberies in succession.",
-        "Keep the Wanted Level through all three."
+        "Pick three nearby shops in the game. [This guide]",
+        "Start with your partner present. [PlayStation]",
+        "Keep the Wanted Level active through the third robbery. [PlayStation]"
       ],
       "sources": [
-        "PlayStation — official GTA VI trophy list (name and description as published)",
-        "PSNProfiles — Grand Theft Auto VI trophy list"
+        "PlayStation — official GTA VI trophy list (name and description as published in the starter kit)",
+        "This guide — our own advice from the official description, not yet checked in the game"
       ]
     },
     {
@@ -700,18 +800,19 @@
       "grade": "bronze",
       "kind": "activities",
       "missable": false,
-      "missableNote": "The description sets a discovery total without a deadline.",
+      "missableNote": null,
       "target": "100 vehicles",
+      "targetCount": 100,
       "stage": 6,
-      "guide": "Discover one hundred vehicles for this trophy. Keep track of discoveries as you play and use stage six of your platinum run to focus on vehicles you still need.",
+      "guide": "Keep track of unfamiliar vehicles as you travel around the map and compare them with any discovery record the game provides. The starter list does not say which vehicles qualify or what action records a discovery.",
       "steps": [
-        "Log the vehicles you discover.",
-        "Focus on vehicles missing from your list.",
-        "Reach one hundred discoveries."
+        "Look for unfamiliar vehicles as you explore. [This guide]",
+        "Check what the game registers as a discovery. [This guide]",
+        "Aim for 100 recorded discoveries. [PlayStation]"
       ],
       "sources": [
-        "PlayStation — official GTA VI trophy list (name and description as published)",
-        "Exophase — Grand Theft Auto VI trophy list"
+        "PlayStation — official GTA VI trophy list (name and description as published in the starter kit)",
+        "This guide — our own advice from the official description, not yet checked in the game"
       ]
     },
     {
@@ -721,18 +822,19 @@
       "grade": "bronze",
       "kind": "activities",
       "missable": false,
-      "missableNote": "The description requires one successful use of Combat Focus without limiting the number of attempts.",
-      "target": "5 enemies",
+      "missableNote": null,
+      "target": "5 enemies in one Combat Focus",
+      "targetCount": null,
       "stage": 6,
-      "guide": "Defeat five in-game enemies within one use of Combat Focus. In stage six of your platinum run, look for an opportunity with enough enemies and judge progress within that single use.",
+      "guide": "Wait for an in-game encounter with enough enemies in reach before activating Combat Focus. The starter list gives the requirement for a single activation and leaves the best encounter and the ability's duration unspecified.",
       "steps": [
-        "Wait for an opportunity with at least five enemies.",
-        "Use Combat Focus once for the attempt.",
-        "Count five takedowns within that use."
+        "Find an encounter with at least five enemies in reach. [This guide]",
+        "Activate Combat Focus once you are ready. [This guide]",
+        "Get all five takedowns during that activation. [PlayStation]"
       ],
       "sources": [
-        "PlayStation — official GTA VI trophy list (name and description as published)",
-        "PSNProfiles — Grand Theft Auto VI trophy list"
+        "PlayStation — official GTA VI trophy list (name and description as published in the starter kit)",
+        "This guide — our own advice from the official description, not yet checked in the game"
       ]
     },
     {
@@ -742,17 +844,19 @@
       "grade": "bronze",
       "kind": "activities",
       "missable": true,
-      "missableNote": "The platinum checklist flags this as missable, and the description does not say whether the departure can be repeated.",
+      "missableNote": "The wording points to the active VCIA story section as the window for leaving in an unscheduled way. Try it before that section closes. [This guide]",
       "target": null,
+      "targetCount": null,
       "stage": 6,
-      "guide": "The clue calls for an unscheduled departure at VCIA. Keep it on your watch list as you play and review it by stage six of the platinum run, since the description gives no more precise trigger.",
+      "guide": "Watch for an optional departure when the story takes you to VCIA, and make a manual save beforehand if the game allows it. The starter list does not name the mission or explain which departure action unlocks the trophy.",
       "steps": [
-        "Flag the VCIA clue before progressing.",
-        "Check the trophy after an unscheduled departure at VCIA."
+        "Make a backup save before the VCIA section if available. [This guide]",
+        "Look for a departure option outside the scheduled sequence. [This guide]",
+        "Attempt it while the VCIA section is open. [This guide]"
       ],
       "sources": [
-        "PlayStation — official GTA VI trophy list (name and description as published)",
-        "Exophase — Grand Theft Auto VI trophy list"
+        "PlayStation — official GTA VI trophy list (name and description as published in the starter kit)",
+        "This guide — our own advice from the official description, not yet checked in the game"
       ]
     },
     {
@@ -762,17 +866,19 @@
       "grade": "bronze",
       "kind": "activities",
       "missable": false,
-      "missableNote": "The description mentions Rhinos without identifying a deadline or a one-time opportunity.",
+      "missableNote": null,
       "target": null,
+      "targetCount": null,
       "stage": 6,
-      "guide": "The description points to Rhinos and leaves the exact unlock condition unstated. Review this clue during stage six of your platinum run and check for the trophy after relevant in-game encounters.",
+      "guide": "Use the reference to Rhinos as a lead when one appears in the game. The starter hint points to tanks, but gives no specific encounter or action to confirm what triggers the trophy.",
       "steps": [
-        "Keep the reference to Rhinos on your checklist.",
-        "Check for an unlock after relevant Rhino encounters."
+        "Watch for a Rhino during play. [This guide]",
+        "Check that encounter for any Rhino objective. [This guide]",
+        "Check for the trophy after completing the objective if one appears. [This guide]"
       ],
       "sources": [
-        "PlayStation — official GTA VI trophy list (name and description as published)",
-        "PSNProfiles — Grand Theft Auto VI trophy list"
+        "PlayStation — official GTA VI trophy list (name and description as published in the starter kit)",
+        "This guide — our own advice from the official description, not yet checked in the game"
       ]
     },
     {
@@ -782,18 +888,19 @@
       "grade": "bronze",
       "kind": "activities",
       "missable": false,
-      "missableNote": "The description imposes an undetected condition but does not restrict the number of attempts.",
+      "missableNote": null,
       "target": null,
+      "targetCount": null,
       "stage": 6,
-      "guide": "Complete an in-game jewelry store robbery without being detected. Plan a dedicated attempt in stage six of your platinum run, and count it only when the robbery ends with that condition intact.",
+      "guide": "During the in-game jewelry store job, watch for any indication that someone has spotted you and treat detection as a reason to retry. The starter list gives no eligible storefront, mission, or detection rules.",
       "steps": [
-        "Attempt a jewelry store robbery.",
-        "Keep the attempt undetected.",
-        "Check for the trophy on completion."
+        "Look for a jewelry store robbery in the game. [This guide]",
+        "Watch for detection cues during the job. [This guide]",
+        "Finish the robbery without being detected. [PlayStation]"
       ],
       "sources": [
-        "PlayStation — official GTA VI trophy list (name and description as published)",
-        "Exophase — Grand Theft Auto VI trophy list"
+        "PlayStation — official GTA VI trophy list (name and description as published in the starter kit)",
+        "This guide — our own advice from the official description, not yet checked in the game"
       ]
     },
     {
@@ -803,18 +910,19 @@
       "grade": "silver",
       "kind": "activities",
       "missable": false,
-      "missableNote": "The description requires successful escapes without stating a deadline or a single continuous attempt.",
-      "target": null,
+      "missableNote": null,
+      "target": "5 bank vaults",
+      "targetCount": 5,
       "stage": 6,
-      "guide": "Rob five Bank Vaults and escape after each successful in-game robbery. During stage six of your platinum run, keep a count of completed escapes so unfinished attempts do not inflate your total.",
+      "guide": "Keep a record of vault jobs once you have cleared the escape, since reaching the vault alone does not cover the full requirement. The starter list leaves the banks, unlock timing, and repeat eligibility unspecified.",
       "steps": [
-        "Complete a Bank Vault robbery.",
-        "Escape before recording the completion.",
-        "Repeat until five are complete."
+        "Look for bank jobs with a vault objective. [This guide]",
+        "Complete the escape after each vault robbery. [PlayStation]",
+        "Track five completed vault jobs and escapes. [PlayStation] [This guide]"
       ],
       "sources": [
-        "PlayStation — official GTA VI trophy list (name and description as published)",
-        "PSNProfiles — Grand Theft Auto VI trophy list"
+        "PlayStation — official GTA VI trophy list (name and description as published in the starter kit)",
+        "This guide — our own advice from the official description, not yet checked in the game"
       ]
     },
     {
@@ -824,17 +932,19 @@
       "grade": "bronze",
       "kind": "collectibles",
       "missable": false,
-      "missableNote": "The description requires a robbery and escape without specifying a one-time window.",
+      "missableNote": null,
       "target": null,
+      "targetCount": null,
       "stage": 5,
-      "guide": "Rob an Armored Truck and escape to complete this trophy. Add it to stage five of your platinum checklist and verify the unlock after the escape, since starting the robbery alone does not meet the wording.",
+      "guide": "Look for an armored truck encounter as you move around the map and stay with the event through the getaway. The starter list gives no spawn location, schedule, or entry method for the truck.",
       "steps": [
-        "Complete an in-game Armored Truck robbery.",
-        "Escape and check for the trophy."
+        "Look for an armored truck encounter in the game. [This guide]",
+        "Complete the truck robbery. [PlayStation]",
+        "Finish the getaway before moving to another activity. [PlayStation] [This guide]"
       ],
       "sources": [
-        "PlayStation — official GTA VI trophy list (name and description as published)",
-        "Exophase — Grand Theft Auto VI trophy list"
+        "PlayStation — official GTA VI trophy list (name and description as published in the starter kit)",
+        "This guide — our own advice from the official description, not yet checked in the game"
       ]
     },
     {
@@ -844,18 +954,19 @@
       "grade": "bronze",
       "kind": "collectibles",
       "missable": false,
-      "missableNote": "The description asks for exploration without a deadline or a one-time condition.",
-      "target": null,
+      "missableNote": null,
+      "target": "52 areas of Leonida",
+      "targetCount": 52,
       "stage": 5,
-      "guide": "Explore all of Leonida over the course of your platinum run. In stage five, review your exploration coverage and focus on gaps without assuming a specific area count that the description does not provide.",
+      "guide": "Track each area as you travel across Leonida and use your record to spot gaps. The starter hint counts 52 areas, but it gives no map of their boundaries or rule for when a visit registers.",
       "steps": [
-        "Track the areas you explore in Leonida.",
-        "Review your coverage for gaps.",
-        "Explore the remaining areas."
+        "Use the starter hint’s total of 52 areas as your goal. [PlayStation]",
+        "Mark areas after the game registers them if it shows progress. [This guide]",
+        "Revisit gaps in your exploration record. [This guide]"
       ],
       "sources": [
-        "PlayStation — official GTA VI trophy list (name and description as published)",
-        "PSNProfiles — Grand Theft Auto VI trophy list"
+        "PlayStation — official GTA VI trophy list (name and description as published in the starter kit)",
+        "This guide — our own advice from the official description, not yet checked in the game"
       ]
     },
     {
@@ -865,18 +976,19 @@
       "grade": "bronze",
       "kind": "collectibles",
       "missable": false,
-      "missableNote": "The description requires coverage of each gang without a time limit or a continuous streak.",
-      "target": null,
+      "missableNote": null,
+      "target": "9 gangs",
+      "targetCount": 9,
       "stage": 5,
-      "guide": "Complete an in-game Illegal Operation robbery for each gang. During stage five of your platinum run, keep a checklist by gang so repeat robberies do not hide an unfinished requirement.",
+      "guide": "Keep a checklist of gang ownership when robbing illegal operations so repeat visits to one gang do not hide a missing faction. The starter hint specifies nine gangs, but supplies neither operation locations nor unlock timing.",
       "steps": [
-        "Track which gangs have a completed robbery.",
-        "Rob an Illegal Operation for each remaining gang.",
-        "Review the checklist for full coverage."
+        "Use the starter hint's nine gangs to set up a checklist. [PlayStation]",
+        "Rob an illegal operation belonging to each gang. [PlayStation]",
+        "Check ownership against your record before choosing another operation. [This guide]"
       ],
       "sources": [
-        "PlayStation — official GTA VI trophy list (name and description as published)",
-        "Exophase — Grand Theft Auto VI trophy list"
+        "PlayStation — official GTA VI trophy list (name and description as published in the starter kit)",
+        "This guide — our own advice from the official description, not yet checked in the game"
       ]
     },
     {
@@ -886,18 +998,19 @@
       "grade": "bronze",
       "kind": "story",
       "missable": true,
-      "missableNote": "Its description requires finishing the opening mission \"Ocean Beach\" using ONLY the starting handgun — a loadout condition on a one-time opening sequence.",
+      "missableNote": "Use the early opening window to enjoy a cocktail with a view on Ocean Beach; treat moving past that moment as a missable risk. [This guide]",
       "target": null,
+      "targetCount": null,
       "stage": 1,
-      "guide": "Enjoy a cocktail with a view on Ocean Beach, as the published description requests. Review this trophy during stage one of your platinum run and check the unlock after meeting that stated condition.",
+      "guide": "During the opening, prioritize the Ocean Beach cocktail opportunity before advancing beyond the early visit. This is a missable moment in the supplied roadmap; the starter description does not identify a bar, interaction prompt, or exact cutoff.",
       "steps": [
-        "Go to Ocean Beach.",
-        "Enjoy a cocktail with a view.",
-        "Check whether the trophy has unlocked."
+        "Watch for the cocktail opportunity during the opening Ocean Beach visit. [This guide]",
+        "Enjoy a cocktail with a view on Ocean Beach. [PlayStation]",
+        "Check the unlock before advancing beyond the opening moment. [This guide]"
       ],
       "sources": [
-        "PlayStation — official GTA VI trophy list (name and description as published)",
-        "PSNProfiles — Grand Theft Auto VI trophy list"
+        "PlayStation — official GTA VI trophy list (name and description as published in the starter kit)",
+        "This guide — supplied missable opening window and our own advice from the official description, not yet checked in the game"
       ]
     },
     {
@@ -907,18 +1020,19 @@
       "grade": "bronze",
       "kind": "story",
       "missable": false,
-      "missableNote": "The description gives a showroom exit condition without stating a deadline or limiting attempts.",
+      "missableNote": null,
       "target": null,
+      "targetCount": null,
       "stage": 4,
-      "guide": "Smash your way out of a vehicle showroom in classic style. Keep the wording on your checklist during stage four of the platinum run, and check the trophy after completing a matching showroom exit.",
+      "guide": "Watch for the vehicle showroom sequence as you progress and follow its objectives through the breakout. The starter description does not name a mission, showroom location, vehicle, or special condition for the phrase classic style.",
       "steps": [
-        "Watch for a vehicle showroom opportunity.",
-        "Complete the exit described by the trophy.",
-        "Check the trophy list afterward."
+        "Watch for a vehicle showroom sequence as you progress. [This guide]",
+        "Follow the available objectives toward the showroom exit. [This guide]",
+        "Smash your way out in classic style as the trophy requires. [PlayStation]"
       ],
       "sources": [
-        "PlayStation — official GTA VI trophy list (name and description as published)",
-        "Exophase — Grand Theft Auto VI trophy list"
+        "PlayStation — official GTA VI trophy list (name and description as published in the starter kit)",
+        "This guide — our own advice from the official description, not yet checked in the game"
       ]
     },
     {
@@ -928,18 +1042,19 @@
       "grade": "bronze",
       "kind": "story",
       "missable": false,
-      "missableNote": "The description identifies a bowling alley without specifying a one-time window or a limited attempt.",
+      "missableNote": null,
       "target": null,
+      "targetCount": null,
       "stage": 4,
-      "guide": "Follow through at the Kolt & Associates' bowling alley. Review this clue in stage four of your platinum run and check the unlock after the relevant activity, since the description does not spell out a score or sequence.",
+      "guide": "Watch for an objective involving the Kolt & Associates bowling alley and finish the sequence presented there. The starter wording does not establish a bowling score, mission name, or precise interaction, so no extra scoring requirement is assumed here.",
       "steps": [
-        "Find the named bowling alley.",
-        "Follow through on the activity there.",
-        "Check whether the trophy unlocked."
+        "Watch for an objective involving the Kolt & Associates bowling alley. [This guide]",
+        "Follow through at the named bowling alley. [PlayStation]",
+        "Check the unlock after completing the available sequence. [This guide]"
       ],
       "sources": [
-        "PlayStation — official GTA VI trophy list (name and description as published)",
-        "PSNProfiles — Grand Theft Auto VI trophy list"
+        "PlayStation — official GTA VI trophy list (name and description as published in the starter kit)",
+        "This guide — our own advice from the official description, not yet checked in the game"
       ]
     },
     {
@@ -949,17 +1064,19 @@
       "grade": "bronze",
       "kind": "story",
       "missable": false,
-      "missableNote": "The description mentions a partnership without stating a one-time choice or a deadline.",
+      "missableNote": null,
       "target": null,
+      "targetCount": null,
       "stage": 4,
-      "guide": "The published clue asks for a partnership with mass appeal but gives no exact action. Keep it in view during stage four of your platinum run and check the trophy after relevant partnership developments.",
+      "guide": "Use story progression as the initial route for this partnership milestone and check trophy notifications after relevant sequences. The starter text leaves the partners, mission, location, and actual trigger unspecified, so a precise walkthrough is not yet supported.",
       "steps": [
-        "Track the partnership clue during stage four.",
-        "Check the trophy after relevant developments."
+        "Continue available story objectives while watching for partnership developments. [This guide]",
+        "Check trophy notifications after relevant sequences. [This guide]",
+        "Record the objective that triggers the unlock for later reference. [This guide]"
       ],
       "sources": [
-        "PlayStation — official GTA VI trophy list (name and description as published)",
-        "Exophase — Grand Theft Auto VI trophy list"
+        "PlayStation — official GTA VI trophy list (name and description as published in the starter kit)",
+        "This guide — our own advice from the official description, not yet checked in the game"
       ]
     },
     {
@@ -969,17 +1086,20 @@
       "grade": "bronze",
       "kind": "story",
       "missable": true,
-      "missableNote": "Its description asks the player to side with Lucia in an argument with Jason — a one-time story choice that cannot be replayed once the scene passes.",
-      "target": null,
+      "missableNote": "Make choices, for better or worse, as their story windows appear; those choices cannot all be revisited after the story moves on. [This guide]",
+      "target": "500 choices (PSN count)",
+      "targetCount": 500,
       "stage": 4,
-      "guide": "The description points to choices made, for better or worse, without naming a specific choice. Review this trophy before stage four of your platinum run and check its status as you make story decisions.",
+      "guide": "Attend to choice opportunities throughout the story and monitor the supplied PSN progress target of 500 choices. This is missable because choices cannot all be revisited after the story advances; the starter does not establish which interactions count or how branches affect the total.",
       "steps": [
-        "Review the trophy before making story choices.",
-        "Check its status after those decisions."
+        "Make choices as their story opportunities appear. [PlayStation] [This guide]",
+        "Monitor the PSN choice count toward 500. [PSNProfiles]",
+        "Review available choices before advancing beyond their story window. [This guide]"
       ],
       "sources": [
-        "PlayStation — official GTA VI trophy list (name and description as published)",
-        "PSNProfiles — Grand Theft Auto VI trophy list"
+        "PlayStation — official GTA VI trophy list (name and description as published in the starter kit)",
+        "PSNProfiles — 500-choice PSN progress target supplied by the task and starter hint; live page not independently checked",
+        "This guide — supplied missable choice windows and our own advice from the official description, not yet checked in the game"
       ]
     },
     {
@@ -989,17 +1109,19 @@
       "grade": "bronze",
       "kind": "story",
       "missable": false,
-      "missableNote": "The description refers to a second time without stating a deadline or a one-time optional condition.",
+      "missableNote": null,
       "target": null,
+      "targetCount": null,
       "stage": 7,
-      "guide": "The clue suggests success on a second occasion but does not identify the event. During stage seven of your platinum run, review this trophy's status and check it after relevant second attempts.",
+      "guide": "Continue the remaining story objectives and watch for a sequence involving a second attempt. The starter gives no mission name, location, or trigger, and its wording alone does not establish that deliberately failing an activity will unlock this trophy.",
       "steps": [
-        "Keep the second-time clue on your checklist.",
-        "Check the trophy after relevant second attempts."
+        "Continue remaining story objectives. [This guide]",
+        "Watch for a sequence involving another attempt. [This guide]",
+        "Check the unlock after completing that sequence. [This guide]"
       ],
       "sources": [
-        "PlayStation — official GTA VI trophy list (name and description as published)",
-        "Exophase — Grand Theft Auto VI trophy list"
+        "PlayStation — official GTA VI trophy list (name and description as published in the starter kit)",
+        "This guide — our own advice from the official description, not yet checked in the game"
       ]
     },
     {
@@ -1009,17 +1131,19 @@
       "grade": "bronze",
       "kind": "story",
       "missable": false,
-      "missableNote": "The description states no deadline, unique choice, or limited attempt.",
+      "missableNote": null,
       "target": null,
+      "targetCount": null,
       "stage": 7,
-      "guide": "The description is an open-ended reaction and gives no precise action to perform. Review its status during stage seven of your platinum run and check for an unlock after notable events without assuming an unstated trigger.",
+      "guide": "Watch for unusual sequences while finishing the remaining story objectives and check notifications afterward. The starter hint suggests witnessing something strange, but does not specify an encounter, location, time, or unlock condition.",
       "steps": [
-        "Review the trophy status in stage seven.",
-        "Check for an unlock after notable events."
+        "Continue remaining objectives while watching for unusual sequences. [This guide]",
+        "Follow the objectives presented during any relevant encounter. [This guide]",
+        "Check trophy notifications after the sequence concludes. [This guide]"
       ],
       "sources": [
-        "PlayStation — official GTA VI trophy list (name and description as published)",
-        "PSNProfiles — Grand Theft Auto VI trophy list"
+        "PlayStation — official GTA VI trophy list (name and description as published in the starter kit)",
+        "This guide — our own advice from the official description, not yet checked in the game"
       ]
     },
     {
@@ -1029,18 +1153,19 @@
       "grade": "bronze",
       "kind": "story",
       "missable": false,
-      "missableNote": "The description specifies a melee drive-by without limiting retries or naming a deadline.",
+      "missableNote": null,
       "target": null,
+      "targetCount": null,
       "stage": 7,
-      "guide": "Bowl someone over with an in-game melee drive-by to match the trophy wording. Check this during stage seven of your platinum run and confirm the unlock after a successful attempt.",
+      "guide": "Look for an opportunity to knock someone down using a melee attack during a drive-by, checking the game's available controls first. The starter does not identify a required vehicle, target, location, or mission, so those details remain unconfirmed.",
       "steps": [
-        "Attempt a melee drive-by.",
-        "Bowl someone over with it.",
-        "Check for the trophy unlock."
+        "Check the available controls for melee attacks from a vehicle. [This guide]",
+        "Look for an opportunity to perform a melee drive-by. [This guide]",
+        "Knock someone down with the melee drive-by and check the unlock. [PlayStation] [This guide]"
       ],
       "sources": [
-        "PlayStation — official GTA VI trophy list (name and description as published)",
-        "Exophase — Grand Theft Auto VI trophy list"
+        "PlayStation — official GTA VI trophy list (name and description as published in the starter kit)",
+        "This guide — our own advice from the official description, not yet checked in the game"
       ]
     },
     {
@@ -1050,18 +1175,19 @@
       "grade": "bronze",
       "kind": "activities",
       "missable": false,
-      "missableNote": "The description sets an earnings total without a time limit or a single-session requirement.",
-      "target": "$250,000",
+      "missableNote": null,
+      "target": "$250,000 of marked bills",
+      "targetCount": null,
       "stage": 6,
-      "guide": "Earn $250,000 by laundering Marked Bills through your in-game contacts. Track earnings from that specific activity during your platinum run and finish any remaining amount in stage six.",
+      "guide": "Track earnings from laundering marked bills through contacts separately from other income so you can assess progress toward the required amount. The starter does not name the contacts, explain their unlock timing, or specify fees and conversion rates.",
       "steps": [
-        "Launder Marked Bills through your contacts.",
-        "Track earnings from that activity.",
-        "Reach $250,000 earned."
+        "Look for contacts offering marked-bill laundering as they become available. [This guide]",
+        "Launder Marked Bills through your contacts. [PlayStation]",
+        "Track laundering earnings toward $250,000. [PlayStation] [This guide]"
       ],
       "sources": [
-        "PlayStation — official GTA VI trophy list (name and description as published)",
-        "PSNProfiles — Grand Theft Auto VI trophy list"
+        "PlayStation — official GTA VI trophy list (name and description as published in the starter kit)",
+        "This guide — our own advice from the official description, not yet checked in the game"
       ]
     },
     {
@@ -1071,18 +1197,19 @@
       "grade": "bronze",
       "kind": "activities",
       "missable": false,
-      "missableNote": "The description sets a spending total without requiring a single session or a deadline.",
-      "target": "$100,000",
+      "missableNote": null,
+      "target": "$100,000 in shops",
+      "targetCount": null,
       "stage": 6,
-      "guide": "Spend $100,000 across shops to meet this trophy's requirement. Track your shop spending throughout the platinum run and review the remaining amount in stage six before making further purchases.",
+      "guide": "Keep a running total of shop purchases while buying items you want, then compare it with the required spending amount. The starter does not define eligible shop types, refund handling, or whether any individual shop must be visited.",
       "steps": [
-        "Track money spent in shops.",
-        "Review the total during stage six.",
-        "Reach $100,000 in shop spending."
+        "Record purchases made in shops. [This guide]",
+        "Build total shop spending to $100,000. [PlayStation]",
+        "Check the unlock after purchases bring your recorded total to the threshold. [This guide]"
       ],
       "sources": [
-        "PlayStation — official GTA VI trophy list (name and description as published)",
-        "Exophase — Grand Theft Auto VI trophy list"
+        "PlayStation — official GTA VI trophy list (name and description as published in the starter kit)",
+        "This guide — our own advice from the official description, not yet checked in the game"
       ]
     },
     {
@@ -1092,18 +1219,19 @@
       "grade": "bronze",
       "kind": "activities",
       "missable": false,
-      "missableNote": "The description requires ownership purchases without specifying a deadline or a one-time opportunity.",
-      "target": null,
+      "missableNote": null,
+      "target": "8 garage properties",
+      "targetCount": 8,
       "stage": 6,
-      "guide": "Purchase every garage property for this trophy. Keep a property checklist during the platinum run and use stage six to review what you own and buy the remaining garages.",
+      "guide": "Maintain a property checklist as garages become available and budget for the ones still missing from your collection. The starter hint specifies eight garages, but provides no addresses, prices, purchase interface, or unlock schedule.",
       "steps": [
-        "List the garage properties you have purchased.",
-        "Identify the garages still missing.",
-        "Purchase the remaining garage properties."
+        "Use the starter hint's eight garages to set up a purchase checklist. [PlayStation]",
+        "Purchase every garage property as it becomes available. [PlayStation] [This guide]",
+        "Compare owned garages with your checklist to identify remaining purchases. [This guide]"
       ],
       "sources": [
-        "PlayStation — official GTA VI trophy list (name and description as published)",
-        "PSNProfiles — Grand Theft Auto VI trophy list"
+        "PlayStation — official GTA VI trophy list (name and description as published in the starter kit)",
+        "This guide — our own advice from the official description, not yet checked in the game"
       ]
     },
     {
@@ -1113,18 +1241,19 @@
       "grade": "bronze",
       "kind": "activities",
       "missable": false,
-      "missableNote": "The description sets a registration count without imposing a deadline or a single-session condition.",
-      "target": "10 vehicles",
+      "missableNote": null,
+      "target": "10 vehicles in the Scooter Bros app",
+      "targetCount": 10,
       "stage": 6,
-      "guide": "Register ten vehicles to the Scooter Bros app. During stage six of your platinum run, track completed registrations and check that the count reaches ten before marking this trophy finished.",
+      "guide": "Use the Scooter Bros app when it becomes available and keep track of successful vehicle registrations. The starter does not establish vehicle eligibility, the app's unlock timing, or the registration procedure, so follow the instructions shown in the game.",
       "steps": [
-        "Register vehicles to the Scooter Bros app.",
-        "Track completed vehicle registrations.",
-        "Reach ten registered vehicles."
+        "Open the Scooter Bros app when available and review its instructions. [This guide]",
+        "Register ten vehicles to the app. [PlayStation]",
+        "Check accepted registrations and the trophy unlock before stopping. [This guide]"
       ],
       "sources": [
-        "PlayStation — official GTA VI trophy list (name and description as published)",
-        "Exophase — Grand Theft Auto VI trophy list"
+        "PlayStation — official GTA VI trophy list (name and description as published in the starter kit)",
+        "This guide — our own advice from the official description, not yet checked in the game"
       ]
     }
   ]

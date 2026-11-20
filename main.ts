@@ -15,7 +15,9 @@ mkdirSync(join(out, 'screenshots'), { recursive: true });
 if (existsSync(join(here, 'screenshots'))) cpSync(join(here, 'screenshots'), join(out, 'screenshots'), { recursive: true });
 
 const { trophies } = JSON.parse(readFileSync(join(here, 'app', 'data', 'trophies.json'), 'utf8'));
-console.log(`Leonida Trophy Guide: handing in ${trophies.length} trophies.`);
+const citedSteps = trophies.reduce((count, trophy) => count + trophy.steps.filter(step => step.includes('[')).length, 0);
+const sourceKeys = new Set(trophies.flatMap(trophy => trophy.sources.map(source => source.split(' — ')[0])));
+console.log(`Leonida Trophy Guide: handing in ${trophies.length} trophies (${['platinum', 'gold', 'silver', 'bronze'].map(grade => `${trophies.filter(trophy => trophy.grade === grade).length} ${grade}`).join(', ')}), ${citedSteps} cited steps, ${sourceKeys.size} sources.`);
 
 // The scorer's own caps (reference/gate.json): only text_max_bytes shapes the bytes; the others refuse an entry the
 // scorer would refuse (more than 4 screenshots or one over 256 KiB; more than 993 files and directories in app/ or

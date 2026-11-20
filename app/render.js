@@ -1,81 +1,33 @@
-import { STAGES, byStage, missables } from './data.js';
+import { STAGE_NAMES, KIND_LABELS, GRADE_ORDER } from './data.js';
 
 const entities = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' };
-export const esc = value => String(value ?? '').replace(/[&<>"']/g, char => entities[char]);
+export const esc = value => String(value ?? '').replace(/[&<>"']/g, c => entities[c]);
+export const hidden = (t, state) => state.spoiler && t.kind === 'story' && !state.earned.includes(t.id);
+const title = (t, state) => hidden(t, state) ? `Story trophy · Stage ${t.stage}` : t.name;
+const description = (t, state) => hidden(t, state) ? 'Hidden by the spoiler shield until earned.' : t.description;
+export function citeChips(text) { return esc(text).replace(/\[([^\]]+)\]/g, '<span class="cite">$1</span>'); }
+const chips = (t, state) => `<div class="t-chips"><span class="t-chip" data-grade="${esc(t.grade)}">${esc(t.grade)}</span><span class="t-chip">${esc(KIND_LABELS[t.kind] || t.kind)}</span><span class="t-chip">Stage ${t.stage} — ${esc(STAGE_NAMES[t.stage - 1])}</span>${t.target ? `<span class="t-chip">${esc(t.target)}</span>` : ''}${t.missable ? '<span class="t-chip missable">MISSABLE</span>' : ''}<span class="t-chip">${t.sources.length} src</span></div>`;
 
-export const HIDDEN_NAME = 'Hidden Trophy';
-export const HIDDEN_DESCRIPTION = 'Story trophy — hidden by the spoiler shield until earned.';
-export const isSpoilerHidden = (t, earned, shield) => shield && t.kind === 'story' && !earned.has(t.id);
-
-function chips(t, hidden) {
-  return `<div class="t-chips">
-    <span class="t-chip" data-grade="${esc(t.grade)}">${esc(t.grade)}</span>
-    <span class="t-chip">${esc(t.kind)}</span>
-    ${!hidden && t.target ? `<span class="t-chip">${esc(t.target)}</span>` : ''}
-    ${t.missable ? '<span class="t-chip missable">Missable</span>' : ''}
-  </div>`;
+export function renderAudit(el, data, stats) { el.textContent = `AUDIT · ${stats.total}/${stats.total} official names, descriptions & grades · ${stats.byGrade.platinum} platinum · ${stats.byGrade.gold} gold · ${stats.byGrade.silver} silver · ${stats.byGrade.bronze} bronze · ${stats.guidesCiting}/${stats.total} guides cite sources · ${stats.citedSteps} cited steps · ${stats.twoPlus} backed by 2+ sources · ${stats.missableCount} missables flagged from the official descriptions · roadmap in 7 stages`; }
+export function renderTallies(data, state) {
+  const earned = new Set(state.earned); const total = earned.size;
+  document.getElementById('earned-count').textContent = total;
+  document.getElementById('platinum-bar-fill').style.width = `${data.trophies.length ? total / data.trophies.length * 100 : 0}%`;
+  for (const grade of GRADE_ORDER) { const all = data.trophies.filter(t => t.grade === grade).length; const got = data.trophies.filter(t => t.grade === grade && earned.has(t.id)).length; document.querySelector(`[data-grade="${grade}"]`).textContent = `${grade[0].toUpperCase()} ${got}/${all}`; }
 }
 
-export function trophyCard(t, earned, spoilerShield) {
-  const checked = earned.has(t.id);
-  const hidden = isSpoilerHidden(t, earned, spoilerShield);
-  const name = esc(hidden ? HIDDEN_NAME : t.name);
-  return `<article class="trophy-card${checked ? ' earned' : ''}${hidden ? ' spoiler-hidden' : ''}" data-grade="${esc(t.grade)}" data-id="${esc(t.id)}">
-    <input type="checkbox" data-action="toggle-earned" data-id="${esc(t.id)}" aria-label="Mark ${name} earned"${checked ? ' checked' : ''}>
-    <div>
-      <button type="button" class="t-name" data-action="open-trophy" data-id="${esc(t.id)}"${hidden ? ' style="filter: none"' : ''}>${name}</button>
-      <p class="t-description">${esc(hidden ? HIDDEN_DESCRIPTION : t.description)}</p>
-      ${chips(t, hidden)}
-    </div>
-  </article>`;
+export function renderList(el, data, state, ui) {
+  const query = ui.search.trim().toLowerCase(); const earned = new Set(state.earned);
+  const filtered = data.trophies.filter(t => (ui.kind === 'all' || (ui.kind === 'missable' ? t.missable : ui.kind === 'not-earned' ? !earned.has(t.id) : t.kind === ui.kind)) && (!ui.grades.size || ui.grades.has(t.grade)) && (!ui.hideEarned || !earned.has(t.id)) && (!query || [t.name, t.description, t.guide].join(' ').toLowerCase().includes(query)));
+  document.getElementById('list-count').textContent = `${filtered.length} shown`;
+  el.innerHTML = STAGE_NAMES.map((name, i) => { const group = filtered.filter(t => t.stage === i + 1).sort((a, b) => a.id - b.id); if (!group.length) return ''; const got = group.filter(t => earned.has(t.id)).length; const total = data.trophies.filter(t => t.stage === i + 1).length; return `<section class="stage-group"><h3>Stage ${i + 1} — ${name} <span>${got}/${total}</span></h3>${group.map(t => `<article class="trophy-card${earned.has(t.id) ? ' earned' : ''}${ui.selected === t.id ? ' selected' : ''}" data-id="${t.id}" data-grade="${t.grade}"><input type="checkbox" data-action="toggle-earned" data-id="${t.id}"${earned.has(t.id) ? ' checked' : ''}><div><button class="t-name" type="button">${esc(title(t, state))}</button><p class="t-description">${esc(description(t, state))}</p>${chips(t, state)}${t.targetCount ? `<span class="t-chip">${earned.has(t.id) ? t.targetCount : Math.min(t.targetCount, state.counts[t.id] || 0)}/${t.targetCount}</span>` : ''}</div></article>`).join('')}</section>`; }).join('') || '<p class="empty-state">No trophies match these filters.</p>';
 }
 
-function earnedButton(t, earned) {
-  const checked = earned.has(t.id);
-  return `<button type="button" class="earned-toggle" data-action="toggle-earned" data-id="${esc(t.id)}" aria-pressed="${checked}">${checked ? '✓ Earned · mark unearned' : 'Mark as earned'}</button>`;
-}
+export function renderDetail(el, t, state) { if (!t) return; const isHidden = hidden(t, state); const count = Math.min(t.targetCount || 0, state.counts[t.id] || 0); el.innerHTML = `<header class="detail-header"><span class="grade-badge" data-grade="${t.grade}">${esc(t.grade)}</span><h2>${esc(isHidden ? 'Story trophy' : t.name)}</h2>${isHidden ? '<p class="spoiler-note">Hidden by the spoiler shield until earned.</p>' : chips(t, state)}</header><blockquote class="official-description">${esc(t.description)}</blockquote>${t.missable ? `<div class="missable-banner"><strong>MISSABLE</strong>${esc(t.missableNote || '')}</div>` : ''}${t.targetCount ? `<div class="counter-widget"><label>YOUR COUNT</label><button data-count="-1">−</button><output>${count} / ${t.targetCount}</output><button data-count="1">+</button><div style="width:100%;height:5px;background:var(--line)"><div style="height:100%;width:${count / t.targetCount * 100}%;background:var(--accent)"></div></div></div>` : ''}<button class="earned-toggle" data-action="toggle-earned" data-id="${t.id}">${state.earned.includes(t.id) ? 'Earned ✓' : 'Mark earned'}</button><section class="guide-body"><p>${isHidden ? '' : esc(t.guide)}</p><h3>HOW TO EARN IT · ${t.steps.length} steps in our own words, each with its sources</h3><ol class="guide-steps">${t.steps.map(s => `<li>${citeChips(s)}</li>`).join('')}</ol></section><section class="sources"><h3>SOURCES</h3><ul>${t.sources.map(s => `<li>${esc(s)}</li>`).join('')}</ul></section>`; }
 
-export function detailHTML(t, earned, spoilerShield = false) {
-  const hidden = isSpoilerHidden(t, earned, spoilerShield);
-  return `
-    <header class="detail-header">
-      <span class="grade-badge" data-grade="${esc(t.grade)}">${esc(t.grade)}</span>
-      <h2>${esc(hidden ? HIDDEN_NAME : t.name)}</h2>
-      ${chips(t, hidden)}
-    </header>
-    ${hidden ? `<p class="spoiler-note">${HIDDEN_DESCRIPTION}</p>` : `
-      <blockquote class="official-description">${esc(t.description)}</blockquote>
-      ${t.missable ? `<div class="missable-banner"><strong>Missable trophy</strong>${esc(t.missableNote)}</div>` : ''}
-      <section class="guide-body"><h3>Guide</h3>
-        <p>${esc(t.guide)}</p>
-        <ol class="guide-steps">${t.steps.map(step => `<li>${esc(step)}</li>`).join('')}</ol>
-      </section>
-      <section class="sources"><h3>Sources</h3>
-        <ul>${t.sources.map(source => `<li>${esc(source)}</li>`).join('')}</ul>
-      </section>`}
-    ${earnedButton(t, earned)}`;
-}
+export function renderNextUp(el, data, state) { el.innerHTML = data.trophies.filter(t => !state.earned.includes(t.id)).sort((a, b) => a.stage - b.stage || a.id - b.id).slice(0, 4).map(t => `<button class="next-item" data-id="${t.id}"><small>stage ${t.stage} · ${esc(KIND_LABELS[t.kind] || t.kind)}</small>${esc(title(t, state))}${t.missable ? ' <span class="missable">MISSABLE</span>' : ''}</button>`).join('') || '<p>All trophies earned.</p>'; }
 
-export function roadmapHTML(trophies, earned, spoilerShield = false) {
-  return STAGES.map(stage => `<article class="roadmap-stage">
-    <span class="stage-number" aria-label="Stage ${stage.n}">${stage.n}</span>
-    <h3>${esc(stage.title)}</h3>
-    <p>${esc(stage.blurb)}</p>
-    <div class="trophy-chips">${byStage(trophies, stage.n).map(t => {
-      const name = isSpoilerHidden(t, earned, spoilerShield) ? HIDDEN_NAME : t.name;
-      return `<button type="button" class="trophy-chip${t.missable ? ' missable' : ''}" data-grade="${esc(t.grade)}" data-action="open-trophy" data-id="${esc(t.id)}">${esc(name)}${earned.has(t.id) ? ' ✓' : ''}${t.missable ? ' · Missable' : ''}</button>`;
-    }).join('')}</div>
-  </article>`).join('');
-}
-
-export function missablesHTML(trophies, earned, spoilerShield = false) {
-  return missables(trophies).map(t => {
-    const hidden = isSpoilerHidden(t, earned, spoilerShield);
-    return `<article class="missable-card">
-      <span class="trophy-number" aria-label="Trophy ${esc(t.id)}">${esc(t.id)}</span>
-      <h3>${esc(hidden ? HIDDEN_NAME : t.name)}${earned.has(t.id) ? ' ✓' : ''}</h3>
-      <p>${esc(hidden ? HIDDEN_DESCRIPTION : t.missableNote)}</p>
-      <button type="button" class="button" data-action="open-trophy" data-id="${esc(t.id)}">Open trophy guide</button>
-    </article>`;
-  }).join('');
-}
+export function renderGuideSources(el, t) { el.innerHTML = t ? `${t.sources.map(s => `<p class="source-entry">${esc(s)}</p>`).join('')}<small>${t.steps.length} steps · ${t.sources.length} sources for this guide</small>` : ''; }
+export function renderRoadmap(el, data, state) { el.innerHTML = STAGE_NAMES.map((name, i) => { const ts = data.trophies.filter(t => t.stage === i + 1); const got = ts.filter(t => state.earned.includes(t.id)).length; return `<article class="roadmap-stage"><span class="stage-number">${i + 1}</span><h3>Stage ${i + 1} — ${name}</h3><p>${got}/${ts.length} earned</p><div class="trophy-chips">${ts.map(t => `<button class="trophy-chip" data-id="${t.id}" data-grade="${t.grade}">${esc(title(t, state))}${t.missable ? ' ⚑' : ''}${state.earned.includes(t.id) ? ' ✓' : ''}</button>`).join('')}</div></article>`; }).join(''); }
+export function renderMissables(el, data, state) { el.innerHTML = data.trophies.filter(t => t.missable).map(t => `<article class="missable-card"><h3>${esc(title(t, state))}</h3><div>${esc(t.grade)} · ${esc(KIND_LABELS[t.kind] || t.kind)}</div><p>${esc(t.description)}</p><p><strong>Window:</strong> ${esc(t.missableNote || '')}</p><p>${esc(t.guide)}</p><ol class="guide-steps">${t.steps.map(s => `<li>${citeChips(s)}</li>`).join('')}</ol><small>${t.sources.map(esc).join(' · ')}</small></article>`).join(''); }
+export function renderSources(el, data, stats) { const matrix = data.sources.map(s => ({ ...s, guides: data.trophies.filter(t => t.sources.some(x => x.startsWith(`${s.key} — `))).length, steps: data.trophies.reduce((n, t) => n + t.steps.filter(x => x.includes(`[${s.key}]`)).length, 0) })); document.getElementById('sources-coverage').textContent = `${stats.guidesCiting}/${stats.total} guides cite sources · ${stats.citedSteps} cited steps · ${stats.twoPlus} guides backed by 2+ sources · ${matrix.length} sources, read 20 Nov 2026`; el.innerHTML = `<div class="source-entry">${matrix.map(s => `<p><strong>${esc(s.name)}</strong> ${esc(s.detail)}<br>${s.guides} guides · ${s.steps} cited steps</p>`).join('')}</div>`; }
