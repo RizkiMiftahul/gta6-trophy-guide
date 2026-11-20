@@ -1,25 +1,110 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>GTA VI trophy checklist</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0c0918">
+  <title>Leonida Trophy Guide — GTA VI PS5 Trophy Guide &amp; Tracker</title>
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-<header>
-  <h1>GTA VI trophy checklist</h1>
-  <p id="progress">0 of 55 earned</p>
-</header>
-<div class="controls">
-  <label>Grade <select id="grade"><option value="all">All</option><option value="platinum">Platinum</option><option value="gold">Gold</option><option value="silver">Silver</option><option value="bronze">Bronze</option></select></label>
-  <button id="export" type="button">Export progress</button>
-  <label class="import">Import progress <input id="import" type="file" accept="application/json"></label>
-</div>
-<table>
-  <thead><tr><th>Earned</th><th>Trophy</th><th>Grade</th><th>How to get it</th></tr></thead>
-  <tbody id="rows"></tbody>
-</table>
-<script type="module" src="app.js"></script>
+  <a class="skip-link" href="#main">Skip to trophies</a>
+  <div class="site-wrap">
+    <header class="site-head">
+      <div class="brand">
+        <p class="eyebrow">GRAND THEFT AUTO VI · PLAYSTATION 5 · OFFLINE GUIDE &amp; TRACKER</p>
+        <div class="edition"><span class="status-dot" aria-hidden="true"></span> THE LEONIDA FIELD GUIDE <span class="edition-rule" aria-hidden="true"></span> 01 / 55</div>
+        <h1>Leonida <span>Trophy Guide</span></h1>
+        <p class="promise">All 55 trophies: the official list, a cited guide for each, a roadmap to the platinum, and a tracker that saves your progress in this browser.</p>
+        <div class="hero-tags"><span>55 trophies</span><span>7 roadmap stages</span><span>3 missables</span><span>100% offline</span></div>
+      </div>
+      <section class="progress-panel" aria-label="Your trophy progress">
+        <div class="progress-top">
+          <svg class="progress-ring" viewBox="0 0 112 112" role="img" aria-labelledby="progress-title">
+            <title id="progress-title">Trophy completion percentage</title>
+            <circle class="ring-track" cx="56" cy="56" r="46" />
+            <circle id="progress-ring-fg" cx="56" cy="56" r="46" stroke-dasharray="289.027" stroke-dashoffset="289.027" />
+            <text id="progress-percent" x="56" y="61" text-anchor="middle">0%</text>
+          </svg>
+          <div><p class="eyebrow">YOUR COLLECTION</p><p id="progress-counts" aria-live="polite">0 of 55 earned</p><p class="save-note">Saved in this browser</p></div>
+        </div>
+        <div id="grade-counts" aria-label="Earned trophies by grade">
+          <span data-grade="platinum">Platinum <strong>0</strong></span>
+          <span data-grade="gold">Gold <strong>0</strong></span>
+          <span data-grade="silver">Silver <strong>0</strong></span>
+          <span data-grade="bronze">Bronze <strong>0</strong></span>
+        </div>
+        <div class="platinum-progress"><span id="platinum-label">Platinum path: 0%</span><div class="platinum-bar"><div id="platinum-bar-fill" style="width: 0%"></div></div></div>
+      </section>
+    </header>
+
+    <section class="controls" aria-label="Search, filter and manage trophies">
+      <div class="search-row"><label class="search-box" for="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Search trophies…" autocomplete="off" aria-label="Search trophies"></label><span class="local-note"><span class="status-dot" aria-hidden="true"></span> LOCAL PROGRESS</span></div>
+      <div class="filter-row"><span class="filter-label" id="grade-filter-label">GRADE</span><div class="chip-row" id="grade-filters" role="group" aria-labelledby="grade-filter-label">
+        <button class="chip active" type="button" data-grade="all" aria-pressed="true">All</button>
+        <button class="chip" type="button" data-grade="platinum" aria-pressed="false">Platinum</button>
+        <button class="chip" type="button" data-grade="gold" aria-pressed="false">Gold</button>
+        <button class="chip" type="button" data-grade="silver" aria-pressed="false">Silver</button>
+        <button class="chip" type="button" data-grade="bronze" aria-pressed="false">Bronze</button>
+      </div></div>
+      <div class="filter-row"><span class="filter-label" id="kind-filter-label">TYPE</span><div class="chip-row" id="kind-filters" role="group" aria-labelledby="kind-filter-label">
+        <button class="chip active" type="button" data-kind="all" aria-pressed="true">All</button>
+        <button class="chip" type="button" data-kind="story" aria-pressed="false">Story</button>
+        <button class="chip" type="button" data-kind="collectibles" aria-pressed="false">Collectibles</button>
+        <button class="chip" type="button" data-kind="activities" aria-pressed="false">Activities</button>
+      </div></div>
+      <div class="control-bottom">
+        <div class="toggle-row">
+          <label><input id="filter-missable" type="checkbox"> Missable only</label>
+          <label><input id="toggle-spoiler" type="checkbox" checked> Spoiler shield</label>
+          <label><input id="filter-hide-earned" type="checkbox"> Hide earned</label>
+        </div>
+        <div class="data-actions">
+          <button id="btn-export" type="button">Export progress</button>
+          <label id="btn-import-label" class="button" for="import-file">Import progress<input id="import-file" class="visually-hidden" type="file" accept=".json,application/json"></label>
+          <button id="btn-reset" class="button-quiet" type="button">Reset</button>
+        </div>
+      </div>
+    </section>
+
+    <nav class="view-tabs" aria-label="Guide views">
+      <button class="active" type="button" data-view="checklist" aria-controls="view-checklist" aria-current="page"><span class="tab-index">01</span> Trophy checklist</button>
+      <button type="button" data-view="roadmap" aria-controls="view-roadmap"><span class="tab-index">02</span> Platinum roadmap</button>
+      <button type="button" data-view="missables" aria-controls="view-missables"><span class="tab-index">03</span> Missables <span class="tab-count">3</span></button>
+    </nav>
+
+    <main id="main" tabindex="-1">
+      <div id="view-checklist">
+        <div class="section-heading"><div><p class="eyebrow">THE COMPLETE COLLECTION</p><h2>Your road to the platinum</h2></div><span class="section-note">One trophy at a time.</span></div>
+        <div class="layout">
+          <section id="trophy-list" aria-label="Trophy checklist"></section>
+          <aside id="trophy-detail" aria-label="Selected trophy guide">
+            <div class="detail-placeholder"><div class="placeholder-mark" aria-hidden="true">◇</div><p class="eyebrow">THE NEXT ONE IS YOURS</p><h2>Pick a trophy to read its guide.</h2><p>Open a trophy for its route, steps and sources.</p></div>
+            <section class="how-it-works"><h3>How this guide works</h3><ul><li>Official name, description and grade as PlayStation publishes them.</li><li>Every guide in our own words, with its sources named.</li><li>Missable trophies flagged from the official descriptions.</li></ul></section>
+          </aside>
+        </div>
+      </div>
+      <section id="view-roadmap" aria-labelledby="roadmap-title" hidden>
+        <div class="section-heading"><div><p class="eyebrow">SEVEN STAGES · ONE PLATINUM</p><h2 id="roadmap-title">Roadmap to the Platinum</h2></div></div>
+        <p class="view-intro">Play the story first, taking care of missables when they appear. After the finale, sweep up collectibles and finish the grinds. Leave 100% completion until last: build toward it as you go, then close out the platinum.</p>
+        <div id="roadmap-stages" aria-label="Seven platinum roadmap stages"></div>
+        <aside class="missable-callout" aria-labelledby="three-missables-title">
+          <p class="eyebrow">KEEP THESE ON YOUR RADAR</p><h3 id="three-missables-title">The three missables</h3>
+          <ul>
+            <li><span class="trophy-number">37</span><div><strong>Catch Me If You Can</strong><p>Check the guide before the VCIA departure opportunity; do not assume it can be repeated.</p></div></li>
+            <li><span class="trophy-number">44</span><div><strong>In The Beginning…</strong><p>Read its missable warning before starting the opening mission, Ocean Beach.</p></div></li>
+            <li><span class="trophy-number">48</span><div><strong>Actions Speak Louder</strong><p>Read the choice warning before the argument between Lucia and Jason.</p></div></li>
+          </ul>
+        </aside>
+      </section>
+      <section id="view-missables" aria-labelledby="missables-title" hidden>
+        <div class="section-heading"><div><p class="eyebrow">THREE MOMENTS TO WATCH</p><h2 id="missables-title">Missable trophies — do these when they appear</h2></div></div>
+        <p class="view-intro">Review these three warnings before progressing the story. Each guide explains what to watch for and names its sources. Keep the spoiler shield on until you are ready to read the details.</p>
+        <div id="missable-list" aria-label="Missable trophy warnings"></div>
+      </section>
+    </main>
+    <footer class="site-footer"><span class="footer-mark" aria-hidden="true">L / VI</span><p>Trophy names, descriptions and grades are the official PlayStation list, as published. Every guide here is written for this entry in its own words and names its sources beside it. Works offline; your progress never leaves this browser.</p><span class="footer-note">YOUR PACE.<br>YOUR PLATINUM.</span></footer>
+  </div>
+  <script type="module" src="./app.js"></script>
 </body>
 </html>
