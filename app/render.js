@@ -1,5 +1,5 @@
-import { STAGE_NAMES, KIND_LABELS, GRADE_ORDER, stageHours, totalHours, sourceMatrix } from './data.js';
-import { hoursEarned } from './state.js';
+import { STAGE_NAMES, KIND_LABELS, GRADE_ORDER, stageHours, totalHours, sourceMatrix, stepStats } from './data.js';
+import { hoursEarned, stepsEarned } from './state.js';
 
 const entities = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' };
 export const esc = value => String(value ?? '').replace(/[&<>"']/g, c => entities[c]);
@@ -12,7 +12,7 @@ const steps = t => `<ol class="guide-steps">${t.steps.map(step => `<li>${citeChi
 const sources = t => `<ul>${t.sources.map(source => `<li>${esc(source)}</li>`).join('')}</ul>`;
 const progressBar = percent => `<div class="platinum-bar"><div style="height:100%;width:${percent}%;background:var(--accent)"></div></div>`;
 const timeChips = t => `${t.time ? chip(t.time, ' time') : ''}${t.difficulty ? chip(t.difficulty, ` diff-${t.difficulty.toLowerCase()}`) : ''}`;
-const chips = t => `<div class="t-chips">${chip(t.grade)}${chip(kind(t))}${chip(`Stage ${t.stage} — ${STAGE_NAMES[t.stage - 1]}`)}${t.target ? chip(t.target) : ''}${timeChips(t)}</div>`;
+const chips = t => `<div class="t-chips">${chip(t.grade)}${chip(kind(t))}${chip(`Stage ${t.stage} — ${STAGE_NAMES[t.stage - 1]}`)}${t.target ? chip(t.target) : ''}${timeChips(t)}${t.steps?.length ? chip(`${t.steps.length} steps`, ' steps') : ''}</div>`;
 
 export function citeChips(text) {
   return esc(text).replace(/\[([^\]]+)\]/g, '<span class="cite">$1</span>');
@@ -20,7 +20,7 @@ export function citeChips(text) {
 
 export function renderAudit(el, data, stats) {
   const makeup = GRADE_ORDER.map(grade => `${stats.byGrade[grade].total} ${grade}`).join(' · ');
-  el.textContent = `AUDIT · ${stats.total}/${stats.total} official names, descriptions & grades · ${makeup} · ${stats.guidesCiting}/${stats.total} guides cite sources · ${stats.citedSteps} cited steps · ${stats.twoPlus} backed by 2+ sources · ${stats.missableCount} missables flagged from the official descriptions · roadmap in ${STAGE_NAMES.length} stages · ≈ ${stats.totalHours} h to the platinum`;
+  el.textContent = `AUDIT · ${stats.total}/${stats.total} official names, descriptions & grades · ${stats.totalSteps} cited steps · ${makeup} · ${stats.guidesCiting}/${stats.total} guides cite sources · ${stats.citedSteps} cited steps · ${stats.twoPlus} backed by 2+ sources · ${stats.missableCount} missables flagged from the official descriptions · roadmap in ${STAGE_NAMES.length} stages · ≈ ${stats.totalHours} h to the platinum`;
 }
 
 export function renderTallies(data, state) {
@@ -36,7 +36,7 @@ export function renderTallies(data, state) {
   const pct = document.getElementById('progress-percent');
   if (pct) pct.textContent = `${Math.round(earned.length / data.trophies.length * 100)}%`;
   const hours = document.getElementById('hours-earned');
-  if (hours) hours.textContent = `≈ ${hoursEarned(data.trophies, state)} h banked`;
+  if (hours) hours.textContent = `≈ ${hoursEarned(data.trophies, state)} h · ${stepsEarned(data.trophies, state)} steps banked`;
   for (const grade of GRADE_ORDER) {
     const total = data.trophies.filter(t => t.grade === grade).length;
     const got = earned.filter(t => t.grade === grade).length;
@@ -71,7 +71,7 @@ export function renderDetail(el, t, state) {
     ${t.missable ? `<div class="missable-banner"><strong>MISSABLE</strong>${esc(t.missableNote)}</div>` : ''}
     ${t.targetCount ? `<div class="counter-widget"><label>YOUR COUNT</label><button type="button" data-count="-1" aria-label="Decrease count">−</button><output>${count} / ${t.targetCount}</output><button type="button" data-count="1" aria-label="Increase count">+</button><div style="width:100%">${progressBar(count / t.targetCount * 100)}</div></div>` : ''}
     <button type="button" class="earned-toggle" data-action="toggle-earned" data-id="${t.id}">${state.earned.includes(t.id) ? 'Earned ✓' : 'Mark earned'}</button>
-    <section class="guide-body">${isHidden ? '' : `<p>${esc(t.guide)}</p>`}<h3>HOW TO EARN IT · ${t.steps.length} steps in our own words, each with its sources</h3>${steps(t)}</section>
+    <section class="guide-body">${isHidden ? '' : `<p>${esc(t.guide)}</p>`}<h3>HOW TO EARN IT · ${t.steps.length} steps in our own words, each with its sources</h3><p class="steps-count">Case file · ${t.steps.length} cited steps</p>${steps(t)}</section>
     <section class="sources"><h3>SOURCES</h3>${sources(t)}</section>`;
 }
 

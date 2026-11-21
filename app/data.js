@@ -27,10 +27,16 @@ export function totalHours(trophies) {
   return Math.round(stageHours(trophies).reduce((sum, hours) => sum + hours, 0) * 10) / 10;
 }
 
+export function stepStats(trophies) {
+  const counts = trophies.map(t => t.steps.length);
+  return { total: counts.reduce((sum, count) => sum + count, 0), min: Math.min(...counts), max: Math.max(...counts) };
+}
+
 export function auditStats(trophies) {
   const byGrade = Object.fromEntries(GRADE_ORDER.map(grade => [grade, { total: trophies.filter(t => t.grade === grade).length }]));
   return {
     total: trophies.length, byGrade,
+    totalSteps: stepStats(trophies).total,
     citedSteps: trophies.reduce((sum, t) => sum + t.steps.filter(step => step.includes('[')).length, 0),
     guidesCiting: trophies.filter(t => t.sources.length >= 1).length,
     twoPlus: trophies.filter(t => t.sources.length >= 2).length,

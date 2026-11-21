@@ -53,8 +53,12 @@ input[type="checkbox"] {
   align-items: center;
   gap: 32px;
   padding-bottom: 25px;
-  border-bottom: 2px solid var(--ink);
+  border-bottom: 3px double var(--ink);
+  row-gap: 6px;
 }
+.kicker { margin: 0 0 6px; font: 11px system-ui; letter-spacing: .18em; text-transform: uppercase; color: var(--accent); }
+.site-head > .kicker { grid-column: 1 / -1; }
+.detail-pane .case-tab { letter-spacing: .14em; text-transform: uppercase; font-size: 10px; color: var(--muted); border-bottom: 1px solid var(--line); }
 .eyebrow {
   margin-bottom: 8px;
   color: var(--accent);
@@ -145,6 +149,7 @@ h1 {
 
 /* Reading pane, cited steps, and progress controls */
 .detail-pane { min-height: 460px; padding: 27px; overflow-wrap: anywhere; }
+.steps-count { color: var(--muted); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; }
 .detail-header h2, .detail-pane > h2 { margin: 14px 0; font: 34px/1.13 var(--serif); letter-spacing: -.025em; }
 .grade-badge { display: inline-flex; align-items: center; gap: 7px; font-size: 10px; font-weight: 750; letter-spacing: .12em; text-transform: uppercase; }
 .grade-badge::before { content: '◆'; color: var(--grade); font-size: 18px; }
@@ -153,7 +158,7 @@ h1 {
 .guide-body { margin-top: 24px; }
 .guide-body > p { line-height: 1.75; }
 .guide-steps { padding: 0; list-style: none; counter-reset: steps; }
-.guide-steps li { position: relative; padding: 2px 0 17px 32px; line-height: 1.7; counter-increment: steps; }
+.guide-steps li { position: relative; padding: 2px 0 17px 32px; border-left: 2px solid color-mix(in srgb, var(--accent) 25%, transparent); line-height: 1.7; counter-increment: steps; }
 .guide-steps li::before { content: counter(steps, decimal-leading-zero); position: absolute; left: 0; color: var(--accent); font: 18px var(--serif); }
 .citation, .cite { display: inline-block; margin: 2px; padding: 0 5px; border: 1px solid var(--line); border-radius: 3px; background: var(--panel-2); color: var(--muted); font-size: 10px; }
 .sources { margin: 18px 0; padding: 15px; border: 1px solid var(--line); border-radius: 5px; background: var(--panel-2); color: var(--muted); font-size: 12px; overflow-wrap: anywhere; }

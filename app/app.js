@@ -14,7 +14,7 @@ async function boot() {
     try { empty = localStorage.getItem(DEMO_KEY) === null; } catch { /* Use a session demo. */ }
     if (empty) { state = demoSeed(); saveState(state, true); }
   }
-  const stats = auditStats(data.trophies);
+  const casebookStats = auditStats(data.trophies);
   const byId = id => data.trophies.find(t => t.id === Number(id));
   const ui = { kind: 'all', grades: new Set(), hideEarned: false, search: '', selected: Number(params.get('open')) || 28 };
   if (!byId(ui.selected)) ui.selected = byId(28)?.id ?? data.trophies[0]?.id;
@@ -26,7 +26,7 @@ async function boot() {
     renderDetail($('trophy-detail'), byId(ui.selected), state);
     renderNextUp($('next-up'), data, state);
     renderGuideSources($('guide-sources'), byId(ui.selected));
-    renderRoadmap($('roadmap-stages'), data, state, stats);
+    renderRoadmap($('roadmap-stages'), data, state, casebookStats);
     renderMissables($('missable-list'), data, state);
     $('btn-spoiler').checked = state.spoiler;
   }
@@ -46,8 +46,8 @@ async function boot() {
     }
   }
 
-  renderAudit($('audit-line'), data, stats);
-  renderSources($('sources-matrix'), data, stats);
+  renderAudit($('audit-line'), data, casebookStats);
+  renderSources($('sources-matrix'), data, casebookStats);
   renderAll();
   showView(params.get('tab') || 'tracker');
 
