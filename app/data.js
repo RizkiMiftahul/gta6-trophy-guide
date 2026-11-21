@@ -16,6 +16,17 @@ export async function loadTrophies() {
   return data;
 }
 
+export function stageHours(trophies) {
+  return Array.from({ length: STAGE_NAMES.length }, (_, i) => {
+    const minutes = trophies.filter(t => t.stage === i + 1).reduce((sum, t) => sum + (t.timeMin || 0), 0);
+    return Math.round(minutes / 60 * 10) / 10;
+  });
+}
+
+export function totalHours(trophies) {
+  return Math.round(stageHours(trophies).reduce((sum, hours) => sum + hours, 0) * 10) / 10;
+}
+
 export function auditStats(trophies) {
   const byGrade = Object.fromEntries(GRADE_ORDER.map(grade => [grade, { total: trophies.filter(t => t.grade === grade).length }]));
   return {
@@ -23,7 +34,15 @@ export function auditStats(trophies) {
     citedSteps: trophies.reduce((sum, t) => sum + t.steps.filter(step => step.includes('[')).length, 0),
     guidesCiting: trophies.filter(t => t.sources.length >= 1).length,
     twoPlus: trophies.filter(t => t.sources.length >= 2).length,
-    missableCount: trophies.filter(t => t.missable).length
+    missableCount: trophies.filter(t => t.missable).length,
+    totalHours: totalHours(trophies),
+    withTime: trophies.filter(t => typeof t.time === 'string' && t.time.length > 0).length,
+    withDifficulty: trophies.filter(t => t.difficulty).length,
+    difficultyCounts: {
+      Easy: trophies.filter(t => t.difficulty === 'Easy').length,
+      Moderate: trophies.filter(t => t.difficulty === 'Moderate').length,
+      Hard: trophies.filter(t => t.difficulty === 'Hard').length
+    }
   };
 }
 

@@ -65,3 +65,8 @@ export function resetState(demo = false) {
   catch { /* The caller also replaces the session state. */ }
   return emptyState();
 }
+
+export function hoursEarned(trophies, state) {
+  const minutes = trophies.filter(t => state.earned.includes(t.id)).reduce((sum, t) => sum + (t.timeMin || 0), 0);
+  return (minutes / 60).toFixed(1);
+}

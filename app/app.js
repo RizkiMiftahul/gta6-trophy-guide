@@ -26,7 +26,7 @@ async function boot() {
     renderDetail($('trophy-detail'), byId(ui.selected), state);
     renderNextUp($('next-up'), data, state);
     renderGuideSources($('guide-sources'), byId(ui.selected));
-    renderRoadmap($('roadmap-stages'), data, state);
+    renderRoadmap($('roadmap-stages'), data, state, stats);
     renderMissables($('missable-list'), data, state);
     $('btn-spoiler').checked = state.spoiler;
   }

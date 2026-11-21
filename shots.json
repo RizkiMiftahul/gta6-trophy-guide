@@ -1,6 +1,6 @@
 [
-  { "file": "1-cover.jpg", "path": "/?demo=1&open=28", "description": "Tracker with seeded progress: checklist grouped by roadmap stage, the Positive Mental Attitude guide open with its counter and four cited steps, next-up rail and sources for the guide.", "viewport": { "width": 1280, "height": 800 } },
-  { "file": "2-roadmap.jpg", "path": "/?demo=1&tab=roadmap", "description": "The seven-stage roadmap to the platinum with per-stage progress and missable flags.", "viewport": { "width": 1280, "height": 800 } },
-  { "file": "3-missables.jpg", "path": "/?demo=1&tab=missables", "description": "The three missable trophies with their windows, cited guides and sources.", "viewport": { "width": 1280, "height": 800 } },
+  { "file": "1-cover.jpg", "path": "/?demo=1&open=28", "description": "Tracker with seeded progress: checklist grouped by roadmap stage, the Positive Mental Attitude guide open with its progress ring, time and difficulty chips, counter and five cited steps, next-up rail and sources for the guide.", "viewport": { "width": 1280, "height": 800 } },
+  { "file": "2-roadmap.jpg", "path": "/?demo=1&tab=roadmap", "description": "The seven-stage roadmap to the platinum with per-stage hour totals and missable flags.", "viewport": { "width": 1280, "height": 800 } },
+  { "file": "3-missables.jpg", "path": "/?demo=1&tab=missables", "description": "The three missable trophies with their windows, inline missable warnings, cited guides and sources.", "viewport": { "width": 1280, "height": 800 } },
   { "file": "4-sources.jpg", "path": "/?demo=1&tab=sources", "description": "The source matrix: every source, how many guides and cited steps rest on it, and the citation coverage of the whole list.", "viewport": { "width": 1280, "height": 800 } }
 ]

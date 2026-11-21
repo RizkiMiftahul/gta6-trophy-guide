@@ -56,12 +56,16 @@
       "target": null,
       "targetCount": null,
       "stage": 7,
-      "guide": "Build your platinum plan around the individual trophy entries, clearing their requirements before returning to this final reward. This guide recommends checking the missable warnings early so that an unfinished requirement does not become a surprise at the end. Use your earned trophies to identify remaining work rather than assuming story completion covers the entire list. Our sources do not yet establish whether a separate action or a particular location is needed after the last remaining trophy unlocks.",
+      "guide": "Treat the other 54 entries as a route through story progression, optional activities and a final sweep of outstanding requirements. This guide recommends reading the warnings for trophies 37, 44 and 48 before committing to story progress, then preserving an earlier save where the game permits it. Reaching the ending can leave substantial work unfinished, so compare earned trophies with the full list before deciding that only the platinum remains. PlayStation supplies the reward's identity, but our sources do not establish a separate final interaction, location or exact award trigger after the other requirements are cleared. The 80–140 hour range is this guide's untested whole-list planning allowance, including prerequisite progression, rather than a sourced completion time.",
+      "time": "80–140 hr",
+      "timeMin": 6600,
+      "difficulty": "Hard",
       "steps": [
         "Use the remaining 54 trophies to track your progress toward completion. [This guide]",
         "Complete every other trophy requirement before reviewing the platinum. [This guide]",
         "After earning the rest of the list, see whether Vice Got a Price! has unlocked. [PlayStation] [This guide]",
-        "Review the missable entries before advancing their story windows. [This guide]"
+        "Review the missable entries before advancing their story windows. [This guide]",
+        "Preserve an earlier save before a missable window closes, if manual saving is available. [This guide]"
       ],
       "sources": [
         "PlayStation — GTA VI's official list as it publishes the trophy name and description",
@@ -79,7 +83,10 @@
       "target": null,
       "targetCount": null,
       "stage": 1,
-      "guide": "Keep Gone Fishing on your mission checklist and follow the objectives shown when you encounter it. PlayStation names that mission as the requirement, but our sources do not yet pin down its starting location, prerequisites or exact unlock moment. This guide recommends waiting for a clear mission result before marking the entry finished. Do not infer a fishing challenge, equipment requirement or meeting place from the title alone.",
+      "guide": "Let the available story objectives lead you to Gone Fishing, then use its active prompts to carry the attempt through to a recorded result. PlayStation establishes the named mission as the relevant task, while our sources leave its chapter placement, starting point and prerequisite missions unconfirmed. This guide recommends checking both the mission outcome and trophy status before crossing it off, since entering a mission is not evidence of finishing it. A likely checklist mistake is chasing fishing equipment or a waterside location suggested only by the title; wait for the game to identify the actual objective instead. Allow an estimated 20–40 minutes for the mission attempt once available, excluding the unknown lead-in; this guide has not timed it in play.",
+      "time": "20–40 min",
+      "timeMin": 30,
+      "difficulty": "Easy",
       "steps": [
         "This trophy requires you to complete Gone Fishing. [PlayStation]",
         "When the mission becomes available, carry out its objectives. [This guide]",
@@ -102,12 +109,16 @@
       "target": null,
       "targetCount": null,
       "stage": 1,
-      "guide": "Use the available story objectives to work toward the end of the opening chapter, keeping this entry on your early progression checklist. PlayStation identifies Chapter 1 as the milestone, while our sources leave its mission order, final mission and objective locations unspecified. This guide recommends checking the trophy when the game indicates that the chapter has ended. If it remains locked, note the last objective completed rather than guessing that an unrelated activity is required.",
+      "guide": "Work through the opening chapter's available story tasks and keep unfinished objectives visible in your session notes until the chapter transition is clear. PlayStation anchors this milestone to Chapter 1, but our sources do not identify its closing mission, starting locations or the full chain of prerequisites. This guide recommends handling the separate Ocean Beach opening-window warning before leaving that opportunity behind, without treating it as a prerequisite for this chapter trophy. The checklist risk is marking the chapter complete after an individual mission; confirm the transition and trophy status, and record the active objective if they disagree. Budget 3–5 hours for this guide's untested opening-chapter estimate, rather than a verified mission-by-mission duration.",
+      "time": "3–5 hr",
+      "timeMin": 240,
+      "difficulty": "Easy",
       "steps": [
         "The required story milestone for this trophy is Chapter 1. [PlayStation]",
         "Advance through the story objectives available on the way to that point. [This guide]",
         "When the chapter has ended, check whether the trophy was awarded. [This guide]",
-        "Note your last completed objective if the trophy remains locked. [This guide]"
+        "Note your last completed objective if the trophy remains locked. [This guide]",
+        "Check trophy 44's opening-window warning before leaving the initial Ocean Beach visit. [This guide]"
       ],
       "sources": [
         "PlayStation — the official GTA VI trophy list, showing its published name and description",
@@ -125,7 +136,10 @@
       "target": null,
       "targetCount": null,
       "stage": 1,
-      "guide": "Keep following the available story objectives while working through the second chapter. PlayStation ties this entry to Chapter 2, but our sources do not identify its closing mission, mission starting points or the precise completion trigger. This guide recommends treating an explicit chapter transition as a useful point to review the trophy list. If the reward has not appeared, keep a note of your current objective; no specific replay procedure is established by the supplied sources.",
+      "guide": "Continue the story into its second chapter and finish the objectives the game presents before expecting the chapter reward. PlayStation identifies Chapter 2 as the milestone, while our sources leave the required mission chain, individual starting points and exact closing trigger unresolved. This guide recommends tracking the current objective between sessions so that returning to a partly finished chapter does not look like a completed run. The main planning pitfall is confusing access to Chapter 2 with finishing it; wait for a clear chapter conclusion and check the trophy before marking the entry done. Reserve an estimated 4–6 hours within the chapter, excluding earlier progression, as an untested allowance from this guide.",
+      "time": "4–6 hr",
+      "timeMin": 300,
+      "difficulty": "Easy",
       "steps": [
         "Chapter 2 is the story milestone named for this trophy. [PlayStation]",
         "Keep progressing through the story objectives until you reach it. [This guide]",
@@ -148,7 +162,10 @@
       "target": null,
       "targetCount": null,
       "stage": 2,
-      "guide": "Follow the story objectives presented during the third chapter and keep track of where you leave off between sessions. PlayStation supplies the Chapter 3 requirement, but our sources do not yet establish the mission sequence, starting locations or final objective. This guide recommends reviewing the unlock after the game signals the end of the chapter. Avoid treating travel to a place suggested by the trophy's name as a confirmed requirement.",
+      "guide": "Use the story's active objectives to progress through the third chapter, recording your next unfinished task whenever you pause. PlayStation ties the reward to Chapter 3, but our sources do not map its mission order, access prerequisites, objective locations or closing sequence. This guide recommends reviewing trophy status when the game clearly signals the chapter's conclusion, rather than after merely arriving in a new area. The title can tempt you into treating a trip to Vice City as sufficient, so rely on chapter progress and the recorded outcome instead of a place-name guess. The 5–7 hour range is this guide's untested allowance for the chapter itself and does not include reaching it.",
+      "time": "5–7 hr",
+      "timeMin": 360,
+      "difficulty": "Easy",
       "steps": [
         "The specified story checkpoint is the end of Chapter 3. [PlayStation]",
         "Follow the story tasks currently available as you work toward that checkpoint. [This guide]",
@@ -171,7 +188,10 @@
       "target": null,
       "targetCount": null,
       "stage": 2,
-      "guide": "Work through the available story objectives in the fourth chapter, using the game's instructions to decide where to go next. PlayStation identifies Chapter 4 as the required milestone; our sources do not name its final mission or establish the precise moment completion registers. This guide recommends checking the trophy at the chapter transition before considering the entry finished. A separate location, special performance condition or replay method is not yet supported by the supplied material.",
+      "guide": "Follow the fourth chapter's story objectives through their outcomes, letting the game's current instructions determine the route. PlayStation names Chapter 4 as the relevant milestone, while our sources do not identify its final mission, entry prerequisites or the precise moment the chapter registers as finished. This guide recommends keeping the chapter on your active checklist until both the transition and trophy status have been reviewed. A common planning error is treating entry into the chapter as completion, so resolve the remaining story objectives before looking for an extra location or an unsupported replay fix. Set aside an estimated 5–9 hours for the chapter once reached; this guide's range is a planning estimate with no gameplay timing behind it.",
+      "time": "5–9 hr",
+      "timeMin": 420,
+      "difficulty": "Easy",
       "steps": [
         "This trophy calls for reaching Chapter 4 in the story. [PlayStation]",
         "Make your way there by completing the story objectives the game offers. [This guide]",
@@ -194,7 +214,10 @@
       "target": null,
       "targetCount": null,
       "stage": 2,
-      "guide": "Keep advancing through the available story objectives until you reach the concluding mission, then follow its instructions through the result. PlayStation makes the finale the requirement, but our sources do not identify its title, starting location or prerequisites. This guide recommends reviewing the trophy once the mission is clearly finished rather than assuming that reaching its opening is enough. Whether an ending choice affects the unlock, or whether the finale can be replayed, is not yet pinned down by our sources.",
+      "guide": "Advance along the available story route until the concluding mission is offered, then stay with its objectives through the recorded outcome. PlayStation places the requirement at the story's finale, but our sources do not supply the mission title, starting location or prerequisite chain needed to reach it. This guide recommends waiting for a clear mission result before checking the unlock, because arriving at the finale's opening does not establish completion. Ending-choice effects and mission replay availability remain unconfirmed, so avoid assuming that a particular branch is mandatory or that replay will repair a missing reward. Budget 30–60 minutes for the finale attempt after access is secured, using this guide's untested estimate rather than counting the entire preceding story.",
+      "time": "30–60 min",
+      "timeMin": 45,
+      "difficulty": "Easy",
       "steps": [
         "The listed requirement is to finish the game's final mission. [PlayStation]",
         "Advance through the available story objectives until that mission is reached. [This guide]",
@@ -217,7 +240,10 @@
       "target": null,
       "targetCount": null,
       "stage": 3,
-      "guide": "Watch for Breakfast Run among the objectives available to you and follow its instructions when it becomes accessible. PlayStation names the required mission, while our sources do not yet establish where it begins, when it unlocks or which objective ends it. This guide recommends comparing the mission name with your checklist before recording completion. The title alone does not establish a time of day or a destination, so let the game's prompts supply those details.",
+      "guide": "Watch the available story tasks for Breakfast Run and follow that mission's own prompts once the game offers it. PlayStation identifies the mission to finish, but our sources do not establish its chapter placement, starting location, prerequisite objectives or final registration trigger. This guide recommends matching the completed mission name to this entry before recording the result and checking trophy status. The avoidable detour is waiting for morning or searching breakfast venues on the strength of the title, so use only the timing and destination the game actually provides. Allow 15–35 minutes for an attempt once available as this guide's untested planning estimate, with the unknown prerequisite journey excluded.",
+      "time": "15–35 min",
+      "timeMin": 25,
+      "difficulty": "Easy",
       "steps": [
         "Breakfast Run is the named story task required by this entry. [PlayStation]",
         "Continue through the story objectives available on the path to it. [This guide]",
@@ -240,12 +266,16 @@
       "target": null,
       "targetCount": null,
       "stage": 3,
-      "guide": "Look for The Cartel Heist as you work through available objectives, then follow the instructions presented for that mission. PlayStation identifies the named heist as the requirement, but our sources do not pin down its starting point, setup tasks or unlock timing. This guide recommends keeping any unfinished objectives together in your notes so that starting the heist is not mistaken for finishing it. No particular approach, crew selection or escape route is established by the supplied sources.",
+      "guide": "Follow the available story leads toward The Cartel Heist, distinguishing any preparation the game actually requests from the heist attempt itself. PlayStation names the heist as the relevant mission, but our sources do not establish its story placement, starting point, prerequisite jobs or whether it has separate setup phases. This guide recommends reviewing any displayed preparation requirements before launching the attempt, then following the active objectives through the final result. The likely checklist error is counting a setup or the opening of the heist as completion, so retain unfinished objectives in your notes and verify the mission outcome before checking the trophy. Reserve 30–60 minutes for an available heist attempt as this guide's untested allowance, excluding any preparation or story gates the game may reveal.",
+      "time": "30–60 min",
+      "timeMin": 45,
+      "difficulty": "Moderate",
       "steps": [
         "Completing The Cartel Heist is the requirement given here. [PlayStation]",
         "Work through the story objectives that lead up to the heist. [This guide]",
         "When the required heist is done, check for the trophy. [This guide]",
-        "List any unfinished heist objectives before ending your session. [This guide]"
+        "List any unfinished heist objectives before ending your session. [This guide]",
+        "Resolve any preparation requirements the game displays before launching the heist attempt. [This guide]"
       ],
       "sources": [
         "PlayStation — its official GTA VI trophy list as published, including names and descriptions",
@@ -263,7 +293,10 @@
       "target": null,
       "targetCount": null,
       "stage": 3,
-      "guide": "Keep Child's Play on your mission checklist and tackle its objectives when the game presents the opportunity. PlayStation provides the mission name, but our sources leave its story placement, starting location and prerequisites unresolved. This guide recommends noting the mission result and checking the trophy before moving on to unrelated work. The supplied material does not establish any extra completion condition or a specific character choice for this unlock.",
+      "guide": "Look for Child's Play while following available story objectives, and work through the mission's prompts when it becomes accessible. PlayStation supplies the mission name, while our sources do not pin down the chapter, starting location or prerequisite tasks that make it available. This guide recommends recording the outcome alongside this entry and checking the trophy before turning to another activity. A mistaken assumption about the required character or an extra challenge could send you off route, so follow the mission instructions and avoid adding conditions unsupported by the supplied material. Plan for an estimated 20–40 minutes once the mission is available, excluding earlier progression; this guide has not verified that duration in play.",
+      "time": "20–40 min",
+      "timeMin": 30,
+      "difficulty": "Easy",
       "steps": [
         "Child's Play is the story mission this trophy asks you to complete. [PlayStation]",
         "Pursue it by continuing the story objectives available to you. [This guide]",
@@ -286,7 +319,10 @@
       "target": null,
       "targetCount": null,
       "stage": 3,
-      "guide": "Watch for Headliners while progressing through available objectives, and use the instructions shown in the mission to guide your attempt. PlayStation links this trophy to that mission, but our sources do not identify its starting location, unlock conditions or exact final trigger. This guide recommends keeping the entry pending until you have checked the outcome and trophy status. Do not infer a venue, event schedule or performance requirement from the mission title.",
+      "guide": "Take the available story route until Headliners appears, then let its current objectives guide the attempt through to an outcome. PlayStation links the trophy to that mission, but our sources leave its story position, starting venue, prerequisites and exact completion trigger unspecified. This guide recommends keeping the entry pending until you can compare the mission result with the trophy list. The title alone can suggest an event schedule or performance challenge, so avoid waiting at an assumed venue or chasing an invented score condition. The 20–40 minute range is this guide's untested estimate for the mission after access, with no allowance for the unknown story lead-in.",
+      "time": "20–40 min",
+      "timeMin": 30,
+      "difficulty": "Easy",
       "steps": [
         "This trophy is tied to completing the mission Headliners. [PlayStation]",
         "Once you get to it, carry out the objectives it makes available. [This guide]",
@@ -309,7 +345,10 @@
       "target": null,
       "targetCount": null,
       "stage": 3,
-      "guide": "Keep an eye out for VCIA Takedown and work through the objectives it presents once it is available. PlayStation supplies the required mission name, while our sources do not yet pin down the starting location, prerequisites or completion trigger. This guide recommends recording any objective still in progress before leaving the mission for another session. The supplied sources do not establish a mandatory vehicle, entry route or combat approach, so those details should come from the game rather than the trophy title.",
+      "guide": "Pursue the story objectives available to you until VCIA Takedown is offered, then follow its prompts through the mission result. PlayStation identifies the required mission, but our sources do not establish its chapter, launch location, access prerequisites or exact final trigger. This guide recommends writing down the active objective before taking a break so that an unfinished attempt is easy to resume and does not get marked complete. The trophy title does not establish a required vehicle or entry method, so avoid spending time preparing an assumed hijacking route and use the instructions the mission actually gives. Budget an estimated 25–45 minutes for the attempt once available, excluding prerequisite progression, as an untested allowance from this guide.",
+      "time": "25–45 min",
+      "timeMin": 35,
+      "difficulty": "Easy",
       "steps": [
         "The mission you need for this trophy is VCIA Takedown. [PlayStation]",
         "When it becomes available, follow the objectives it gives you. [This guide]",
@@ -332,7 +371,10 @@
       "target": null,
       "targetCount": null,
       "stage": 3,
-      "guide": "Track Operation Savage Glory among your available objectives and follow the mission's instructions when you reach it. PlayStation names the operation as the requirement, but our sources do not establish its story placement, starting point or precise completion trigger. This guide recommends checking the result against the named mission before marking this trophy finished. Neither the trophy name nor the mission title supplies a confirmed setting, equipment loadout or special condition for the attempt.",
+      "guide": "Follow available story leads until Operation Savage Glory can be started, and carry out the objectives shown during that mission. PlayStation provides the operation's name, while our sources do not identify its chapter placement, starting point, prerequisite chain or precise award trigger. This guide recommends comparing the recorded mission result with the named operation on your checklist before deciding that the requirement is cleared. A likely wrong turn is inferring snowy terrain or a special equipment loadout from the titles, so let the mission itself establish the setting and tools rather than preparing for an unsupported condition. Set aside an estimated 25–45 minutes after the operation becomes available; this guide's range is untested and excludes the unknown route to access it.",
+      "time": "25–45 min",
+      "timeMin": 35,
+      "difficulty": "Easy",
       "steps": [
         "Operation Savage Glory is the mission named as this trophy's requirement. [PlayStation]",
         "When you reach the operation, complete the objectives it presents. [This guide]",
@@ -355,12 +397,16 @@
       "target": "100% completion",
       "targetCount": null,
       "stage": 6,
-      "guide": "Plan a completion sweep around any progress information the game actually provides, noting unfinished entries before choosing your next activity. PlayStation sets the endpoint at 100% completion, but our sources do not yet establish which missions, activities or collectibles contribute to it. This guide recommends keeping confirmed completion changes separate from guesses about what might count, then using that record to organize later sessions. No exact route, location checklist or unlock schedule is supported yet, and story completion alone should not be treated as proof that this requirement is met.",
+      "guide": "Build a completion log from whatever progress information the game exposes, then use confirmed gaps to choose story tasks, activities or collectible searches. PlayStation establishes the 100% endpoint, but our sources do not identify the contributing categories, their prerequisites, their locations or when every requirement becomes accessible. This guide recommends recording which actions actually move the displayed figure and grouping confirmed unfinished work by accessible area before a later cleanup pass. The costly mistake is treating the story ending or an unrelated trophy unlock as proof of completion, so compare each result with the game's completion data instead of assuming it counts. Allow 60–100 hours as this guide's untested whole-route planning range, including prerequisite progression and overlapping story work, rather than adding it on top of the chapter estimates.",
+      "time": "60–100 hr",
+      "timeMin": 4800,
+      "difficulty": "Hard",
       "steps": [
         "The target for this trophy is full 100% completion. [PlayStation]",
         "Look over any in-game completion data for tasks still outstanding. [This guide]",
         "Finish the remaining requirements, then check your completion status again. [This guide]",
-        "Record which finished activities change the displayed completion figure, if available. [This guide]"
+        "Record which finished activities change the displayed completion figure, if available. [This guide]",
+        "Group confirmed unfinished requirements by accessible area before planning a cleanup trip. [This guide]"
       ],
       "sources": [
         "PlayStation — GTA VI's official trophy listing with the names and descriptions it publishes",
@@ -378,12 +424,16 @@
       "target": "250 Stunt Jumps",
       "targetCount": 250,
       "stage": 6,
-      "guide": "Test a stunt opportunity when you encounter one, then look for evidence that the attempt registered before planning a longer session. PlayStation uses the term Stunts, so the stored jump label should not be treated as proof that only jumps qualify. This guide recommends noting the maneuver and place for each credited attempt to make later attempts easier to compare. Our sources do not establish eligible locations, availability timing or whether repeating a successful maneuver adds credit.",
+      "guide": "Use the activity route to try stunts as they become available, and confirm that an attempt moves your progress before settling into a long session. PlayStation calls the requirement Stunts and PSNProfiles tracks a target of 250; our sources do not pin down the full set of eligible maneuvers or locations. PowerPyx's roadmap is a broad planning reference, but the precise jump route and when each stunt opens are not established here. Keep a log of credited attempts and prioritize unverified stunts instead of assuming a repeat will count. If progress stops, compare the counter after a clearly different attempt; the exact trigger is not yet pinned down by our sources.",
+      "time": "3–5 hr",
+      "timeMin": 240,
+      "difficulty": "Hard",
       "steps": [
         "Aim to get credit for 250 stunts. [PlayStation]",
         "After attempting a stunt, see whether your progress increased. [This guide]",
         "Log the attempts that count. [This guide]",
-        "Compare a repeat attempt with your recorded progress before repeating it again. [This guide]"
+        "Compare a repeat attempt with your recorded progress before repeating it again. [This guide]",
+        "Make a final pass through your log and confirm that the credited total reaches 250. [PSNProfiles] [This guide]"
       ],
       "sources": [
         "PlayStation — the starter kit reproduces the official GTA VI trophy name and description from this list",
@@ -401,7 +451,10 @@
       "target": "9 activity types",
       "targetCount": 9,
       "stage": 6,
-      "guide": "Group the activities you encounter by type and give an unfamiliar category priority when choosing your next outing. PlayStation frames this requirement around variety, making a list of categories more useful than a tally of individual events. This guide recommends recording what you tried and any completion feedback before moving to another category. Our sources do not supply a complete category list, starting locations, unlock timing or the precise amount of participation needed for credit.",
+      "guide": "Work through the activity route by sampling each distinct category you find, and keep a checklist of categories rather than individual events. PlayStation frames the requirement around variety, and PSNProfiles tracks nine types; our sources do not provide a definitive category list or confirm how much participation counts as a try. The GTA Wiki is a background reference for the game world, while this guide cannot yet pin down activity locations or unlock order from the cited material. Record the activity name and any completion feedback before moving on so a repeat does not take the place of a missing type. If progress stalls, compare your notes against another clearly different activity; the exact trigger is not yet pinned down by our sources.",
+      "time": "2–4 hr",
+      "timeMin": 180,
+      "difficulty": "Moderate",
       "steps": [
         "Build your checklist around the different kinds of activities. [PlayStation]",
         "Give a type that just opened up a try before recording repeat attempts. [This guide]",
@@ -424,12 +477,16 @@
       "target": "42 Shooting Range challenges",
       "targetCount": 42,
       "stage": 6,
-      "guide": "At an available Shooting Range, review the challenge instructions and use each result to identify what needs improving. PlayStation makes medal quality the deciding requirement, so merely finishing a challenge is not enough to clear it from your checklist. This guide recommends keeping the best result for each challenge and concentrating practice on entries below gold, where further attempts are available. Our sources do not establish range addresses, challenge unlock order, scoring thresholds or a confirmed replay procedure.",
+      "guide": "Once a Shooting Range and its challenges are available, inspect the displayed rules, then use each result to decide what to practice next. PlayStation identifies gold as the required medal, and PSNProfiles gives the tracked challenge count as 42; a completed attempt below gold still needs another pass. PowerPyx offers general trophy-route guidance, but the range locations, unlock order, scoring thresholds and replay details are not pinned down by our sources. Keep the best result beside each challenge name so practice time goes to the entries that need it. If a result falls short, review the challenge's displayed scoring rules before retrying instead of assuming simple completion is enough.",
+      "time": "5–9 hr",
+      "timeMin": 420,
+      "difficulty": "Hard",
       "steps": [
         "Aim for nothing below gold in any challenge. [PlayStation]",
         "List the challenges where your result falls short of gold. [This guide]",
         "Try the listed challenges again and review the new results. [This guide]",
-        "Review the displayed scoring rules before another attempt. [This guide]"
+        "Review the displayed scoring rules before another attempt. [This guide]",
+        "Audit all 42 challenge entries and retry any one without a recorded gold result. [PSNProfiles] [This guide]"
       ],
       "sources": [
         "PlayStation — the starter kit publishes this trophy’s official GTA VI name and description from the PlayStation list",
@@ -447,12 +504,16 @@
       "target": "14 Top Fun locations",
       "targetCount": 14,
       "stage": 6,
-      "guide": "When you find a Top Fun event, check its label and instructions before entering so your notes distinguish drone races from other activities. PlayStation ties the requirement to wins at separate locations, making the venue an essential part of your record. This guide recommends adding a location to your finished list only after the result confirms a win, then looking for a venue still missing. Our sources do not identify the sites, their availability conditions or the rules for restarting an unsuccessful race.",
+      "guide": "Work through the activity route by locating Top Fun Drone Races and winning once at each distinct venue you can confirm. PlayStation requires wins at every location, and PSNProfiles tracks the target as 14 locations, so keep event type and venue together in your log. PowerPyx's roadmap is a broad reference for planning cleanup, but our sources do not list race sites, prerequisites or when they open. Mark a location complete only after the result shows a win; an attempt or a loss should stay pending. If a venue is still uncertain, leave it off the finished list until you can verify its result, since restart rules are not pinned down by our sources.",
+      "time": "3–6 hr",
+      "timeMin": 270,
+      "difficulty": "Moderate",
       "steps": [
         "Seek out events that go by the name Top Fun Drone Race. [PlayStation]",
         "After a victory, jot down where the race took place. [This guide]",
         "Go first to venues you haven’t listed yet. [This guide]",
-        "Confirm the winning result before marking a venue finished. [This guide]"
+        "Confirm the winning result before marking a venue finished. [This guide]",
+        "Compare your win log with the 14-location target and revisit only confirmed gaps. [PSNProfiles] [This guide]"
       ],
       "sources": [
         "PlayStation — official GTA VI trophy listing behind the name and description in the starter kit",
@@ -470,7 +531,10 @@
       "target": "20 different races",
       "targetCount": 20,
       "stage": 6,
-      "guide": "When choosing among available races, favor an event you have yet to win and verify your finishing position before updating your tally. PlayStation requires distinct races, so this guide recommends treating a repeat victory as practice. Record the course alongside the event name if similar listings make your results hard to distinguish. Our sources do not establish eligible races, starting locations, unlock timing or whether separate variants of one course count individually.",
+      "guide": "Use the activity route to enter available races and prioritize events that are not yet in your win log. PlayStation specifies different races, and PSNProfiles tracks a target of 20, so record the event name and result before selecting another. PowerPyx provides general route advice, but our sources do not identify eligible events, locations, prerequisites or whether variants count separately. A repeat win may not fill a missing entry, so check your record before choosing a familiar course. If progress stalls, try a distinct race and note its displayed name; the exact variant rule is not yet pinned down by our sources.",
+      "time": "4–7 hr",
+      "timeMin": 330,
+      "difficulty": "Moderate",
       "steps": [
         "Aim to win 20 separate races. [PlayStation]",
         "Add the event’s name to your notes whenever you win. [This guide]",
@@ -493,7 +557,10 @@
       "target": null,
       "targetCount": null,
       "stage": 6,
-      "guide": "When a fishing event becomes available, check who the opponent is before spending time on an attempt. PlayStation names Cal, so ordinary fishing or an event against another opponent should stay off this trophy's checklist. Read any rules shown at the start and use the final standings to tell whether you finished ahead of Cal. Our sources do not pin down the starting location, prerequisites, scoring rules or whether the event can be retried.",
+      "guide": "Follow the activity route until you can enter a fishing challenge with Cal, then read the event rules and compete through the final result. PlayStation identifies Cal as the opponent, so ordinary fishing or a contest against someone else does not establish progress for this entry. PowerPyx's roadmap offers general planning context, but our sources do not pin down the event location, unlock prerequisites, scoring rules or retry conditions. The common failure is leaving without confirming that the result placed you ahead of Cal, so check the standings before moving on. Our time range is an untimed planning estimate because the cited sources give no duration.",
+      "time": "20–40 min",
+      "timeMin": 30,
+      "difficulty": "Moderate",
       "steps": [
         "Find a fishing contest that features Cal. [PlayStation]",
         "See the contest through and try to finish ahead of Cal. [This guide]",
@@ -516,7 +583,10 @@
       "target": null,
       "targetCount": null,
       "stage": 6,
-      "guide": "When you find a playable arcade game, read its objective and stay with the session until it reaches an ending or shows a result. PlayStation's wording centers on completion, so opening the game or quitting midway gives you little basis for checking the unlock. If the trophy stays locked, note what the game called your result before deciding what to try next. Our sources do not identify eligible games, cabinet locations, when they become accessible or whether a loss is enough.",
+      "guide": "During the activities sweep, choose an arcade game when you find one and follow its on-screen rules through a result screen or clear ending. PlayStation makes completion the key, while the cited material does not confirm which cabinets qualify or whether a loss can count. TrueTrophies provides general trophy guidance, but our sources do not name a location, story chapter, prerequisite or exact award trigger for an eligible game. Leaving mid-session is the clearest avoidable failure, so finish the round and record the cabinet and outcome before checking the list. If the trophy remains locked, try a different game only after noting what the first session reported.",
+      "time": "10–30 min",
+      "timeMin": 20,
+      "difficulty": "Easy",
       "steps": [
         "Locate an arcade game you can play. [PlayStation]",
         "Stay with a single game until it finishes. [This guide]",
@@ -539,7 +609,10 @@
       "target": null,
       "targetCount": null,
       "stage": 4,
-      "guide": "As objectives appear, use their names or briefing text to identify work tied to Andy and follow those leads while they are available. PlayStation points to the end of his mission sequence, so keep the trophy open after an early assignment even if there is no immediate follow-up. Note the last job you finished so you can pick up the thread when another objective appears. Our sources do not identify a meeting place, the conditions for opening the next job or the finale's title.",
+      "guide": "Treat this as the end of Andy's mission route: follow objectives that clearly identify his assignments and keep the entry pending after earlier jobs. PlayStation names the final mission as the milestone, while GTA Wiki's supplied story reference does not pin down its title, opener or chapter. Do not assume an early assignment awards the trophy; record where Andy's thread paused and check the list after the apparent finale resolves. The time range is a planning estimate because our sources give neither the access conditions nor a mission duration.",
+      "time": "1–3 hr",
+      "timeMin": 120,
+      "difficulty": "Moderate",
       "steps": [
         "Keep a list of Andy’s assignments. [PlayStation]",
         "Pick up Andy’s storyline as soon as the next job opens. [This guide]",
@@ -562,7 +635,10 @@
       "target": null,
       "targetCount": null,
       "stage": 4,
-      "guide": "Use the objective text to identify Kenton's assignments as they appear and finish each one before looking for the next. PlayStation connects the unlock to the end of Kenton's sequence, so a single completed job is only a checkpoint unless the trophy appears. The trophy title alone gives no reliable reason to search for a boat or a waterfront marker. Our sources do not establish where Kenton's sequence begins, how it opens or which mission closes it.",
+      "guide": "Follow Kenton's mission route through objectives that identify him, keeping track of the last completed job as new work appears. PlayStation ties the award to the final mission in his sequence, and GTA Wiki is a story reference rather than confirmation of the sequence's exact beginning or finale. Do not infer a boat or waterfront task from the title; the location and prerequisites remain unconfirmed by our cited sources. After a likely closing job, check the trophy before removing the entry from your list; if it stays locked, resume from the last verified Kenton objective. The time estimate is provisional because no source here gives the strand's length.",
+      "time": "1–3 hr",
+      "timeMin": 120,
+      "difficulty": "Moderate",
       "steps": [
         "Keep tabs on Kenton’s assignments. [PlayStation]",
         "Return to Kenton’s mission chain when the next assignment opens. [This guide]",
@@ -585,7 +661,10 @@
       "target": null,
       "targetCount": null,
       "stage": 4,
-      "guide": "Keep Billy on your outstanding objectives list and use the briefing to confirm his involvement when a possible lead appears. PlayStation identifies Billy by name, so a riding activity that merely resembles the trophy title is no basis for counting it. If you finish a job and no continuation is visible, keep the entry pending and look again as new work becomes available. Our sources do not establish Billy's location, when his jobs open or which one ends the sequence.",
+      "guide": "Use story objectives that name Billy to follow his mission route, then continue until the game's result confirms his sequence has ended. PlayStation names his final mission as the unlock point, while GTA Wiki's story reference does not establish the chain's opening conditions, location or closing mission title. A job involving bikes or riding is not enough evidence based on this trophy's title alone, so keep the entry open after any earlier assignment. Check the trophy after the apparent finale and note the last confirmed objective if it has not unlocked. The listed duration is only a planning estimate; our sources do not time Billy's missions.",
+      "time": "1–3 hr",
+      "timeMin": 120,
+      "difficulty": "Moderate",
       "steps": [
         "Note which missions involve Billy. [PlayStation]",
         "Follow up on Billy’s storyline once another job opens. [This guide]",
@@ -608,12 +687,16 @@
       "target": "8 Strands",
       "targetCount": 8,
       "stage": 5,
-      "guide": "As you travel through Leonida, take on stranger missions you encounter and group the assignments by the person who gives them. PlayStation counts completed strands, so keep early jobs under the same entry and tally the strand only once you have evidence it is finished. This guide recommends keeping active strands separate from confirmed finishes so returning to a familiar contact does not inflate the total. Our sources do not list eligible strangers, meeting points, unlock conditions or how each strand signals completion.",
+      "guide": "Use the exploration and side-mission sweep to find stranger assignments, then group related jobs under the person or strand the game identifies. PlayStation describes completed strands across Leonida, and PSNProfiles tracks an eight-strand target; count a chain only after its conclusion is clear. GTA Wiki provides broad story context, but our sources do not list eligible strangers, meeting points, unlock conditions or each strand's closing cue. Keep active chains separate from verified finishes so revisiting a contact does not inflate your tally. If the total stalls, resume an unfinished strand before searching for a new one; the exact completion trigger for every chain is not pinned down here.",
+      "time": "8–12 hr",
+      "timeMin": 600,
+      "difficulty": "Moderate",
       "steps": [
         "Aim to finish eight stranger mission chains. [PlayStation]",
         "Add each qualifying chain to your record once it’s complete. [This guide]",
         "Move on to chains that haven’t made it onto the list. [This guide]",
-        "Separate ongoing strands from confirmed finishes in your notes. [This guide]"
+        "Separate ongoing strands from confirmed finishes in your notes. [This guide]",
+        "Reconcile completed strands with the eight-strand progress target before starting another sweep. [PSNProfiles] [This guide]"
       ],
       "sources": [
         "PlayStation — the starter kit uses the trophy name and description published in the official GTA VI list",
@@ -631,7 +714,10 @@
       "target": null,
       "targetCount": null,
       "stage": 5,
-      "guide": "Look for Randy's name in the objectives you receive and follow his assignments through their available instructions. PlayStation identifies his final mission as the milestone, making the trophy notification a useful check after a job that seems to conclude the sequence. This guide recommends recording any unfinished objective before switching activities so you can return to the right point. Our sources do not pin down Randy's meeting place, the timing of his missions or the name of the concluding job.",
+      "guide": "Follow the mission route through objectives that clearly identify Randy, and keep a note of any open assignment before turning to other activities. PlayStation places the award at the end of his mission sequence, while GTA Wiki offers story context without pinning down Randy's meeting point, chapter or finale title. Do not treat the first completed job as the finish; check for another assignment and verify the trophy after the apparent closing mission. If no continuation appears, return to the last objective you recorded instead of guessing a location. The time range is an untested estimate because the cited sources provide no schedule or mission duration.",
+      "time": "1–3 hr",
+      "timeMin": 120,
+      "difficulty": "Moderate",
       "steps": [
         "Make a note of the missions tied to Randy. [PlayStation]",
         "Resume Randy’s sequence when a new assignment opens up. [This guide]",
@@ -654,7 +740,10 @@
       "target": null,
       "targetCount": null,
       "stage": 5,
-      "guide": "When an objective involves Tyrone, note its name and follow the instructions through the mission result. PlayStation ties this entry to the close of his sequence, so leave room in your checklist for further assignments after the first job. This guide recommends checking which objectives remain unresolved before treating an apparent ending as completion. Our sources do not specify where to find Tyrone, what makes his work available or which mission is the last.",
+      "guide": "Trace Tyrone's mission route through objectives that identify him, and leave the entry open until the sequence's closing result. PlayStation makes his final mission the milestone, while GTA Wiki's general story reference does not establish where his assignments begin, what unlocks them or which job is last. The common checklist error is stopping after Tyrone's first task, so note unresolved objectives and check for later work before marking the chain complete. If the trophy does not appear after a likely finale, return to the last confirmed Tyrone lead rather than search for a place suggested by the title. Our time range is only a planning estimate; no cited source gives a mission duration.",
+      "time": "1–3 hr",
+      "timeMin": 120,
+      "difficulty": "Moderate",
       "steps": [
         "Mark down the missions connected to Tyrone. [PlayStation]",
         "Take the next job in Tyrone’s series when it opens up. [This guide]",
@@ -677,12 +766,16 @@
       "target": "18 meditation spots",
       "targetCount": 18,
       "stage": 5,
-      "guide": "During your travels through Leonida, note any meditation opportunity and follow the interaction instructions when you choose to use it. PlayStation requires participation at the spots, so finding a place alone should not move it into your finished list. This guide recommends noting a recognizable landmark and the interaction outcome to distinguish places you have used from places you have only seen. Our sources do not supply spot locations, an availability schedule, discovery rules or the exact moment a meditation registers.",
+      "guide": "During the Leonida exploration sweep, find each meditation opportunity and complete its interaction before recording it. PlayStation describes using every spot, and PSNProfiles tracks the total as 18; discovery alone is not proof that the interaction counted. PowerPyx's roadmap gives broad trophy-planning context, but the cited material does not list spot locations, unlock conditions or the precise registration cue. Log a nearby landmark and the result as you go, then group missing entries into a travel pass to reduce backtracking. Leave any spot pending until you have used its interaction and can verify it, since the exact progress trigger is not pinned down by our sources.",
+      "time": "4–7 hr",
+      "timeMin": 330,
+      "difficulty": "Hard",
       "steps": [
         "Aim to meditate at 18 spots throughout Leonida. [PlayStation]",
         "Add a spot to your notes once you’ve meditated there. [This guide]",
         "Use your notes to see which spots you still need to visit. [This guide]",
-        "Note a nearby landmark beside each completed meditation entry. [This guide]"
+        "Note a nearby landmark beside each completed meditation entry. [This guide]",
+        "Group unvisited spots by nearby landmarks before your next Leonida sweep. [This guide]"
       ],
       "sources": [
         "PlayStation — this official GTA VI trophy list is the source for the name and description printed in the starter kit",
@@ -700,7 +793,10 @@
       "target": null,
       "targetCount": null,
       "stage": 5,
-      "guide": "PlayStation’s trophy list names Bret, so check objectives associated with him as hunting activities become available. If an objective identifies a particular animal, use its instructions to decide where to search. Our sources leave the species, hunting grounds, and unlock timing open.",
+      "guide": "Follow available leads involving Bret until the game presents a hunting task, then use that task's instructions to identify the intended quarry. PlayStation connects the hunt to Bret, but our sources do not establish his location, the animal species or the story progress needed to access him. This guide recommends confirming that the objective belongs to Bret before spending time searching for wildlife. The likely mistake is counting an unrelated animal as progress, so check the named objective's outcome and trophy status before leaving. Allow 20–40 minutes after access as this guide's untested estimate, excluding the unknown prerequisites.",
+      "time": "20–40 min",
+      "timeMin": 30,
+      "difficulty": "Moderate",
       "steps": [
         "Check for a hunting objective associated with Bret. [This guide]",
         "If the objective names a specific animal, identify it. [This guide]",
@@ -723,12 +819,16 @@
       "target": "3 collectible card sets",
       "targetCount": 3,
       "stage": 5,
-      "guide": "PlayStation counts finished sets, so start a checklist by set as soon as you can identify which cards belong together. If several sets are in progress, prioritize the ones with the fewest missing cards. Our sources leave card locations, set sizes, and unlock timing unconfirmed.",
+      "guide": "Start a separate checklist for each collectible card set the game identifies, then gather cards toward three fully finished sets. PlayStation defines the goal in complete sets, while our sources do not map pickup locations, set sizes or the story point when cards become available. If the game displays set progress, use it to focus on the closest unfinished set and verify each set closes before counting it. A common failure is confusing three individual cards or three partially filled sets with the required completed groups. PowerPyx's general roadmap can provide broad completion context, but this guide's estimated 3–6 hour sweep is untested and excludes any unknown unlock gate.",
+      "time": "3–6 hr",
+      "timeMin": 270,
+      "difficulty": "Hard",
       "steps": [
         "Sort collected cards into their respective sets. [This guide]",
         "Consult the checklist to see which cards are absent. [This guide]",
         "Complete three entire sets. [PlayStation]",
-        "Record each completed set separately from individual pickups. [This guide]"
+        "Record each completed set separately from individual pickups. [This guide]",
+        "Return to unfinished sets and collect their remaining cards before counting them complete. [This guide]"
       ],
       "sources": [
         "PlayStation — the starter kit's published official GTA VI list supplies the trophy name and description",
@@ -746,12 +846,16 @@
       "target": "100 locations",
       "targetCount": 100,
       "stage": 5,
-      "guide": "PlayStation frames the goal around locations, so give each confirmed WAiNK It spot its own entry in your checklist. When you come across a possible spot while exploring, leave it unchecked until you’ve used the feature there. Our sources don’t identify the eligible spots, the activation method, or when the feature becomes available.",
+      "guide": "As the story and free exploration open up, use WAiNK It at distinct locations and keep a running list of confirmed uses. PlayStation sets the target at 100 locations, but our sources do not explain the feature's unlock, activation controls or which spots qualify. If the game exposes a counter, compare it with your list after each use so you can tell whether a visit registered. The main failure point is repeating a place or counting a spot where the feature was never activated; label locations clearly and revisit only confirmed gaps. This guide estimates 5–10 hours for the sweep, without in-game timing or a sourced story gate.",
+      "time": "5–10 hr",
+      "timeMin": 450,
+      "difficulty": "Hard",
       "steps": [
         "Find locations at which the game makes WAiNK It available. [This guide]",
         "After using WAiNK It at a location, mark it on your list. [This guide]",
         "Visit 100 locations in total. [PlayStation]",
-        "Label nearby spots clearly so you can tell them apart later. [This guide]"
+        "Label nearby spots clearly so you can tell them apart later. [This guide]",
+        "Check your counter and revisit only locations that did not register. [This guide]"
       ],
       "sources": [
         "PlayStation — GTA VI's official trophy listing in the starter kit is the source for the name and description",
@@ -769,7 +873,10 @@
       "target": "50 Challenges",
       "targetCount": 50,
       "stage": 6,
-      "guide": "PlayStation counts completed Challenges, so use the game’s Challenge label as your starting point when choosing what to do. Work through available entries and record a finish when the game marks it complete, if that status is shown. Our sources don’t identify qualifying challenges, where to find them, or when they open.",
+      "guide": "Choose activities the game explicitly labels as Challenges and work through them as they become available during play. PlayStation sets a total of 50 completions, but our sources do not list qualifying challenges, their locations or when story progress unlocks them. If a challenge tracker is shown, use its completion status to keep a reliable tally and prioritize tasks you can finish in one session. The common counting error is adding an activity that was not marked complete, so leave ambiguous entries off your total until confirmed. This guide estimates 4–8 hours for the goal; PowerPyx's roadmap offers general planning context, but neither timing nor the activity list is confirmed here.",
+      "time": "4–8 hr",
+      "timeMin": 360,
+      "difficulty": "Moderate",
       "steps": [
         "Find activities that the game labels as Challenges. [This guide]",
         "Keep a record of each Challenge you complete. [This guide]",
@@ -792,7 +899,10 @@
       "target": "a 4-star Wanted Level",
       "targetCount": null,
       "stage": 6,
-      "guide": "PlayStation’s wording ties the escape to having your partner with you, so look for a stretch of gameplay where you can stay together through a pursuit. Use the wanted display to confirm the four stars before attempting to shake the pursuit. Our sources don’t confirm a particular mission, location, or point in the story for the attempt.",
+      "guide": "Once free-roam or a suitable activity lets you stay with your partner during a pursuit, build the Wanted Level until the display confirms four stars, then escape together. PlayStation makes both the four-star level and partner's presence part of the requirement, while our sources do not pin down a mission, location or story gate. Keep your partner with you through the getaway and watch the wanted display rather than relying on a remembered level. The usual failure is losing the pursuit before it reaches four stars or separating from your partner during the escape; restart the attempt if either condition breaks. PowerPyx's guide may help with general trophy planning, but this 10–25 minute estimate is untested and excludes access requirements.",
+      "time": "10–25 min",
+      "timeMin": 18,
+      "difficulty": "Moderate",
       "steps": [
         "Begin the try with your partner alongside you. [This guide]",
         "Confirm that the wanted meter shows four stars. [PlayStation]",
@@ -815,12 +925,16 @@
       "target": "3 shops in a row",
       "targetCount": 3,
       "stage": 6,
-      "guide": "PlayStation’s wording makes the active Wanted Level part of the robbery chain, so scout a route between three usable shops before starting with your partner. Check the wanted display between stops and begin a fresh attempt if it clears. Our sources leave eligible shops, route choices, and unlock timing unconfirmed.",
+      "guide": "Plan a route linking three shops that appear usable, then begin the sequence with your partner beside you and rob them one after another. PlayStation's wording requires the Wanted Level to remain active across the chain, but our sources do not identify eligible shops, a story unlock or the precise robbery interaction. Keep checking the wanted display as you travel and continue only while the pursuit is still active. The main failure point is letting the level clear between robberies, which breaks the chain; restart rather than counting a later stop toward that attempt. PlayStationTrophies' guide can offer broader advice, while this untested route estimate is 15–30 minutes once available.",
+      "time": "15–30 min",
+      "timeMin": 23,
+      "difficulty": "Moderate",
       "steps": [
         "Choose three in-game shops close enough to visit in sequence. [This guide]",
         "Begin while your partner is with you. [PlayStation]",
         "Maintain the Wanted Level until the third robbery is done. [PlayStation]",
-        "Choose the next shop before beginning the first robbery. [This guide]"
+        "Choose the next shop before beginning the first robbery. [This guide]",
+        "If the Wanted Level clears before the third shop, reset and try a tighter route. [This guide]"
       ],
       "sources": [
         "PlayStation — official GTA VI trophy wording, including name and description, appears in the starter kit",
@@ -838,7 +952,10 @@
       "target": "100 vehicles",
       "targetCount": 100,
       "stage": 6,
-      "guide": "PlayStation names vehicle discovery as the goal, so keep a list of unfamiliar vehicles you encounter while traveling. If the game provides a discovery record, compare it with your notes before treating an encounter as progress. Our sources don’t establish the qualifying vehicles, the action that records discovery, or any required story progress.",
+      "guide": "Use free-roam travel and available story missions to encounter vehicles, then keep a list of types the game confirms as discovered. PlayStation sets the tally at 100, but our sources do not say which vehicles qualify, what action records a discovery or which story gates affect access. Check any in-game vehicle or completion tracker after an encounter before adding it to your count. The main pitfall is counting a vehicle merely seen on the road when the game did not register it, so distinguish confirmed entries from sightings. TrueTrophies provides general list context; this guide's 6–12 hour estimate is untested and depends on unknown unlocks.",
+      "time": "6–12 hr",
+      "timeMin": 540,
+      "difficulty": "Hard",
       "steps": [
         "Notice vehicles you have not encountered while exploring. [This guide]",
         "Verify which encounters the game records as discoveries. [This guide]",
@@ -861,7 +978,10 @@
       "target": "5 enemies in one Combat Focus",
       "targetCount": null,
       "stage": 6,
-      "guide": "PlayStation specifies one use of Combat Focus, so look for an in-game fight where enough enemies are still in reach when you’re ready to activate it. Count the takedowns during that use and try again in another encounter if you fall short. Our sources leave the unlock timing, duration, and suitable encounters unconfirmed.",
+      "guide": "Wait for a fight where five enemies are close enough to engage, then activate Combat Focus and get all five takedowns before that single use ends. PlayStation defines the one-use count, but our sources do not establish the ability's story unlock, duration or best encounter. Check how the game signals Combat Focus is active and begin only when there are enough targets nearby. A common failure is activating too early and running out of enemies or time before five takedowns, so save the attempt for a crowded fight and retry if needed. PowerPyx's general guide can help frame the activity; this guide estimates 5–15 minutes after the ability is available, without testing the timing.",
+      "time": "5–15 min",
+      "timeMin": 10,
+      "difficulty": "Moderate",
       "steps": [
         "Choose a fight with five or more enemies within reach. [This guide]",
         "When prepared, turn on Combat Focus. [This guide]",
@@ -884,7 +1004,10 @@
       "target": null,
       "targetCount": null,
       "stage": 6,
-      "guide": "PlayStation identifies VCIA as the setting but leaves the mission and exact unlock action unconfirmed. Treat this trophy as missable and look for an alternate departure while the VCIA section is still active. Keep a separate save from before that section if manual saves are available, so you have a point to return to.",
+      "guide": "Missable: attempt the unscheduled departure during the active VCIA section, before progressing beyond that story window. PlayStation names VCIA and the departure condition, but our sources do not identify the mission, exact escape method or how far into the story the section occurs. Follow the objectives when you arrive, look for an available route that departs from the planned sequence, and check the trophy before advancing. If manual saves are available, preserve a save before entering so you can return if the opportunity closes. The chief risk is continuing past VCIA without trying the alternate departure; PowerPyx's roadmap may help with broad progression context, but the exact trigger remains unconfirmed. Allow 10–25 minutes within the window as this guide's untested estimate.",
+      "time": "10–25 min",
+      "timeMin": 18,
+      "difficulty": "Moderate",
       "steps": [
         "If possible, create a backup save before entering the VCIA section. [This guide]",
         "Search for a way to leave that is outside the planned sequence. [This guide]",
@@ -907,7 +1030,10 @@
       "target": null,
       "targetCount": null,
       "stage": 6,
-      "guide": "PlayStation’s Rhino reference gives you a lead when a tank appears during play. Read any on-screen objectives before leaving the encounter and use them to decide whether there’s a task to try. Our sources don’t identify an eligible location, story window, or exact action that earns the trophy.",
+      "guide": "When a Rhino appears during story or free-roam play, read the active objectives and look for a task involving the tank before leaving the encounter. PlayStation's description points to Rhinos, but our sources do not specify a location, story prerequisite or exact action that triggers the award. Follow any objective the game displays and check the trophy after the encounter resolves. The failure point is assuming that simply finding or entering a Rhino counts; wait for a qualifying action or confirmation instead of leaving early. GTA Wiki provides story and mission context generally, but this guide cannot confirm the relevant encounter; budget 10–20 minutes after finding a lead.",
+      "time": "10–20 min",
+      "timeMin": 15,
+      "difficulty": "Moderate",
       "steps": [
         "Keep an eye out for a Rhino as you play. [This guide]",
         "Inspect the encounter for an objective involving that Rhino. [This guide]",
@@ -930,7 +1056,10 @@
       "target": null,
       "targetCount": null,
       "stage": 6,
-      "guide": "PlayStation makes detection the deciding condition, so look for a jewelry store job and check whether the game shows a detection indicator when it starts. If the job flags you as spotted, use a fresh attempt if the game offers one. Our sources don’t identify an eligible storefront, a mission, or which cues count as detection.",
+      "guide": "Look for a jewelry store robbery opportunity during available activities, then complete the job while avoiding any in-game sign that you have been spotted. PlayStation makes remaining undetected the key condition, but our sources do not identify an eligible store, story placement or the game's detection cues. Pay attention to alarms, prompts or status indicators the game actually presents and adjust before detection is recorded. The common failure is treating a quiet-looking escape as proof you stayed unseen; verify the job outcome and trophy before counting it. TrueTrophies offers broad trophy context, but the precise trigger is not established; allow 15–30 minutes for an attempt once available.",
+      "time": "15–30 min",
+      "timeMin": 23,
+      "difficulty": "Moderate",
       "steps": [
         "Find an in-game job involving a jewelry store robbery. [This guide]",
         "Pay attention to any signs that you have been detected during the job. [This guide]",
@@ -953,12 +1082,16 @@
       "target": "5 bank vaults",
       "targetCount": 5,
       "stage": 6,
-      "guide": "PlayStation includes the escape in the trophy requirement, so stay with each in-game vault job until the getaway is complete. Log successful jobs by bank or mission name so you can tell which ones you’ve already tried. Our sources don’t identify the eligible banks, when they become available, or whether repeats count.",
+      "guide": "Find bank activities that explicitly involve vaults, complete the robbery and remain with each job through its getaway before counting it. PlayStation includes escape and a total of five vaults in the requirement, but our sources do not name eligible banks, reveal story unlocks or confirm whether repeat jobs count. Keep a log by location or mission name and verify each completed escape against any in-game progress display. A frequent failure is leaving after the vault itself and missing the required getaway, so keep following objectives until the job resolves. PowerPyx's roadmap offers general planning context; the exact set of qualifying jobs is not confirmed, and this guide's estimated 1–3 hour route is untested.",
+      "time": "1–3 hr",
+      "timeMin": 120,
+      "difficulty": "Hard",
       "steps": [
         "Seek out bank jobs that include a vault objective. [This guide]",
         "After every vault robbery, finish the escape. [PlayStation]",
         "Record five vault jobs and their completed escapes. [PlayStation] [This guide]",
-        "Leave interrupted escapes unchecked in your vault log. [This guide]"
+        "Leave interrupted escapes unchecked in your vault log. [This guide]",
+        "Finish and record the getaway after every vault before starting the next job. [PlayStation] [This guide]"
       ],
       "sources": [
         "PlayStation — the official GTA VI list in the starter kit publishes this trophy's name and description",
@@ -976,7 +1109,10 @@
       "target": null,
       "targetCount": null,
       "stage": 5,
-      "guide": "PlayStation makes the getaway part of this trophy, so follow any objectives the game provides until the armored truck encounter resolves. If you find the encounter during another activity, note where it appeared so you can look for it again. Our sources leave spawn points, timing, and how to start the robbery unconfirmed.",
+      "guide": "When an armored truck robbery becomes available during free roam or a story activity, follow the encounter's objectives through the robbery and complete its getaway. PlayStation makes the escape part of the requirement, but our sources do not identify spawn points, story prerequisites or how to initiate a qualifying job. Note where the encounter occurs and follow its prompts until the game marks it resolved. The likely failure is stopping after taking the truck's contents and leaving before completing the escape, so keep the getaway objective active until it ends. GTA Wiki can provide general story context, but this guide's 15–30 minute attempt estimate is untested and the trigger remains uncertain.",
+      "time": "15–30 min",
+      "timeMin": 23,
+      "difficulty": "Moderate",
       "steps": [
         "Search for an encounter involving an armored truck. [This guide]",
         "Carry out the armored truck robbery. [PlayStation]",
@@ -999,12 +1135,16 @@
       "target": "52 areas of Leonida",
       "targetCount": 52,
       "stage": 5,
-      "guide": "PlayStation names Leonida as the region to cover, so start logging areas as you travel and group nearby gaps into one trip. If the game shows exploration progress, check it after entering an area before marking the visit complete. Our sources don’t map the boundaries, explain when a visit registers, or confirm when every area becomes accessible.",
+      "guide": "Explore Leonida as travel opens up through the story and free roam, keeping a checklist of the 52 areas identified by the starter hint. PlayStation names the region and trophy, while our sources do not map area boundaries, explain what counts as an entry or confirm when every zone becomes accessible. Check any in-game exploration tracker after visiting a new place, then group unregistered gaps into later trips. The common failure is assuming a pass-through registered when it did not, so leave uncertain areas unchecked until the counter or another game record confirms them. GTA Wiki gives general regional context, but the specific area list and trigger remain unconfirmed; this guide estimates 5–10 hours without in-game timing.",
+      "time": "5–10 hr",
+      "timeMin": 450,
+      "difficulty": "Hard",
       "steps": [
         "Set your target to the starter hint's figure of 52 areas. [PlayStation]",
         "Where progress is displayed, record an area once the game registers it. [This guide]",
         "Return to locations missing from your exploration log. [This guide]",
-        "Flag visits you can’t confirm for a later pass. [This guide]"
+        "Flag visits you can’t confirm for a later pass. [This guide]",
+        "Compare your list with the exploration tracker and revisit unregistered areas. [This guide]"
       ],
       "sources": [
         "PlayStation — the starter kit's official GTA VI trophy listing is the source of the name and description",
@@ -1022,12 +1162,16 @@
       "target": "9 gangs",
       "targetCount": 9,
       "stage": 5,
-      "guide": "PlayStation ties completion to the gang that owns each operation, so organize your search by faction. The starter hint gives you nine gangs to account for. As operations turn up in the game, log the owner after each successful job and use the gaps in your list to pick the next one. Our sources do not identify the sites or when they open up.",
+      "guide": "Use a nine-gang checklist to choose operations owned by factions you have not yet covered, recording each owner after a successful job. PlayStation establishes the ownership-based requirement, while the existing starter hint supplies nine gangs rather than a verified location list. Our sources do not identify the sites, their story prerequisites or when every operation becomes available, so follow the game's available leads instead of assuming a chapter route. The main checklist risk is repeating jobs for an already covered faction; verify ownership before committing and keep ambiguous operations unconfirmed. The 3–6 hour range is this guide's untested planning estimate once operations are accessible, excluding unknown story gates.",
+      "time": "3–6 hr",
+      "timeMin": 270,
+      "difficulty": "Moderate",
       "steps": [
         "Start a checklist using the starter hint's count of nine gangs. [PlayStation]",
         "Rob one illegal operation for every gang. [PlayStation]",
         "Before picking another operation, verify its gang against your record. [This guide]",
-        "Flag operations with unclear ownership for a second look. [This guide]"
+        "Flag operations with unclear ownership for a second look. [This guide]",
+        "Resolve uncertain ownership entries before planning your final gang sweep. [This guide]"
       ],
       "sources": [
         "PlayStation — the starter kit's official GTA VI trophy listing gives the published name and description",
@@ -1045,7 +1189,10 @@
       "target": null,
       "targetCount": null,
       "stage": 1,
-      "guide": "PlayStation points you to Ocean Beach, and the supplied roadmap treats the opening visit as the window for this trophy. Look for an interaction that lets you order or drink a cocktail while you’re still there. This is missable, so check for the unlock before moving on with the story. Our sources leave the venue, the prompt, and the exact cutoff unconfirmed.",
+      "guide": "During the initial Ocean Beach visit, look for an available cocktail interaction and let it finish before checking trophy status. Missable: the supplied warning identifies the early opening visit as the window, so resolve this opportunity before moving beyond it. PlayStation names Ocean Beach, but our sources do not establish the venue, exact prompt, prerequisite interactions or precise cutoff. The planning risk is advancing the story while expecting a later visit to repair the omission; preserve an earlier save where possible and verify the unlock before leaving. This guide's untested 5–15 minute allowance covers the interaction search during that window, not reaching it.",
+      "time": "5–15 min",
+      "timeMin": 10,
+      "difficulty": "Moderate",
       "steps": [
         "Look for a chance to have a cocktail during the initial visit to Ocean Beach. [This guide]",
         "Have a cocktail while taking in the view at Ocean Beach. [PlayStation]",
@@ -1068,7 +1215,10 @@
       "target": null,
       "targetCount": null,
       "stage": 4,
-      "guide": "As you move through the story, pay attention when an objective takes you into a vehicle showroom. PlayStation’s wording points to the exit as the moment to watch, so finish the sequence and check for the trophy once the game moves on. Our sources give no mission name, showroom address, or confirmed way to perform the breakout.",
+      "guide": "Watch available story objectives for a showroom sequence and follow its instructions through the intended exit. PlayStation supplies the showroom clue, but our sources do not identify a mission, address, chapter placement, prerequisite chain or exact breakout maneuver. This guide recommends reading the active objective before attempting an exit, rather than guessing what classic style means mechanically. The likely planning mistake is assuming any showroom damage qualifies; finish the sequence the game presents and review trophy status after its outcome. Allow an untested 10–25 minutes for an available attempt, excluding the unknown story lead-in.",
+      "time": "10–25 min",
+      "timeMin": 17.5,
+      "difficulty": "Moderate",
       "steps": [
         "Stay alert for a story sequence set in a vehicle showroom. [This guide]",
         "Work through the current objectives until you can leave the showroom. [This guide]",
@@ -1091,7 +1241,10 @@
       "target": null,
       "targetCount": null,
       "stage": 4,
-      "guide": "PlayStation names the Kolt & Associates bowling alley, so watch for that venue in story objectives as you play. When an objective takes you there, let the sequence play out and check the trophy at the end before spending time on extra attempts. Our sources give no mission name or exact trigger and do not confirm a score requirement.",
+      "guide": "Watch story objectives for a visit to Kolt & Associates and follow the task offered at that named bowling alley. PlayStation identifies the venue, while our sources leave the mission, chapter placement, access prerequisites and exact unlock trigger unconfirmed. This guide recommends finishing the associated sequence before assessing whether another attempt is necessary. The avoidable detour is chasing a bowling score or visiting a different alley on an unsupported assumption; use the venue name and active objective to stay on route. Budget an untested 10–25 minutes for the available sequence, excluding the unknown progression needed to reach it.",
+      "time": "10–25 min",
+      "timeMin": 17.5,
+      "difficulty": "Easy",
       "steps": [
         "Look out for a task that takes you to the Kolt & Associates bowling alley. [This guide]",
         "See the Kolt & Associates bowling alley sequence through to its conclusion. [PlayStation]",
@@ -1114,7 +1267,10 @@
       "target": null,
       "targetCount": null,
       "stage": 4,
-      "guide": "PlayStation gives a partnership as the clue, so pay attention when the story brings characters together to work on a shared objective. Finish the objective and look for the trophy when control returns. Our sources leave the people involved, the location, and the point in the story that triggers the unlock open.",
+      "guide": "Follow the available story tasks and watch for a shared objective involving a partnership, then complete the task before reviewing trophy status. PlayStation supplies only the partnership clue, so this guide treats that route as tentative advice rather than a confirmed mission walkthrough. Our sources do not identify the people involved, location, chapter placement, prerequisite chain or precise award trigger. The planning pitfall is assuming a particular pairing or scene guarantees credit; wait for the objective outcome and record what actually awards the trophy. Reserve an untested 10–30 minutes for a relevant available sequence, excluding the unknown story lead-in.",
+      "time": "10–30 min",
+      "timeMin": 20,
+      "difficulty": "Easy",
       "steps": [
         "Progress through the story tasks on offer and watch for a partnership to form. [This guide]",
         "Look for a trophy notification after a related story scene. [This guide]",
@@ -1137,12 +1293,16 @@
       "target": "500 choices (PSN count)",
       "targetCount": 500,
       "stage": 4,
-      "guide": "Use the 500-choice progress target attributed to PSNProfiles to gauge how far you have to go. This trophy is missable because some choices are no longer available once the story moves past them. When a story decision appears, make your selection and check whether progress moves before continuing. Our sources do not list the scenes that offer credit or establish how different branches affect the count.",
+      "guide": "Take the decisions offered during story progression and use the 500-choice target attributed to PSNProfiles to track the remaining work. Missable: individual story-choice windows close as the story moves on, so resolve available decisions before leaving their scenes behind. Our sources do not list qualifying scenes, establish chapter prerequisites or explain how alternate branches affect credit, and the cited PSN target has not been independently checked live. This guide recommends noting counter changes rather than assuming every interaction counts or that replay can recover missed opportunities. The 8–16 hour range is an untested planning allowance for accumulating choices during progression, with no verified rate of credit.",
+      "time": "8–16 hr",
+      "timeMin": 720,
+      "difficulty": "Moderate",
       "steps": [
         "Choose when story decisions are presented to you. [PlayStation] [This guide]",
         "Track the PSN choice counter as it approaches 500. [PSNProfiles]",
         "Check for remaining decisions before the story moves past each window. [This guide]",
-        "Record which decisions move the PSN counter when you can check it. [PSNProfiles] [This guide]"
+        "Record which decisions move the PSN counter when you can check it. [PSNProfiles] [This guide]",
+        "Preserve a save before advancing a choice window if manual saving is available. [This guide]"
       ],
       "sources": [
         "PlayStation — the starter kit's official GTA VI trophy listing provides the published name and description",
@@ -1161,7 +1321,10 @@
       "target": null,
       "targetCount": null,
       "stage": 7,
-      "guide": "PlayStation’s hint makes a second attempt the lead to follow as you wrap up the story. If an objective sends you back for another try, finish that sequence and see whether the trophy appears. Our sources do not name the mission or location, and they do not establish an intentional failure as part of the trigger.",
+      "guide": "Work through outstanding story tasks and complete any sequence that explicitly offers another attempt. PlayStation's second-try clue is the only concrete lead here; our sources do not name a mission, location, chapter or prerequisite event. This guide recommends following an offered retry through its outcome instead of assuming an ordinary restart is sufficient. The main avoidable mistake is deliberately failing an unrelated objective, because no supplied source establishes intentional failure as part of the trigger. Allow an untested 10–30 minutes for an available sequence, excluding the unknown progression required to encounter it.",
+      "time": "10–30 min",
+      "timeMin": 20,
+      "difficulty": "Easy",
       "steps": [
         "Keep working through any outstanding story objectives. [This guide]",
         "Look out for a story sequence that gives you a second try. [This guide]",
@@ -1184,7 +1347,10 @@
       "target": null,
       "targetCount": null,
       "stage": 7,
-      "guide": "PlayStation’s description offers a reaction without identifying what causes it. While finishing the story, give unexpected scenes time to resolve and take any follow-up objective the game presents. Our sources offer no confirmed location, time of day, or action that you can use to find the encounter on demand.",
+      "guide": "Continue outstanding tasks and follow the active instructions if an unexpected scene develops, allowing any linked objective to reach its outcome. PlayStation's reaction-based description does not identify an encounter, so this guide's route remains provisional rather than a confirmed walkthrough. Our sources do not pin down a location, time of day, story chapter, prerequisite chain or reliable way to trigger the event. The planning risk is pursuing a title-based theory as though it were established; record the current objective and check trophy status after a scene resolves instead. The 10–30 minute range is an untested allowance for an encounter once found, excluding an unknown search or story lead-in.",
+      "time": "10–30 min",
+      "timeMin": 20,
+      "difficulty": "Easy",
       "steps": [
         "Keep progressing through unfinished tasks and watch for anything unusual to happen. [This guide]",
         "During a relevant encounter, carry out the objectives the game presents. [This guide]",
@@ -1207,7 +1373,10 @@
       "target": null,
       "targetCount": null,
       "stage": 7,
-      "guide": "PlayStation’s wording points to the melee action available from a vehicle. When the game gives you that option, check its input and whether the target is within reach before trying it. Our sources do not identify an eligible vehicle or target, or tie the trophy to a specific location or mission.",
+      "guide": "Review the vehicle melee controls and attempt the action when the game presents a suitable target within reach. PlayStation identifies a melee drive-by as the relevant technique, while our sources do not confirm eligible vehicles, targets, locations, story timing or access prerequisites. This guide recommends checking the actual melee prompt before attempting the hit and reviewing trophy status after a clear result. The likely execution problem is attacking from too far away or using a different attack type, so adjust your position rather than counting an unconfirmed hit. The 5–20 minute range is this guide's untested allowance once the required controls and opportunity are available.",
+      "time": "5–20 min",
+      "timeMin": 12.5,
+      "difficulty": "Moderate",
       "steps": [
         "Review the controls for using a melee attack while in a vehicle. [This guide]",
         "Find a chance to attack with a melee drive-by. [This guide]",
@@ -1230,12 +1399,16 @@
       "target": "$250,000 of marked bills",
       "targetCount": null,
       "stage": 6,
-      "guide": "PlayStation sets an earnings goal, so use the amount your in-game contact pays out to estimate progress. Start recording payouts once a contact offers to convert Marked Bills, and compare the running total with the $250,000 goal. Our sources do not name the contacts or their locations, or explain when they become available or what rate they offer.",
+      "guide": "Wait until a contact offers laundering, then obtain Marked Bills through available gameplay and process them through that service. PlayStation establishes the earnings requirement, but our sources do not name contacts, acquisition routes, locations, story prerequisites, unlock timing or conversion rates. This guide recommends tracking completed payouts toward $250,000 rather than using the bills' face value as proof of earnings. The likely accounting error is counting a pending transaction or gross bill value, so use credited proceeds and compare them with any available progress display. Budget an untested 2–6 hours for the earning loop after access, excluding unknown story gates.",
+      "time": "2–6 hr",
+      "timeMin": 240,
+      "difficulty": "Moderate",
       "steps": [
         "As contacts become available, seek out those who will launder marked bills. [This guide]",
         "Have your contacts process the Marked Bills through laundering. [PlayStation]",
         "Keep track of laundering proceeds until they total $250,000. [PlayStation] [This guide]",
-        "Log each payout separately from the face value of the bills. [This guide]"
+        "Log each payout separately from the face value of the bills. [This guide]",
+        "Obtain another batch of Marked Bills when your remaining earnings exceed the current batch. [This guide]"
       ],
       "sources": [
         "PlayStation — the starter kit's official GTA VI trophy list gives the name and description as published",
@@ -1253,7 +1426,10 @@
       "target": "$100,000 in shops",
       "targetCount": null,
       "stage": 6,
-      "guide": "PlayStation gives $100,000 as the spending goal. Start adding up receipts as shops become available, and buy things you can use during normal play before spending extra to close the gap. Our sources do not say which shops count, whether refunds subtract from the total, or whether you need to shop at each location.",
+      "guide": "Track shop purchases during normal play and use useful purchases first before spending extra to close the remaining gap. PlayStation supplies the $100,000 goal, but our sources do not identify eligible shop categories, refund effects, required locations or the story timing of shop access. This guide recommends keeping a purchase ledger and comparing it with any visible progress rather than assuming every cash outflow qualifies. The likely failure is counting non-shop spending or uncertain transactions, so keep those separate and review trophy status when confirmed purchases reach the goal. The 1–4 hour range is an untested shopping-and-funding allowance after shops are accessible, excluding unknown story prerequisites.",
+      "time": "1–4 hr",
+      "timeMin": 150,
+      "difficulty": "Moderate",
       "steps": [
         "Keep a record of the items you purchase at shops. [This guide]",
         "Accumulate $100,000 in spending at shops. [PlayStation]",
@@ -1276,12 +1452,16 @@
       "target": "8 garage properties",
       "targetCount": 8,
       "stage": 6,
-      "guide": "PlayStation’s wording makes ownership the goal, and the starter hint gives eight garages to track. When the game offers a garage for sale, note the property and its asking price so you can plan the remaining purchases. Our sources do not provide addresses, prices, or a schedule for when the properties go on sale.",
+      "guide": "Track the eight garages identified by the starter hint and buy each as its listing becomes accessible. PlayStation anchors the requirement to garage ownership, while our sources do not supply addresses, prices, chapter gates or a sale schedule. This guide recommends recording asking prices before committing cash so that later purchases remain affordable, then marking ownership only after a transaction finishes. The checklist risk is counting another property type or an unfinished purchase; reconcile the owned-garage list before treating the sweep as complete. Allow an untested 2–5 hours for the purchase route and funding once listings are available, excluding unknown story prerequisites.",
+      "time": "2–5 hr",
+      "timeMin": 210,
+      "difficulty": "Moderate",
       "steps": [
         "Build a buying checklist from the starter hint's total of eight garages. [PlayStation]",
         "Buy each garage property when it is offered for purchase. [PlayStation] [This guide]",
         "Compare the garages you own to the list to see which purchases remain. [This guide]",
-        "Set aside cash for garages still marked unowned. [This guide]"
+        "Set aside cash for garages still marked unowned. [This guide]",
+        "Check the trophy after the final ownership transaction finishes. [This guide]"
       ],
       "sources": [
         "PlayStation — the starter kit's official GTA VI trophy listing supplies the published name and description",
@@ -1299,12 +1479,16 @@
       "target": "10 vehicles in the Scooter Bros app",
       "targetCount": 10,
       "stage": 6,
-      "guide": "PlayStation gives Scooter Bros as the app to use and ten registrations as the goal. Once the app appears in the game, read its instructions and count a vehicle only after the app confirms it. Our sources do not identify when the app unlocks, which vehicles qualify, or where the game lets you register them.",
+      "guide": "Open Scooter Bros when the game makes it available, read its registration instructions and submit vehicles through the indicated process. PlayStation supplies the app name and ten-vehicle goal, but our sources do not establish its unlock chapter, prerequisite tasks, eligible models or registration locations. This guide recommends counting accepted registrations rather than vehicles merely found or driven. The likely failure is treating a rejected submission as progress, so review the app's confirmation and use its feedback before selecting a replacement. Reserve an untested 30–90 minutes for registration after app access, excluding the unknown story lead-in.",
+      "time": "30–90 min",
+      "timeMin": 60,
+      "difficulty": "Moderate",
       "steps": [
         "When it becomes available, launch Scooter Bros and read the app's guidance. [This guide]",
         "Add ten vehicles by registering them with the app. [PlayStation]",
         "Before you finish, confirm the app accepted the registrations and the trophy unlocked. [This guide]",
-        "Leave rejected submissions off your tally. [This guide]"
+        "Leave rejected submissions off your tally. [This guide]",
+        "Select a replacement that meets the app's displayed requirements after a rejection. [This guide]"
       ],
       "sources": [
         "PlayStation — the starter kit's official GTA VI trophy list provides the name and description as published",

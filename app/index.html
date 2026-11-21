@@ -12,9 +12,10 @@
     <div class="brand">
       <p class="eyebrow">GRAND THEFT AUTO VI · PLAYSTATION 5 · OFFLINE GUIDE &amp; TRACKER</p>
       <h1>Leonida Trophy Guide</h1>
-      <p class="promise">All 55 trophies: the official list, a cited guide for each with four cited steps, a roadmap to the platinum, and a tracker that saves your progress in this browser.</p>
+      <p class="promise">All 55 trophies: the official list, a cited guide for each with four or five cited steps, time estimates and difficulty tags, a roadmap to the platinum, and a tracker that saves your progress in this browser.</p>
     </div>
     <div class="progress-block" aria-label="Your trophy progress">
+      <div class="ring-wrap"><svg class="progress-ring" viewBox="0 0 120 120" role="img" aria-label="Trophy progress ring"><circle class="ring-track" cx="60" cy="60" r="52"></circle><circle id="progress-ring-fg" class="ring-fill" cx="60" cy="60" r="52"></circle></svg><span id="progress-percent">0%</span></div>
       <p class="earned-total"><span id="earned-count">0</span> <span>/ 55 earned</span></p>
       <div class="platinum-bar" aria-label="Platinum progress">
         <div id="platinum-bar-fill"></div>
@@ -25,6 +26,7 @@
         <span data-grade="silver">S 0/0</span>
         <span data-grade="bronze">B 0/0</span>
       </div>
+      <p id="hours-earned" class="hours-earned">≈ 0 h banked</p>
     </div>
     <div class="actions">
       <label><input type="checkbox" id="btn-spoiler" checked> Spoiler shield</label>
@@ -41,7 +43,7 @@
   <details class="how-to">
     <summary>How to use this guide</summary>
     <div class="how-to-body">
-      <p>Select a trophy to open its description, four cited steps, and sources; use the filters and search to narrow the list.</p>
+      <p>Select a trophy to open its description, four or five cited steps, and sources; use the filters and search to narrow the list.</p>
       <p>Keep the Spoiler shield checked to hide unearned story names and descriptions; cited steps and missable warnings remain visible, so read with care.</p>
       <p>Use the + and − counters to record collectible or activity progress, then mark the trophy earned when you unlock it.</p>
       <p>Export downloads your progress as JSON; use Import to restore that file in this browser or carry it to another browser.</p>
@@ -53,7 +55,7 @@
       <strong>The tracker needs JavaScript.</strong> Enable it to load the guide and save progress. The trophy list itself is available in the <a href="./data/trophies.json">trophy data file</a>.
     </div>
   </noscript>
-  <p id="audit-line" class="audit-strip">55 trophies · 7 roadmap stages · 3 missable trophies · 220 cited steps · Sources cited throughout the guide</p>
+  <p id="audit-line" class="audit-strip">55 trophies · 7 roadmap stages · 3 missable trophies · about 240 cited steps · time estimates and difficulty tags · Sources cited throughout the guide</p>
 
   <div class="guide-shell">
     <nav class="tabs" aria-label="Guide views">
@@ -104,7 +106,8 @@
       </div>
     </section>
     <section id="view-roadmap" class="view" aria-label="Platinum roadmap" hidden>
-      <p class="view-note">Work through the seven stages in order, using the earned totals to see what remains. Select any trophy to return to its guide in the tracker, and review missable windows before moving to the next stage.</p>
+      <p class="view-note">Work through the seven stages in order, using the earned totals to see what remains. Select any trophy to return to its guide in the tracker, and review missable windows before moving to the next stage. Each stage shows its estimated hours; the whole road to the platinum runs about the total shown above the stages.</p>
+      <p id="roadmap-hours" class="roadmap-total"></p>
       <div id="roadmap-stages"></div>
     </section>
     <section id="view-missables" class="view" aria-label="Missable trophy warnings" hidden>
@@ -122,6 +125,7 @@
     <p>Free and open source under the MIT License.</p>
     <p>Works offline from its own files.</p>
     <p>Trophy data follows the official PlayStation list as published.</p>
+    <p>Every trophy carries a time estimate and a difficulty tag.</p>
   </footer>
   <script type="module" src="./app.js"></script>
 </body>

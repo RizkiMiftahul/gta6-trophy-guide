@@ -1,4 +1,5 @@
-import { STAGE_NAMES, KIND_LABELS, GRADE_ORDER, sourceMatrix } from './data.js';
+import { STAGE_NAMES, KIND_LABELS, GRADE_ORDER, stageHours, totalHours, sourceMatrix } from './data.js';
+import { hoursEarned } from './state.js';
 
 const entities = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' };
 export const esc = value => String(value ?? '').replace(/[&<>"']/g, c => entities[c]);
@@ -10,7 +11,8 @@ const chip = (text, extra = '') => `<span class="t-chip${extra}">${esc(text)}</s
 const steps = t => `<ol class="guide-steps">${t.steps.map(step => `<li>${citeChips(step)}</li>`).join('')}</ol>`;
 const sources = t => `<ul>${t.sources.map(source => `<li>${esc(source)}</li>`).join('')}</ul>`;
 const progressBar = percent => `<div class="platinum-bar"><div style="height:100%;width:${percent}%;background:var(--accent)"></div></div>`;
-const chips = t => `<div class="t-chips">${chip(t.grade)}${chip(kind(t))}${chip(`Stage ${t.stage} — ${STAGE_NAMES[t.stage - 1]}`)}${t.target ? chip(t.target) : ''}</div>`;
+const timeChips = t => `${t.time ? chip(t.time, ' time') : ''}${t.difficulty ? chip(t.difficulty, ` diff-${t.difficulty.toLowerCase()}`) : ''}`;
+const chips = t => `<div class="t-chips">${chip(t.grade)}${chip(kind(t))}${chip(`Stage ${t.stage} — ${STAGE_NAMES[t.stage - 1]}`)}${t.target ? chip(t.target) : ''}${timeChips(t)}</div>`;
 
 export function citeChips(text) {
   return esc(text).replace(/\[([^\]]+)\]/g, '<span class="cite">$1</span>');
@@ -18,13 +20,23 @@ export function citeChips(text) {
 
 export function renderAudit(el, data, stats) {
   const makeup = GRADE_ORDER.map(grade => `${stats.byGrade[grade].total} ${grade}`).join(' · ');
-  el.textContent = `AUDIT · ${stats.total}/${stats.total} official names, descriptions & grades · ${makeup} · ${stats.guidesCiting}/${stats.total} guides cite sources · ${stats.citedSteps} cited steps · ${stats.twoPlus} backed by 2+ sources · ${stats.missableCount} missables flagged from the official descriptions · roadmap in ${STAGE_NAMES.length} stages`;
+  el.textContent = `AUDIT · ${stats.total}/${stats.total} official names, descriptions & grades · ${makeup} · ${stats.guidesCiting}/${stats.total} guides cite sources · ${stats.citedSteps} cited steps · ${stats.twoPlus} backed by 2+ sources · ${stats.missableCount} missables flagged from the official descriptions · roadmap in ${STAGE_NAMES.length} stages · ≈ ${stats.totalHours} h to the platinum`;
 }
 
 export function renderTallies(data, state) {
   const earned = data.trophies.filter(t => state.earned.includes(t.id));
   document.getElementById('earned-count').textContent = earned.length;
   document.getElementById('platinum-bar-fill').style.width = `${data.trophies.length ? earned.length / data.trophies.length * 100 : 0}%`;
+  const C = 2 * Math.PI * 52;
+  const ring = document.getElementById('progress-ring-fg');
+  if (ring) {
+    ring.style.strokeDasharray = String(C);
+    ring.style.strokeDashoffset = String(C * (1 - earned.length / data.trophies.length));
+  }
+  const pct = document.getElementById('progress-percent');
+  if (pct) pct.textContent = `${Math.round(earned.length / data.trophies.length * 100)}%`;
+  const hours = document.getElementById('hours-earned');
+  if (hours) hours.textContent = `≈ ${hoursEarned(data.trophies, state)} h banked`;
   for (const grade of GRADE_ORDER) {
     const total = data.trophies.filter(t => t.grade === grade).length;
     const got = earned.filter(t => t.grade === grade).length;
@@ -54,7 +66,7 @@ export function renderDetail(el, t, state) {
   if (!t) { el.innerHTML = ''; return; }
   const isHidden = hidden(t, state);
   const count = Math.min(t.targetCount || 0, state.counts[t.id] || 0);
-  el.innerHTML = `<header class="detail-header"><span class="grade-badge" data-grade="${esc(t.grade)}">${esc(t.grade)}</span><h2>${esc(isHidden ? 'Story trophy' : t.name)}</h2>${chips(t)}</header>
+  el.innerHTML = `<header class="detail-header"><span class="grade-badge" data-grade="${esc(t.grade)}">${esc(t.grade)}</span><h2>${esc(isHidden ? 'Story trophy' : t.name)}</h2>${chips(t)}<p class="time-row">${timeChips(t)}</p></header>
     ${isHidden ? '<p class="spoiler-note">Hidden by the spoiler shield until earned.</p>' : `<h3>OFFICIAL DESCRIPTION</h3><blockquote class="official-description" data-grade="${esc(t.grade)}">${esc(t.description)}</blockquote>`}
     ${t.missable ? `<div class="missable-banner"><strong>MISSABLE</strong>${esc(t.missableNote)}</div>` : ''}
     ${t.targetCount ? `<div class="counter-widget"><label>YOUR COUNT</label><button type="button" data-count="-1" aria-label="Decrease count">−</button><output>${count} / ${t.targetCount}</output><button type="button" data-count="1" aria-label="Increase count">+</button><div style="width:100%">${progressBar(count / t.targetCount * 100)}</div></div>` : ''}
@@ -73,11 +85,13 @@ export function renderGuideSources(el, t) {
   el.innerHTML = t ? `${sources(t)}<small>${t.steps.length} steps · ${t.sources.length} sources for this guide</small>` : '';
 }
 
-export function renderRoadmap(el, data, state) {
+export function renderRoadmap(el, data, state, stats) {
+  const hours = stageHours(data.trophies);
+  document.getElementById('roadmap-hours').textContent = `The road to the platinum runs about ${stats.totalHours} h across ${STAGE_NAMES.length} stages.`;
   el.innerHTML = STAGE_NAMES.map((name, i) => {
     const group = data.trophies.filter(t => t.stage === i + 1).sort((a, b) => a.id - b.id);
     const got = group.filter(t => state.earned.includes(t.id)).length;
-    return `<article class="roadmap-stage"><span class="stage-number">${i + 1}</span><h3>Stage ${i + 1} — ${esc(name)}</h3>${progressBar(group.length ? got / group.length * 100 : 0)}<p>${got}/${group.length} earned</p><div class="trophy-chips">${group.map(t => `<button type="button" class="trophy-chip" data-id="${t.id}" data-grade="${esc(t.grade)}"><span style="color:var(--grade)">●</span> ${esc(title(t, state))}${t.missable ? ' ⚑' : ''}${state.earned.includes(t.id) ? ' ✓' : ''}</button>`).join('')}</div></article>`;
+    return `<article class="roadmap-stage"><span class="stage-number">${i + 1}</span><h3>Stage ${i + 1} — ${esc(name)}</h3>${progressBar(group.length ? got / group.length * 100 : 0)}<p>${got}/${group.length} earned</p><p class="stage-hours">≈ ${hours[i]} h</p><div class="trophy-chips">${group.map(t => `<button type="button" class="trophy-chip" data-id="${t.id}" data-grade="${esc(t.grade)}"><span style="color:var(--grade)">●</span> ${esc(title(t, state))}${t.missable ? ' ⚑' : ''}${state.earned.includes(t.id) ? ' ✓' : ''}</button>`).join('')}</div></article>`;
   }).join('');
 }
 
