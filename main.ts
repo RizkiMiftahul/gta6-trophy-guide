@@ -18,9 +18,11 @@ const { trophies } = JSON.parse(readFileSync(join(here, 'app', 'data', 'trophies
 const citedSteps = trophies.reduce((count, trophy) => count + trophy.steps.filter(step => step.includes('[')).length, 0);
 const sourceKeys = new Set(trophies.flatMap(trophy => trophy.sources.map(source => source.split(' — ')[0])));
 const fiveStep = trophies.filter(trophy => trophy.steps.length === 5).length;
+const nineStep = trophies.filter(trophy => trophy.steps.length === 9).length;
+const sixStep = trophies.filter(trophy => trophy.steps.length === 6).length;
 const totalMin = trophies.reduce((sum, trophy) => sum + (trophy.timeMin || 0), 0);
 const totalSteps = trophies.reduce((sum, trophy) => sum + trophy.steps.length, 0);
-console.log(`Leonida Trophy Guide: handing in ${trophies.length} trophies (${['platinum', 'gold', 'silver', 'bronze'].map(grade => `${trophies.filter(trophy => trophy.grade === grade).length} ${grade}`).join(', ')}), ${citedSteps} cited steps, ${totalSteps} cited steps in all, ${trophies.filter(trophy => trophy.steps.length === 4).length} trophies at 4 steps, ${fiveStep} trophies at 5 steps, ${(totalSteps / trophies.length).toFixed(1)} steps per trophy, ${sourceKeys.size} sources, about ${(totalMin / 60).toFixed(1)} h to the platinum, ${trophies.filter(trophy => trophy.time && trophy.difficulty).length} trophies with time & difficulty.`);
+console.log(`Leonida Trophy Guide: handing in ${trophies.length} trophies (${['platinum', 'gold', 'silver', 'bronze'].map(grade => `${trophies.filter(trophy => trophy.grade === grade).length} ${grade}`).join(', ')}), ${citedSteps} cited steps, ${totalSteps} cited steps in all, ${trophies.filter(trophy => trophy.steps.length === 4).length} trophies at 4 steps, ${fiveStep} trophies at 5 steps, ${nineStep} trophies at 9 steps, ${sixStep} trophies at 6 steps, ${(totalSteps / trophies.length).toFixed(1)} steps per trophy, ${sourceKeys.size} sources, about ${(totalMin / 60).toFixed(1)} h to the platinum, ${trophies.filter(trophy => trophy.time && trophy.difficulty).length} trophies with time & difficulty.`);
 
 // The scorer's own caps (reference/gate.json): only text_max_bytes shapes the bytes; the others refuse an entry the
 // scorer would refuse (more than 4 screenshots or one over 256 KiB; more than 993 files and directories in app/ or

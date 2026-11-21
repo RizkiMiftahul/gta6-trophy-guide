@@ -1,5 +1,5 @@
 import { STAGE_NAMES, KIND_LABELS, GRADE_ORDER, stageHours, totalHours, sourceMatrix, stepStats } from './data.js';
-import { hoursEarned, stepsEarned } from './state.js';
+import { hoursEarned, stepsEarned, stepsRemaining } from './state.js';
 
 const entities = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' };
 export const esc = value => String(value ?? '').replace(/[&<>"']/g, c => entities[c]);
@@ -36,7 +36,7 @@ export function renderTallies(data, state) {
   const pct = document.getElementById('progress-percent');
   if (pct) pct.textContent = `${Math.round(earned.length / data.trophies.length * 100)}%`;
   const hours = document.getElementById('hours-earned');
-  if (hours) hours.textContent = `≈ ${hoursEarned(data.trophies, state)} h · ${stepsEarned(data.trophies, state)} steps banked`;
+  if (hours) hours.textContent = `≈ ${hoursEarned(data.trophies, state)} h · ${stepsEarned(data.trophies, state)} steps banked · ${stepsRemaining(data.trophies, state)} steps to go`;
   for (const grade of GRADE_ORDER) {
     const total = data.trophies.filter(t => t.grade === grade).length;
     const got = earned.filter(t => t.grade === grade).length;

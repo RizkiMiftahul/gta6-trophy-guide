@@ -74,3 +74,4 @@ export function hoursEarned(trophies, state) {
 export function stepsEarned(trophies, state) {
   return trophies.filter(t => state.earned.includes(t.id)).reduce((sum, t) => sum + (t.steps ? t.steps.length : 0), 0);
 }
+export function stepsRemaining(trophies, state) { return trophies.reduce((sum, t) => sum + (t.steps ? t.steps.length : 0), 0) - stepsEarned(trophies, state); }
