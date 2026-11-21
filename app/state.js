@@ -1,36 +1,35 @@
+import { targetCounts } from './data.js';
+
 export const STORAGE_KEY = 'leonida-trophy-guide-v3';
 export const DEMO_KEY = 'leonida-trophy-guide-v3-demo';
-
 const emptyState = () => ({ earned: [], counts: {}, spoiler: true });
 
-function normalizeState(value) {
-  if (!value || typeof value !== 'object' || !Array.isArray(value.earned)) return null;
-  const earned = [...new Set(value.earned.map(Number).filter(id => Number.isSafeInteger(id) && id > 0))];
+function validateState(value) {
+  if (!value || !Array.isArray(value.earned) || !value.counts ||
+      typeof value.counts !== 'object' || Array.isArray(value.counts) ||
+      typeof value.spoiler !== 'boolean') return null;
+  const validId = id => Number.isSafeInteger(id) && id > 0;
+  if (!value.earned.every(validId)) return null;
   const counts = {};
-  if (value.counts && typeof value.counts === 'object' && !Array.isArray(value.counts)) {
-    for (const [id, count] of Object.entries(value.counts)) {
-      const key = Number(id);
-      const number = Number(count);
-      if (Number.isSafeInteger(key) && key > 0 && Number.isFinite(number) && number >= 0) counts[key] = Math.floor(number);
-    }
+  for (const [id, count] of Object.entries(value.counts)) {
+    if (!validId(Number(id)) || !Number.isSafeInteger(count) || count < 0) return null;
+    counts[id] = Math.min(targetCounts.get(Number(id)) ?? Number.MAX_SAFE_INTEGER, count);
   }
-  return { earned, counts, spoiler: typeof value.spoiler === 'boolean' ? value.spoiler : true };
+  return { earned: [...new Set(value.earned)], counts, spoiler: value.spoiler };
 }
 
 export function demoSeed() {
-  return { earned: [2, 3, 4, 5, 8, 20, 21, 22, 25, 26, 44, 54], counts: { 15: 96, 17: 27, 28: 6, 31: 34, 35: 41, 48: 120 }, spoiler: true };
+  return { earned: [2, 3, 4, 5, 8, 20, 21, 22, 25, 26, 44, 54], counts: {15: 96, 17: 27, 28: 6, 31: 34, 35: 41, 48: 120}, spoiler: true };
 }
 
 export function loadState(demo = false) {
-  try {
-    const value = localStorage.getItem(demo ? DEMO_KEY : STORAGE_KEY);
-    return value === null ? emptyState() : normalizeState(JSON.parse(value)) || emptyState();
-  } catch { return emptyState(); }
+  try { return importJSON(localStorage.getItem(demo ? DEMO_KEY : STORAGE_KEY)) || emptyState(); }
+  catch { return emptyState(); }
 }
 
 export function saveState(state, demo = false) {
-  const valid = normalizeState(state) || emptyState();
-  try { localStorage.setItem(demo ? DEMO_KEY : STORAGE_KEY, JSON.stringify(valid)); } catch { /* Keep session progress. */ }
+  try { localStorage.setItem(demo ? DEMO_KEY : STORAGE_KEY, JSON.stringify(validateState(state) || emptyState())); }
+  catch { /* Retain progress in memory when storage is unavailable. */ }
 }
 
 export function toggleEarned(state, id) {
@@ -39,13 +38,13 @@ export function toggleEarned(state, id) {
   return { ...state, earned: [...earned] };
 }
 
-export function setCount(state, id, n, targetCount = Number.MAX_SAFE_INTEGER) {
-  const counts = { ...state.counts, [id]: Math.min(targetCount, Math.max(0, Math.floor(Number(n) || 0))) };
-  return { ...state, counts };
+export function setCount(state, id, n, targetCount = targetCounts.get(id) || 0) {
+  const count = Math.min(targetCount, Math.max(0, Math.floor(Number(n) || 0)));
+  return { ...state, counts: { ...state.counts, [id]: count } };
 }
 
 export function exportJSON(state) {
-  const blob = new Blob([JSON.stringify(normalizeState(state) || emptyState(), null, 2)], { type: 'application/json' });
+  const blob = new Blob([JSON.stringify(validateState(state) || emptyState(), null, 2)], { type: 'application/json' });
   const url = URL.createObjectURL(blob);
   const link = document.createElement('a');
   link.href = url;
@@ -54,13 +53,15 @@ export function exportJSON(state) {
   link.click();
   link.remove();
   setTimeout(() => URL.revokeObjectURL(url), 1000);
+  return blob;
 }
 
 export function importJSON(text) {
-  try { return normalizeState(JSON.parse(text)); } catch { return null; }
+  try { return validateState(JSON.parse(text)); } catch { return null; }
 }
 
 export function resetState(demo = false) {
-  try { localStorage.removeItem(demo ? DEMO_KEY : STORAGE_KEY); } catch { /* Session state resets in the caller. */ }
+  try { localStorage.removeItem(demo ? DEMO_KEY : STORAGE_KEY); }
+  catch { /* The caller also replaces the session state. */ }
   return emptyState();
 }
